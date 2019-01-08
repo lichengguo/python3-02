@@ -55,3 +55,66 @@
         1024MB    ==  1GB
         1024GB    ==  1TB
 '''
+# 1， 不同密码本之间不能互相识别。报错，乱码。
+# 2， 数据的存储或者网络传输不能用unicode的密码本进行编码。
+#
+# python3x 环境：
+#         str类型内部编码方式为Unicode。
+#         所以：str类数据不能直接存储硬盘，或者网络传输。
+#
+#       str: 操作方法
+#       bytes: 拥有和str相同的操作方式，并且编码为非Unicode
+#
+# 英文：
+#     str:
+#         表现形式：'alex'
+#         内部编码：unicode
+#
+#     bytes:
+#         表现形式：b'alex'
+#         内部编码：非unicode
+#
+# 中：
+#     str:
+#         表现形式：'alex'
+#         内部编码：unicode
+#
+#     bytes:
+#         表现形式：b'\xe4\xb8\xad\xe5\x9b\xbd'
+#         内部编码：非unicode
+
+#
+# 英文
+# str1 = 'barry'
+# print(str1.upper())
+# bytes
+# b1 = b'barry'
+# print(b1.upper())
+#
+# 中文
+# s1 = '中国'
+# b1 = s1.encode('utf-8')
+# print(b1)
+
+# 转换；
+# str ---->bytes
+# unicode ---> utf-8
+# s1 = '中国'
+# b1 = s1.encode('utf-8')  # 编码
+# print(b1)
+# # utf-8 ----> unicode
+# s2 = b1.decode('utf-8') # 解码
+# print(s2)
+
+# s1 = '中国'
+# b1 = s1.encode('gbk')  # 编码
+# print(b1)
+# # utf-8 ----> unicode
+# s2 = b1.decode('gbk') # 解码
+# print(s2)
+#
+# # gbk ---> utf-8
+# b1 = b'\xd6\xd0\xb9\xfa'
+# s1 = b1.decode('gbk')  # unicode
+# b2 = s1.encode('utf-8')
+# print(b2)
