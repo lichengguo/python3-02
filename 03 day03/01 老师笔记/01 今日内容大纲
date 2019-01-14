@@ -1,0 +1,136 @@
+01 上周内容回顾
+    格式化输出：
+        % s d i f r
+        format
+            '{}{}{}'.format('alex',46,'women')
+            '{0}{1}{2}{0}{0}'.format('alex',46,'women')
+            '{name}{age}{hobby}'.format(age=46,name='alex',hobby='women')
+    str:
+        s1 = 'alex'
+        print(s1[0])
+        print(s1[:2])
+        print(s1[::2])
+        upper() lower()
+        replace
+        calptlize()
+        strip()
+        split() 分割，str----> list
+        默认按照空格分割。指定分割符，指定分割次数。
+        find index:通过元素查找索引值。
+        join：将list ---> str 功能之一
+         '|'.join(iterable)
+         starstwith endswith
+         isdigit()
+         isalpha()
+         isalnum()
+        count()
+        内置函数：len() 取总长度
+    list: 容器型数据类型，按照顺序存值。
+        索引切片（步长）
+        增： append() insert() extend()
+        删:  pop()  remove() clear()
+             del 索引切片（步长） del l1[1]
+        改
+            l1[0] = 'barry'
+            l1[:3] = 'barry'
+
+        查：
+            索引切片（步长）
+            for 循环
+        其他操作方法：
+            count index sort(reverse=True) 排序 reverse()
+            len()
+        range(10)
+        range(1,12,2)
+        for i in range(10,0,-1):
+            print(i)
+        l1 = [1,2,3,4,5]
+        for i in range(len(l1)):
+            print(i)
+    tuple (1,2,3,4,[22]) 只读列表
+
+    dict: key:value 大量关系型数据
+        查询速度快，数据之间的关系性强。
+        key: 不可变的数据类型。
+        values: 任意数据类型 对象。
+
+        增：dic['name'] = 'Alex' setdefault
+        删：pop 按照key删除 del clear popitem
+        改：dic[key] = 'value' update
+        查：
+            dic['key'] 如果没有此key
+            dic.get('key'，'设置返回值') 没有此键不报错
+            dic.keys() dic.values() dic.items()
+            a,b = 1,2
+            a,b = (2,3)
+            for k,v in dic.items():
+                pass
+    数据类型的补充：
+    编码：
+    str:python3x 编码是unicode
+    str ---> bytes
+    unicode ---> 非Unicode
+    s1 = 'alex'
+    b1 = s1.encode('utf-8') 编码
+    b1.decode('utf-8') 解码
+
+    b1 gbk----->  b2  utf-8
+    b1.decode('gbk').encode('utf-8')
+
+
+
+
+02 深浅copy
+    copy:复制一份
+
+
+03 文件操作
+
+    之前对文件进行的任何操作，都必须依赖一个文件编辑器，word wps等等
+    假设一个场景：
+        现在世界上没有任何个文件编辑器的产生。
+        '空姐护士白领学生联系方式'.txt
+        设计这个软件必要的三要素：
+        path：文件的路径。
+        encoding:文件以什么编码方式存储，就以什么编码方式读取。
+        mode:读，写，写读，读写，追加，改等等。
+    三个大方向：
+        带b的模式操作对象都是非文字类的文件：视频，音频，图片。
+        读（r rb r+ r+b）
+        r模式
+        rb
+        r+ 读写
+
+
+        写 w wb w+ w+b
+        w
+        wb
+
+        追加(a ab a+ a+b)
+        a
+
+        文件操作的其他方法：
+        f.read()
+        f.write()
+        f.readline()
+        f.readlines()
+        f.close()
+        f.seek()
+        f.tell()
+
+    改
+
+04 函数的初识
+    什么是函数
+    函数的结构
+    函数的返回值
+    函数的参数
+05 函数的进阶
+    名称空间
+    作用域
+    加载顺序
+    取值顺序
+    内置函数 locals() globals()
+    高阶函数（函数的嵌套）
+    nonlocal global
+    函数名的作用
