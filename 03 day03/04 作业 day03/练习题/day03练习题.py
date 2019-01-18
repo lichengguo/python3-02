@@ -23,6 +23,23 @@ with open('a1.txt',encoding='utf-8',mode='r') as f:
         l1.append(dic)
 print(l1)
 '''
+# 方法2
+l1 = []
+with open('a1.txt',encoding='utf-8',mode='r') as f:
+    # 读取第一行作为键
+    head_list = f.readline().strip('').split()
+    # print(head_list)
+    for line in f:
+        # 获取每一行为一个列表
+        line_list = line.strip().split()
+        # print(line_list)
+        dic = {}
+        # 循环上面的列表 enumerate函数的用法
+        for k,v in enumerate(line_list):
+            # print(k,v)
+            dic[head_list[k]] = v
+        l1.append(dic)
+print(l1)
 
 
 '''
