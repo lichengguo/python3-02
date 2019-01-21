@@ -228,19 +228,36 @@ while flag:
 
 """
 # 11、写代码：计算 1 - 2 + 3 ... + 99 中除了88以外所有数的总和？
-odd_sum = 0
-even_sum = 0
-count = 1
-while count < 100:
-    if count % 2 == 1:
-        odd_sum = odd_sum + count
-    elif count % 2 == 0:
-        if count == 88:
-            pass
-        else:
-            even_sum = even_sum + count
-    count = count + 1
-print("总和为:",odd_sum - even_sum)
+# 方法1
+# odd_sum = 0
+# even_sum = 0
+# count = 1
+# while count < 100:
+#     if count % 2 == 1:
+#         odd_sum = odd_sum + count
+#     elif count % 2 == 0:
+#         if count == 88:
+#             pass
+#         else:
+#             even_sum = even_sum + count
+#     count = count + 1
+# print("总和为:",odd_sum - even_sum)
+
+# 方法2
+# sum = 0
+# count = 0
+# while count < 99:
+#     count += 1
+# 
+#     if count == 88:
+#         count +=1
+# 
+#     if count % 2 == 0:
+#         sum = sum - count
+#     else:
+#         sum = sum + count
+# 
+# print(sum)
 """
 
 
@@ -350,7 +367,7 @@ print(l6)
 
 """"""
 # 20、写代码，有如下列表，按照要求实现每一个功能。
-lis = [2, 3, "k", ["qwe", 20, ["k1", ["tt", 3, "1"]], 89], "ab", "adv"]
+# lis = [2, 3, "k", ["qwe", 20, ["k1", ["tt", 3, "1"]], 89], "ab", "adv"]
 # 1)将列表lis中的"tt"变成大写（用两种方式）
 # 方法1
 # lis[3][2][1][0] = lis[3][2][1][0].upper()
@@ -365,8 +382,8 @@ lis = [2, 3, "k", ["qwe", 20, ["k1", ["tt", 3, "1"]], 89], "ab", "adv"]
 # lis[3][2][1][1] = '100'
 # print(lis)
 # 方法2 脑洞开大一点就行了
-lis[1] = str(lis[1] + 97)
-print(lis)
+# lis[1] = str(lis[1] + 97)
+# print(lis)
 
 
 # 3)将列表中的字符串"1"变成数字101（用两种方式）
