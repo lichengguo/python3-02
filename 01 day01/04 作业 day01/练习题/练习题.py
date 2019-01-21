@@ -241,3 +241,14 @@ while flag:
 sum = odd_sum - even_sum
 print("和为:",sum)
 """
+
+#另外一种解法
+sum = 0
+count = 1
+while count < 100:
+    if count % 2 == 0:
+        sum = sum - count
+    else:
+        sum = sum + count
+    count += 1
+print(sum)
