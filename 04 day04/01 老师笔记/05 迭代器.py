@@ -2,7 +2,7 @@
 # @Time    : 2019/1/19 15:23
 # @Author  : xxx
 # @Email   : xxx@admin.com
-# @File    : 05 迭代器.py
+# @File    : 05 迭代器 与 可迭代对象.py
 # @Software: PyCharm
 # for i in 'abc':
 #     print(i)
