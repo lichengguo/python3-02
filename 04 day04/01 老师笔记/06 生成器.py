@@ -2,7 +2,7 @@
 # @Time    : 2019/1/19 16:14
 # @Author  : xxx
 # @Email   : xxx@admin.com
-# @File    : 06 生成器.py
+# @File    : 05 生成器.py
 # @Software: PyCharm
 # 生成器：本质就是迭代器，自己可以通过代码写出来的迭代器。
 # 生成器的生成方式：
