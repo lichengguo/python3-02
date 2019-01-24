@@ -24,12 +24,15 @@ import datetime
 # 标志位
 flag = False
 
-def read_register(*args,mode='r'):
+# 用户名
+user_name = ''
+
+def r_w_register(*args,mode='r'):
     """
-    写入、获取账号密码信息
+    注册、获取用户账号密码信息
     :param args: 注册时，接收用户名和密码
-    :param mode: 默认r 模式读取，a 模式写入注册
-    :return: r 模式返回用户信息字典 a模式返回True
+    :param mode: 默认r 模式读取，a 模式注册
+    :return: r模式返回用户信息字典{"name":"password",}  a模式返回True
     """
     if mode == 'r':
         user_dic = {}
@@ -38,16 +41,14 @@ def read_register(*args,mode='r'):
                 l1 = line.strip().split('|')
                 user_dic[l1[0]] = l1[1]
         return user_dic
-
     elif mode == 'a':
         if args:
-            # 声明为全局变量，以便其他函数也可以调用 user_name 这个变量
-            global user_name
+            # 获取参数传递过来的需要注册的账号和密码
             user_name = args[0]
             user_pwd = args[1]
-
-            # 判断用户是否已经注册过
-            user_dic = read_register(mode='r')
+            # 获取已经注册的用户信息
+            user_dic = r_w_register(mode='r')
+            # 判断账号是否已经注册
             if not user_dic.get(user_name):
                 with open('register', encoding='utf-8', mode='a') as f:
                     f.write('%s|%s\n' % (user_name,user_pwd) )
@@ -57,22 +58,20 @@ def read_register(*args,mode='r'):
                 print('[%s] 用户已经被注册了哦!\n' % user_name )
         else:
             print('请输入用户名和密码哦!\n')
-
     else:
         return '参数有误!\n'
 
 
 def login():
     """登录"""
-    # 读取帐号密码信息
-    user_dic = read_register(mode='r')
-
+    # 获取用户帐号密码信息
+    user_dic = r_w_register(mode='r')
+    # 密码输错3次退出程序
     count = 0
     while count < 3:
         global user_name
         user_name = input('请输入账号>>>:')
         user_pwd = input('请输入密码>>>:')
-
         # 判断账号密码是否正确
         if user_dic.get(user_name) and user_dic[user_name] == user_pwd:
             print('恭喜,登录成功!\n')
@@ -82,7 +81,6 @@ def login():
         else:
             print('账号或者密码错误!\n')
             count += 1
-
         if count == 3:
             exit('密码错误次数过多，程序结束运行!')
 
@@ -99,21 +97,24 @@ def auth(func):
     return inner
 
 
-def register(): # 要判断该用户是否已经注册
+def register():
     """注册"""
     global user_name
     user_name = input('请输入你要注册的账号>>>:')
     user_pwd = input('请输入你要注册的密码>>>:')
-
-    # 调用函数注册，获取返回值
-    ret = read_register(user_name, user_pwd, mode='a')
-
-    if ret:
-        global flag
-        flag = True
-        print('[%s] 用户注册成功!\n' % user_name )
+    # 注册时账号密码不能为空
+    if len(user_name) == 0 or len(user_pwd) == 0:
+        print('用户名和密码不能为空!\n')
     else:
-        print('注册失败!\n')
+        # 调用函数注册，获取返回值
+        ret = r_w_register(user_name, user_pwd, mode='a')
+        # 判断注册是否成功
+        if ret:
+            global flag
+            flag = True
+            print('[%s] 用户注册成功!\n' % user_name )
+        else:
+            print('注册失败!\n')
 
 
 def write_log(user_name, func_name):
@@ -129,48 +130,52 @@ def write_log(user_name, func_name):
         f.flush()
 
 
-@auth   #article = auth(article)
+@auth
 def article():
     """文章页面"""
-    print('欢迎 [%s] 用户访问文章页面\n' % user_name )
+    # 日志记录
     func_name = 'article'
     write_log(user_name,func_name)
+    print('欢迎 [%s] 用户访问文章页面\n' % user_name)
 
 
 @auth
 def diary():
     """日记页面"""
-    print('欢迎 [%s] 用户访问日记页面\n' % user_name )
+    # 日志记录
     func_name = 'diary'
     write_log(user_name,func_name)
-
+    print('欢迎 [%s] 用户访问日记页面\n' % user_name )
 
 @auth
 def comment():
     """评论页面"""
-    print('欢迎 [%s] 用户访问评论页面\n' % user_name )
+    # 日志记录
     func_name = 'comment'
     write_log(user_name,func_name)
-
+    print('欢迎 [%s] 用户访问评论页面\n' % user_name)
 
 @auth
 def colle():
     """收藏页面"""
-    print('欢迎 [%s] 用户访问收藏页面\n' % user_name )
+    # 日志记录
     func_name = 'colle'
     write_log(user_name,func_name)
-
+    print('欢迎 [%s] 用户访问收藏页面\n' % user_name )
 
 def log_out():
     """注销"""
-    global flag
-    flag = False
-    print('[%s] 账号注销成功!\n' % user_name )
+    if user_name:
+        global flag
+        flag = False
+        print('[%s] 账号注销成功!\n' % user_name )
+    else:
+        print('您没有登录哦，不用注销!\n')
 
 
 def sign_out():
     """退出"""
-    exit('退出程序!')
+    exit('退出程序!\n')
 
 
 def view():
