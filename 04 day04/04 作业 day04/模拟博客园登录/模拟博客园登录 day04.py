@@ -25,7 +25,7 @@ import datetime
 flag = False
 
 # 用户名
-user_name = ''
+user_name = None
 
 def r_w_register(*args,mode='r'):
     """
@@ -86,10 +86,13 @@ def login():
 
 
 def auth(func):
-    """装饰器，认证"""
+    """装饰器"""
     def inner(*args,**kwargs):
         while 1:
             if flag:
+                # 日志记录
+                func_name = func.__name__
+                write_log(user_name, func_name)
                 res = func(*args,**kwargs)
                 return res
             else:
@@ -124,43 +127,32 @@ def write_log(user_name, func_name):
     year = time.year
     month = time.month
     day = time.day
+    content = "用户:[%s] 在 %s 年 %s 月 %s 日，执行了 [%s] 函数\n" % (user_name, year, month, day, func_name)
     # 记录日志
     with open('log', encoding='utf-8', mode='a') as f:
-        f.write("用户:[%s] 在 %s 年 %s 月 %s 日，执行了 [%s] 函数\n" % (user_name, year, month, day, func_name) )
+        f.write(content)
         f.flush()
 
 
 @auth
 def article():
     """文章页面"""
-    # 日志记录
-    func_name = 'article'
-    write_log(user_name,func_name)
     print('欢迎 [%s] 用户访问文章页面\n' % user_name)
 
 
 @auth
 def diary():
     """日记页面"""
-    # 日志记录
-    func_name = 'diary'
-    write_log(user_name,func_name)
     print('欢迎 [%s] 用户访问日记页面\n' % user_name )
 
 @auth
 def comment():
     """评论页面"""
-    # 日志记录
-    func_name = 'comment'
-    write_log(user_name,func_name)
     print('欢迎 [%s] 用户访问评论页面\n' % user_name)
 
 @auth
 def colle():
     """收藏页面"""
-    # 日志记录
-    func_name = 'colle'
-    write_log(user_name,func_name)
     print('欢迎 [%s] 用户访问收藏页面\n' % user_name )
 
 def log_out():
