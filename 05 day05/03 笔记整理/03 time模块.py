@@ -76,11 +76,11 @@ import time
 # 小练习2
 # '2017-09-11 08:30:00' '2017-09-12 11:00:00' 计算这两个时间段的时间差
 # 先把格式化时间--->元组时间
-t1 = time.mktime(time.strptime('2017-09-11 08:30:00', '%Y-%m-%d %H:%M:%S'))
-t2 = time.mktime(time.strptime('2017-09-12 11:00:00', '%Y-%m-%d %H:%M:%S'))
-ret = t2 - t1
-struct_t = time.gmtime(ret)
-print(struct_t)
-print('过去了%d年%d月%d天%d小时%d分钟%d秒'%(struct_t.tm_year-1970,struct_t.tm_mon-1,
-                                 struct_t.tm_mday-1,struct_t.tm_hour,
-                                 struct_t.tm_min,struct_t.tm_sec))
+# t1 = time.mktime(time.strptime('2017-09-11 08:30:00', '%Y-%m-%d %H:%M:%S'))
+# t2 = time.mktime(time.strptime('2018-09-13 08:30:10', '%Y-%m-%d %H:%M:%S'))
+# ret = t2 - t1
+# struct_t = time.gmtime(ret)
+# print(struct_t)
+# print('过去了%d年%d月%d天%d小时%d分钟%d秒'%(struct_t.tm_year-1970,struct_t.tm_mon-1,
+#                                  struct_t.tm_mday-1,struct_t.tm_hour,
+#                                  struct_t.tm_min,struct_t.tm_sec))

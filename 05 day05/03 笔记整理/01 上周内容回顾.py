@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#author:Alnk(李成果)
+
 # 装饰器
     # 在不改变函数原本调用方式的基础上添加一些功能
     # @装饰器名
@@ -19,6 +21,7 @@
 # def f():
 #     print('in f')
 # f()
+
 
 # 多个装饰器装饰一个函数
 # def wrapper1(func):
@@ -43,7 +46,8 @@
 #     print('in f')
 # f()
 
-# 考题 两个装饰器装饰一个函数，统计func函数的执行时间
+# 考题
+# 两个装饰器装饰一个函数，统计func函数的执行时间
 # 登录 -- 装饰器 auth
 # 计算函数的执行时间 -- 装饰器 timmer
 #
@@ -51,8 +55,9 @@
 # @timmer
 # def func()
 
+
 # 带参数的装饰器
-# flag = True
+# flag = False
 # def outer(flag):
 #     def timmer(func):
 #         def inner(*args,**kwargs):
@@ -85,10 +90,11 @@
 
 # 迭代器和生成器
 
-# 可迭代对象 可以通过for/iter方法将一个可迭代对象转换成一个迭代器  ，list str range
+# 可迭代对象 : list str range
+# 可以通过 for/iter 方法将一个可迭代对象转换成一个迭代器  ，
 
-# 迭代器
-# 使用迭代器 ： 节省内存，迭代器一项一项的取  文件句柄
+# 迭代器 : 文件句柄
+# 使用迭代器 ： 节省内存，迭代器一项一项的取
 
 # 生成器
     # 我们自己写的迭代器
@@ -98,8 +104,8 @@
     # 生成器表达式 : 用小括号表示的推导式
 # 生成器的特点：
     # 1.可以用next/send方法从中取值
-    # 2.生成器中的数据只能从头到尾取一次
-    # 3.惰性运算 ：不取生成器是不工作的
+    # 2.生成器中的数据只能从头到尾取一次 ***
+    # 3.惰性运算 ：不取生成器是不工作的 ***
 
 # 考题
 # def demo():
@@ -116,9 +122,11 @@
 
 # 列表推导式(排序)
     # [i**2 for i in lst]
-    # [i**2 for i in lst if i%2 ==0 ]
+    # [i**2 for i in lst if i%2 ==0]
 # 生成器表达式(不能排序)
     # (i**2 for i in lst)
+    # (i**2 for i in lst if i%2 ==0)
+
 
 # 匿名函数
     # lambda 参数1,参数2,参数3 : 返回值/返回值相关的表达式
@@ -132,7 +140,7 @@
 # l1 = [('a',3), ('b',2), ('c',1)]
 # # def func(x):
 # #     return x[1]
-# # ret = min(l1,key=func)  # 注意这里min 会先把l2列表中的每个元素传递到func函数中去，然后在取最小的
+# # ret = min(l1,key=func)  # 注意这里 min 会先把l2列表中的每个元素传递到func函数中去，然后在取最小的
 # # print(ret)
 # # 改成lambda
 # ret = min(l1,key=lambda x : x[1])

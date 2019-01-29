@@ -47,28 +47,28 @@ import random
 # 2.最低金额为0.01元
 # 3.每抽中一次，需要用红包当前总金额减去抽中的金额，然后在继续在该区间内随机抽取
 # 4.最小金鹅为
-def hb(num, money):
-    # 定义空列表用来存储抽奖金额
-    lst = []
-    # 金额乘以100，便于计算，后续加入到列表在除以100
-    money = money * 100
-    # 判断传递参数的合法性
-    if type(num) is int and num >=1 and (type(money) is int or type(money) is float):
-        # for循环应该比num少一次,例如2个红包个数，for循环1次就可以
-        for i in range(num-1):
-            # 保证不出现抽中0元的现象
-            p = random.randint(1, money-1*(num-1))
-            lst.append(p/100)
-            # 需要减去已经抽取的红包金额
-            money = money - p
-            # 这里的意思是没抽一次，没抽过的人减少1
-            num -= 1
-        else:
-            # 循环结束了，把剩余的红包总金额放入到一个红包内
-            lst.append(money/100)
-        return lst
-    else:
-        print('参数有误!')
-
-ret = hb(1,1.1)
-print(ret)
+# def hb(num, money):
+#     # 定义空列表用来存储抽奖金额
+#     lst = []
+#     # 金额乘以100，便于计算，后续加入到列表在除以100
+#     money = money * 100
+#     # 判断传递参数的合法性
+#     if type(num) is int and num >=1 and (type(money) is int or type(money) is float):
+#         # for循环应该比num少一次,例如2个红包个数，for循环1次就可以
+#         for i in range(num-1):
+#             # 保证不出现抽中0元的现象
+#             p = random.randint(1, money-1*(num-1))
+#             lst.append(p/100)
+#             # 需要减去已经抽取的红包金额
+#             money = money - p
+#             # 这里的意思是没抽一次，没抽过的人减少1
+#             num -= 1
+#         else:
+#             # 循环结束了，把剩余的红包总金额放入到一个红包内
+#             lst.append(money/100)
+#         return lst
+#     else:
+#         print('参数有误!')
+#
+# ret = hb(1,1.1)
+# print(ret)
