@@ -2,10 +2,13 @@
 #author:Alnk(李成果)
 import re
 from decimal import Decimal
+from decimal import getcontext
+# getcontext().prec = 16
 
 def jiajian(s):
     # 去空格
     s = s.replace(' ', '')
+    s = s.replace('+-', '-').replace('-+', '-').replace('++', '+').replace('--', '+')
     # 匹配第一个加或者减的公式
     while re.search('\d+(\.\d+)?[\+\-]{1}\d+(\.\d+)?', s):
         # 获取第一个加减公式
@@ -26,9 +29,10 @@ def chenchu(s):
     # 去空格
     s = s.replace(' ', '')
     # 匹配第一个乘或者除的公式
-    while re.search('\d+(\.\d+)?[\*\/]{1}\d+(\.\d+)?', s):
+    # while re.search('\d+(\.\d+)?[\*\/]{1}\d+(\.\d+)?', s):
+    while re.search('\d+(\.\d+)?[\*\/]{1}[-]?\d+(\.\d+)?', s):
         # 获取第一个乘除公式
-        res = re.search('\d+(\.\d+)?[\*\/]{1}\d+(\.\d+)?', s).group()
+        res = re.search('\d+(\.\d+)?[\*\/]{1}[-]?\d+(\.\d+)?', s).group()
         # 判断是乘法运算还是除法运算
         if re.search('[\*\/]', res).group() == '*':
             res_ = res.split('*')
@@ -49,16 +53,24 @@ def calc(s):
     # 匹配最里层的括号
     while re.search('\([^\(\)]+\)', s):
         # 获取最里层的括号
-        res = re.search('\([\d\+\-\*\/]+\)', s).group()
-        s = s.replace(res, '999.999')
+        res = re.search('\([^\(\)]+\)', s).group()
+        chenchu_ret = chenchu(res.strip('(,)'))
+        print('chenchu_ret', chenchu_ret)
+        s = s.replace(res, str(chenchu_ret))
         print(s)
-
+        s = s.replace('+-', '-').replace('-+', '-').replace('++', '+').replace('--', '+')
+    else:
+        ret = chenchu(s)
+    return ret
 s = '1 - 2 * ( (60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 )) - (-4*3)/ (16-3*2) )'
-calc(s)
+print(s.replace(' ', ''))
+ret = calc(s)
+print(ret)
+print(eval('1 - 2 * ( (60-30 +(-40/5) * (9-2*5/3 + 7 /3*99/4*2998 +10 * 568/14 )) - (-4*3)/ (16-3*2) )'))
 
-
-
-
+# ret = chenchu('1-2*-1388338.247619047619047619048')
+# print(ret)
+# print(eval('1-2*-1388338.247619047619047619048'))
 
 # s = '3 * 2 / 3 * 9 * 7 /6+6-1+9.0'
 # ret = chenchu(s)
