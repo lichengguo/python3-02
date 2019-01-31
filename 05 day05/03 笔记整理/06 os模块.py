@@ -12,7 +12,7 @@
 #  列出指定目录下的所有文件和子目录，包括隐藏文件，并以列表方式打印
 # print(ret)
 # os.remove('test.py')  # 删除一个文件
-# os.rename("test.py","test2.py")  # 重命名文件/目录
+# os.rename("test.py","计算器 day05.py")  # 重命名文件/目录
 # ret = os.stat(r'E:\python3周末班2期笔记\05 day05\03 笔记整理')  # 获取文件/目录信息
 # print(ret)
 
