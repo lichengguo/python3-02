@@ -42,7 +42,7 @@
 # print(isinstance(l1,Iterator))
 # print(isinstance(l1,Iterable))
 # 文件句柄？
-# with open('01 今日内容大纲',encoding='utf-8') as f1:
+# with open('01 老师笔记 今日内容大纲',encoding='utf-8') as f1:
 #     print(isinstance(f1,Iterator))
 # 可迭代对象不能直接取值，必须转化成迭代器进行取值。
 # l1 = [1,2,3]

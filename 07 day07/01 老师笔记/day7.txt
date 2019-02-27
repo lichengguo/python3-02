@@ -1,0 +1,94 @@
+day7
+
+上节回顾：
+    
+	1 如何声明一个类以及实例化一个对象
+	  class 类名(object)： # 类名首字母大写  
+            pass
+			
+			
+	  class Student(object):
+            def __init__(self,name,age):
+                self.name=name			
+                self.age=age
+      alex=Student("alex",23)
+      egon=Student("egon",33)
+				
+1 实例化对象发生过程：
+    以alex=Student("alex",23)为例：
+	1  创建对象，开辟空间
+	2  执行当前类下的__init__方法（以开辟空间的地址作为self参数）
+	3  __init__应该实现创建实例变量（属性）
+	4  返回self，赋值给alex
+                            
+			
+2 属性的增删改查操作
+  alex.name
+  alex.age=1000
+  del alex.age
+  alex.gender="male"
+  
+  
+3 面向对象的三大特性
+    1 继承
+	    1 继承语法
+		    class Animal(object):
+                    
+                  def run():
+				       pass
+                  def sleep():
+				       pass
+            class Dog(Animal):
+			      pass
+					   
+		    class Cat(Animal):
+			      pass
+				  
+			alex=Dog()
+			alex.run()
+			
+			
+			面试题：
+					class Base:
+						def __init__(self):
+							self.func()
+						def func(self):
+							print('in base')
+
+					class Son(Base):
+						def func(self):
+							print('in son')
+
+					s = Son()
+					   
+			# 执行父类方法
+			super().__init__(name,age)          			
+		  
+		  
+		2 多重继承
+		      class  A（B,C）:
+			         pass
+					 
+			  
+		     
+		      
+			  c3算法
+	2 封装
+	      private int num
+		  
+		  1 私有化变量： 保护数据   __变量:  私有变量
+		  2 可以对外提供读写接口
+		       def get_age():pass
+			   def set_age():pass
+               接口可以实现更精准的控制	 
+
+          注意：
+                1 难道私有变量真的没有办法访问吗？
+				
+				
+			 变量	public  公共的
+			_变量	protected 受保护的
+			__变量	private   私有的  
+
+			
+	3 多态

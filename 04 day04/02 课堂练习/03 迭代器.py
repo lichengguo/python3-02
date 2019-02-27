@@ -1,4 +1,4 @@
-# f = open('01 闭包.py',encoding='utf-8',mode='r')
+# f = open('01 老师笔记 闭包.py',encoding='utf-8',mode='r')
 #
 # from  collections import Iterable   #可迭代对象
 # from collections import Iterator    #迭代器
