@@ -41,15 +41,65 @@
 
 
 # 4、多态是怎么回事？在python中是如何体现的？
+# 多态：指的是一类事物有多种形态
+# 动物有多种形态：人，狗，猪
+# import abc
+# class Animal(metaclass=abc.ABCMeta):  # 同一类事物：动物
+#
+#     @abc.abstractmethod
+#     def talk(self):
+#         pass
+#
+# class People(Animal):  # 动物形态之一：人
+#     def talk(self):
+#         print('say hello')
+#
+# class Dog(Animal):  # 动物的形态之二:狗
+#     def talk(self):
+#         print('say wangwangwang')
+#
+# class Pig(Animal): #动物的形态之三:猪
+#     def talk(self):
+#         print('say aoao')
+#
+#
+# 多态性
+# peo = People()
+# dog = Dog()
+# pig = Pig()
+
+# peo、dog、pig都是动物,只要是动物肯定有talk方法
+# 于是我们可以不用考虑它们三者的具体是什么类型,而直接使用
+# peo.talk()
+# dog.talk()
+# pig.talk()
+
+# 更进一步,我们可以定义一个统一的接口来使用
+# def func(obj):
+#     obj.talk()
+# func(peo)
+# func(dog)
+# func(pig)
+
+
 
 
 # 5、说说面向对象中“私有”的概念以及应用
+# 有私有属性和私有方法，可以把不需要对外提供的内容和属性都隐藏起来，将变化隔离，便于应用，提高重用性，提高安全性。
+
 
 
 # 6、在面向对象中有一些被装饰器装饰的方法，先说说有哪些装饰器，再说说这些装饰器的作用，以及装饰之后的效果
+# property属性：改变一个方法的调用方式，把一个方法属性化，例如之前调用一个方法：obj.func() 加了property属性以后，可以用
+# obj.func 调用
+# classmethod方法：类方法，增加这个属性以后，可以直接由类调用方法，当然实例对象也可以调用此方法
+# staticmethod方法：静态方法，不涉及到类属性和实例属性的时候使用，调用该方法的时候，不再需要传递self参数了，定义该方法的时候也没有self参数
+
 
 
 # 7、请说明新式类和经典类的区别，至少两个
+# 多重继承查找顺序不同，经典类按照深度优先的方法查找。新式类按照C3算法查找，即广度优先
+
 
 
 # 8、请说出上面一段代码的输出并解释原因
