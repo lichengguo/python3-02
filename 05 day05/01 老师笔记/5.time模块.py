@@ -57,7 +57,7 @@ import time
 # 拿到本月时间1号的时间戳时间
 # now_str = time.strftime('%Y-%m')
 # print(now_str)
-# struct_time = time.strptime(now_str+'-01','%Y-%m-%d')
+# struct_time = time.strptime(now_str+'-01 老师笔记','%Y-%m-%d')
 # print(struct_time)
 # 时间戳时间
 # stamp_t = time.mktime(struct_time)
