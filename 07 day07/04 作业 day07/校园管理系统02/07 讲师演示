@@ -1,0 +1,39 @@
+C:\Python36\python.exe "E:/python3周末班2期笔记/07 day07/04 作业 day07/校园管理系统02/01 Course_system.py"
+username>>>alex
+password>>>123
+登录成功
+
+
+1 查看所有课程
+2 查看所教班级
+3 查看班级中的学生
+4 退出
+>>>:1
+
+所有课程:['linux', 'python', 'mysql']
+
+
+1 查看所有课程
+2 查看所教班级
+3 查看班级中的学生
+4 退出
+>>>:2
+所教班级['class01']
+
+
+1 查看所有课程
+2 查看所教班级
+3 查看班级中的学生
+4 退出
+>>>:3
+['class01'] 班级中的学生:
+['alnk', 'tom']
+
+
+1 查看所有课程
+2 查看所教班级
+3 查看班级中的学生
+4 退出
+>>>:4
+
+Process finished with exit code 0

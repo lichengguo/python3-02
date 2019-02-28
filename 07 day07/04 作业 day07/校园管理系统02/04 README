@@ -1,0 +1,6 @@
+admin           初始化文件
+class_list      所有班级总文件
+course_list     所有课程总文件
+students_list   所有学生总文件
+teacher_list    所有老师总文件
+管理员、学生、讲师都有以自己用户名命名的单独文件，详细的记录信息
