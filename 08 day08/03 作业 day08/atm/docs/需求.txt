@@ -1,0 +1,22 @@
+作业需求：85%
+1. 用户额度 15000或自定义
+2. 实现购物商城，买东西加入 购物车，调用信用卡功能进行结账
+3. 可以提现，手续费5%
+4. 支持多账户登录
+5. 支持账户间转账（用户A转账给用户B，A账户减钱、B账户加钱）
+6. 记录每月日常消费流水
+7. 提供还款功能
+8. ATM记录操作日志（使用logging模块记录日志）
+9. 提供管理功能，包括添加账户、用户额度，冻结账户等。。。
+10. 用户认证用装饰器
+
+示例代码 https://github.com/triaquae/py3_training/tree/master/atm
+简易流程图：https://www.processon.com/view/link/589eb841e4b0999184934329
+
+编码规范需求：15%
+1. 代码规范遵守pep8 (https://python.org/dev/peps/pep-0008/)
+2. 函数有相应的注释
+3. 程序有文档说明文件（README.md参考：https://github.com/csrftoken/vueDrfDemo）
+4. 程序的说明文档必须包含的内容：程序的实现的功能、程序的启动方式、登录用户信息、程序的运行效果
+5. 程序设计的流程图：
+(可以参考：https://www.processon.com/view/link/589eb841e4b0999184934329)
