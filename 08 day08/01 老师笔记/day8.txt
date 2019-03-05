@@ -1,0 +1,77 @@
+day8
+
+
+
+上节回顾：
+    一 面向对象特性之封装
+	    私有化变量：  
+	             __类变量
+	             __实例变量
+				 
+	    变量种类：
+		     1 私有变量  __变量名
+			 2 保护变量  _变量名 (约定成俗)
+			 3 公共变量  变量名
+			 
+	    方法总结：
+		    class A(object):
+				   def foo(self):
+						print("foo")
+					
+				    @classmethod	
+				    def bar(cls):
+				        print("bar")
+					
+				    @staticmethod	
+				    def run():
+                        pass
+                    @staticmethod	
+                    def add(x,y):
+						return x+y		
+		    a=A()
+		      1 实例方法
+			        调用：a.foo()   
+			  2 classmethod
+					调用：a.bar() 
+					调用：A.bar()  
+              3 staticmethod
+			         调用：a.run()
+			         调用：A.run()
+					 调用：a.add(1,4)
+			         调用：A.add(2,6)
+         			  
+			   
+	二  面向对象特性之多态
+			基类（超类/父类）
+			派生类（子类）	
+			多态：一个基类的多个派生类呈现出来的多种状态。
+
+    三  反射(******)
+	
+	四  类的魔法方法(******)
+	    __方法名__
+		
+	    1 __new__: 构造方法
+		2 __init__:实例化方法
+		
+	    
+	
+	
+	模块与包：
+	    
+		1 模块：
+		     模块：本质就是封装相关功能的.py文件
+			 调用模块:
+			     import
+				       1 ---> 解释器内置模块(time)
+					   2 ---> sys.path： ['D:\\太白金星\\周末班\\day08 视频与课上笔记\\day08\\模块与包\\atm', python36环境]
+                              ---启动文件路径
+							  ---python环境
+					   
+					   
+					   
+			 
+	    
+
+
+
