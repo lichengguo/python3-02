@@ -103,7 +103,7 @@ class Atm(object):
             for k,i in enumerate(self.option_lis,1):
                 print(k,i[1])
             action = int(input('请输入编号>>'))
-            if 0 < (action - 1) < len(self.option_lis):
+            if 0 <= (action - 1) < len(self.option_lis):
                 if hasattr(self,self.option_lis[action - 1][0]):
                     getattr(self,self.option_lis[action - 1][0])()
                 else:
