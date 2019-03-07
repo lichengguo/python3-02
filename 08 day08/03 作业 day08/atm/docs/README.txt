@@ -38,6 +38,7 @@
     │  │  login.py          # 登录认证木块
     │  │  main.py           # 功能分发模块
     │  │  user.py           # 普通用户模块
+    │  │  payment.py        # 第三方调用支付模块
     │
     ├─db                # 数据目录
     │  │
