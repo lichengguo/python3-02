@@ -9,7 +9,7 @@ class Login(Basic):  # 认证类
 
     def login(self, name=None, pwd=None):
         if name==None and pwd==None:
-            name = input('用户名>>>')
+            name = input('卡号用户名>>>')
             pwd = input('密码>>>')
         file_path = os.path.join(user_info_path, '%s.json' % name)
         if os.path.isfile(file_path):
