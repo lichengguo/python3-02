@@ -1,0 +1,41 @@
+作者:Alnk(李成果)
+版本:v1.0
+
+程序介绍：
+    功能全部用python知识完成，用到了 os\sys\json\time\模块导入\面向对象编程 等知识
+    实现了购物车常用功能，如注册，登录，选购商品，结算等
+    另外结算功能需要调用atm的接口进行付款
+
+程序启动方式：
+    直接运行 shopping/bin/start.py 文件即可
+
+登录密码：
+    账号:alnk
+    密码:123
+    账号:alex
+    密码:123
+
+程序结构（shopping_car）
+    ├─bin                       # 执行目录
+    │      start.py                     # 执行文件
+    │
+    ├─conf                      # 配置文件目录
+    │  │  settings.py                   # 配置文件
+    │
+    ├─core                      # 核心代码目录
+    │  │  basic.py                      # 基础模块，读写文件
+    │  │  buy.py                        # 购物模块，增减商品，调用结算模块进行支付
+    │  │  login.py                      # 登录模块
+    │  │  main.py                       # 功能分发模块
+    │  │  register.py                   # 用户注册模块
+    │  │  settlement.py                 # 结算模块，调用atm模块的接口进行支付
+    │
+    ├─db                        # 数据目录
+    │      alex.json                    # 用户文件
+    │      alnk.json                    # 用户文件
+    │
+    ├─docs                      # 说明文件目录
+    │      README                       # 说明文件
+    │      需求.txt                     # 需求文件
+    │
+    ├─logs                      # 日志目录
