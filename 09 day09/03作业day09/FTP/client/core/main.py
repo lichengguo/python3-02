@@ -6,6 +6,7 @@ import json
 import hashlib
 import os
 import sys
+import re
 from conf.settings import IP, PORT, db_path
 
 
@@ -202,16 +203,68 @@ class FTPClient():
             return
 
     def ls(self):  # 显示
-        pass
+        cmd = input('输入命令>>>')
+        try:
+            action, parameter = cmd.replace(' ', '').split('|')
+        except Exception:
+            print('提示: ls | dirname1\dirname2\....')
+            return False
+        if action == 'ls':
+            info = {'action': action, 'parameter': parameter, 'name': self.name}
+            self.__info_send_to_server(info)  # 发送给服务端
+        else:
+            print('提示: ls | dirname1\dirname2\....')
+            return
+        recv_data = self.sock.recv(1024)
+        print(recv_data.decode())
 
     def mk(self):  # 新建
-        pass
+        cmd = input('输入命令>>>')
+        try:
+            action, parameter = cmd.replace(' ', '').split('|')
+        except Exception:
+            print('提示: mk | dirname1\dirname2\...')
+            return False
+        if action == 'mk' and not re.search(r'^\\|/', parameter):
+            info = {'action': action, 'parameter': parameter, 'name': self.name}
+            self.__info_send_to_server(info)  # 发送给服务端
+        else:
+            print('提示: mk | dirname1\dirname2\...')
+            return
+        recv_data = self.sock.recv(1024)
+        print(recv_data.decode())
 
     def rm(self):  # 删除
-        pass
+        cmd = input('输入命令>>>')
+        try:
+            action, parameter = cmd.replace(' ', '').split('|')
+        except Exception:
+            print('提示: rm | dirname1\dirname2\...')
+            return False
+        if action == 'rm':
+            info = {'action': action, 'parameter': parameter, 'name': self.name}
+            self.__info_send_to_server(info)
+        else:
+            print('提示: rm | dirname1\dirname2\...')
+            return
+        data = self.sock.recv(1024)
+        print(data.decode())
 
     def cd(self):  # 切换目录
-        pass
+        cmd = input('输入命令>>>')
+        try:
+            action, parameter = cmd.replace(' ', '').split('|')
+        except Exception:
+            print('提示: cd | dirname1\dirname2\...')
+            return False
+        if action == 'cd':
+            info = {'action': action, 'parameter': parameter, 'name': self.name}
+            self.__info_send_to_server(info)
+        else:
+            print('提示: cd | dirname1\dirname2\...')
+            return False
+        data = self.sock.recv(1024)
+        print(data.decode())
 
     def logout(self):  # 退出
         quit()

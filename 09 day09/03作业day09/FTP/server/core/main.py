@@ -16,7 +16,7 @@ class FTPServer(socketserver.BaseRequestHandler):
                 info = json.loads(self.request.recv(info_length))
             except Exception:
                 break
-            if hasattr(self, info['action']):
+            if hasattr(self, info['action']):  # 反射
                 getattr(self, info['action'])(info)
 
     def __recv_write_file(self, file_path, file_size, exist_size=0, mode='wb' ):  # 接收数据，写入文件
@@ -131,17 +131,49 @@ class FTPServer(socketserver.BaseRequestHandler):
             print('需要下载的文件不存在')
             return False
 
+    def cd(self, info):  # 切换目录
+        base_path = os.path.join(db_base, info['name'], '%s' % info['parameter'])
+        if os.path.isdir(base_path):  # 如果要切换的目录存在
+            self.get_bash_path(info, base_path,flag=True)  # 修改目录路径
+            self.request.send(('目录切换成功,当前目录为[%s]'% base_path).encode())
+        else:
+            self.request.send('目录不存在，切换失败！'.encode())
+
+    def get_bash_path(self, info, base_path=None, flag=False):  # 更改目录
+        if flag == False:
+            self.base_path = os.path.join(db_base, info['name'], '%s' % info['parameter'])
+            return self.base_path
+        self.base_path = base_path
+        return self.base_path
+
     def ls(self, info):  # 显示
-        pass
+        base_path = os.path.join(db_base, info['name'], info['parameter'])
+        print(base_path)
+        try:
+            res = os.listdir(base_path)
+        except FileNotFoundError:
+            print('没有该目录')
+            res = '没有该目录'
+        self.request.send(str(res).encode())
 
     def mk(self, info):  # 新建
-        pass
+        base_path = os.path.join(db_base, info['name'], '%s' % info['parameter'])
+        print(base_path)
+        try:
+            os.makedirs(r'%s' %base_path)
+            res = '新建目录成功！'
+        except FileExistsError as e:
+            res = '当文件已存在时，无法创建该文件'
+        self.request.send(str(res).encode())
 
     def rm(self, info):  # 删除
-        pass
-
-    def cd(self, info):  # 切换目录
-        pass
+        base_path = os.path.join(db_base, info['name'], '%s' % info['parameter'])
+        try:
+            os.removedirs(r'%s' %base_path)
+            res = '目录删除成功！'
+        except Exception:
+            res = '目录删除失败！'
+        self.request.send(str(res).encode())
 
 
 def run():
