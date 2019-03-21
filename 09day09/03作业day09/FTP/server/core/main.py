@@ -46,9 +46,23 @@ class FTPServer(socketserver.BaseRequestHandler):
             json.dump(info_dict, f)
             f.flush()
 
+    def __file_send_to_client(self, file_path, pointer=0):  # 传输文件到服务器
+        # pointer 指针，默认为0
+        already_size = 0
+        with open(file_path, 'rb') as f:
+            f.seek(pointer)  # 调整指针位置
+            for line in f:
+                self.request.send(line)  # 循环发送数据到服务器
+                already_size += len(line)
+
+    def __info_send_to_client(self, msg):  # 发送给服务端的报头信息
+        bites_msg = json.dumps(msg).encode()
+        bites_len = len(bites_msg)
+        msg_pack = struct.pack('i', bites_len)
+        last_msg = msg_pack + bites_msg
+        self.request.send(last_msg)
+
     def login(self, info):  # 登录
-        # with open(user_info_file, 'r') as f:  # 读取用户信息
-        #     msg_dict = json.load(f)
         msg_dict = self.__get_info_dict(user_info_file)
         if msg_dict.get(info['name']) and msg_dict[info['name']]['pwd'] == info['pwd']:  # 判断账号密码
             self.request.send(b'OK')  # 登录成功标志位
@@ -91,7 +105,31 @@ class FTPServer(socketserver.BaseRequestHandler):
                 self.request.send(b'NO')
 
     def get(self, info):  # 下载
-        pass
+        user_name = info['name']  # 用户名称
+        file_name = info['file_name']  # 需要传输给客户端的文件名称
+        file_md5 = info['file_md5']  # md5
+        pointer = info['pointer']  # 指针，服务端不做断点续传判断，直接seek 指针的位置就行了
+        file_path = os.path.join(db_base, user_name, file_name)  # 客户端请求下载的文件的路径
+        if os.path.isfile(file_path):  # 如果文件存在
+            md5, file_size = self.__get_md5_and_size(file_path)  # 获取本地文件的md5 和大小
+            if file_md5 == md5:  # 需要下载的文件已经在客户端完整的存在了
+                info = {'file_size': file_size, 'file_md5': md5, 'stat': 'EXIST'}
+                self.__info_send_to_client(info)  # 发送报头给客户端
+            elif 0 < pointer < file_size:  # 断点续传
+                file_size -= pointer
+                info = {'file_size': file_size, 'file_md5': md5, 'stat': 'NO'}  # 断点续传
+                self.__info_send_to_client(info)  # 发送报头给客户端
+                self.__file_send_to_client(file_path, pointer=pointer)  # 发送文件给客户端
+            else:  # 全额传输
+                file_size -= pointer  # 传给客户端的文件大小要减去客户端已经存在的文件大小
+                info = {'file_size': file_size, 'file_md5': md5, 'stat': 'OK'}
+                self.__info_send_to_client(info)  # 发送报头给客户端
+                self.__file_send_to_client(file_path, pointer=pointer)  # 发送文件给客户端
+        else:
+            info = {'file_size': None, 'file_md5': None, 'stat': 'NO EXIST'}
+            self.__info_send_to_client(info)  # 发送报头给客户端
+            print('需要下载的文件不存在')
+            return False
 
     def ls(self, info):  # 显示
         pass
