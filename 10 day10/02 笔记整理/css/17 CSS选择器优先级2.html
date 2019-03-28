@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*选择器权重  id选择器:100  class选择器/属性选择器:10  标签选择器:1 */
+        /*优先级：权重相加，大的优先*/
+        /*如果权重相等，那么谁在后面听谁的*/
+        .c3{
+            color:red;
+        }
+
+        div.c3{
+            color:blue;
+        }
+
+        .c2 .c3{
+            color: yellow;
+        }
+
+        .c1 .c3{
+            color:black;
+        }
+
+
+        .c4{
+            background-color: yellow;
+        }
+
+        [name='xxx']{
+            background-color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="c1">
+    <div class="c2">
+        <div class="c3">666</div>
+    </div>
+</div>
+<hr>
+
+<div name="xxx" class="c4">属性选择器</div>
+
+</body>
+</html>

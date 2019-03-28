@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="http://127.0.0.1:8899" method="post">
+    <p>姓名：<input type="text" name="user" value="alex"></p>
+
+    <p>
+        <label for="111">姓名：</label>
+        <input type="text" name="user" placeholder="请输入姓名" id="111">
+    </p>
+
+    <p>密码：<input type="password" name="pwd" placeholder="请输入密码" required></p>
+
+    <p>爱好：篮球<input checked="checked" type="checkbox" name="hobby" value="lanqiu">
+             足球<input type="checkbox" name="hobby" value="zuqiu">
+             双色球<input type="checkbox" name="hobby" value="shuangseqiu">
+    </p>
+
+    <p>性别：男<input type="radio" name="sex" value="male">
+             女<input type="radio" name="sex" value="female">
+    </p>
+
+    <!--重置按钮-->
+    <p><input type="reset"></p>
+
+    <!--上传文件按钮-->
+    <p><input type="file"></p>
+
+    <!--隐藏标签，用途：浏览器偷偷的给服务器发送一些信息，用户无感知，页面无显示-->
+    <p><input type="hidden" name="token" value="asufqr123sdafa53"></p>
+
+    <!--配合js使用，和div有点相似-->
+    <p><input type="button" value="按钮" onclick="alert(123)"></p>
+
+    <p>个人简介<br>
+        <textarea name="gerenjianjie" cols="30" rows="10" maxlength="5"></textarea>
+    </p>
+
+    籍贯
+    <select name="pro">
+        <option value="heibei">河北省</option>
+        <option selected="selected" value="hunansheng">湖南省</option>
+        <option value="hubeishegn">湖北省</option>
+    </select>
+
+
+    <!--提交，会触发一个事件-->
+    <p><input type="submit" ></p>
+</form>
+
+</body>
+</html>

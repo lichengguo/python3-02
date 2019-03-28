@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*选择器权重  id选择器:100  class选择器/属性选择器:10  标签选择器:1 */
+        /* 直接在标签中写 style 的权重最大，比id选择器还要大 */
+        /*优先级：权重相加，大的优先*/
+        /*如果权重相等，那么谁在后面听谁的*/
+        #i1{
+            background-color:red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- 直接在标签中写 style 的权重最大，比id选择器还要大 -->
+    <div id="i1"  style="background-color:blue;">10000000</div>
+
+</body>
+</html>

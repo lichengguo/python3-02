@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        /*  行内式：1000   id ：100   class 10   标签 1*/
+
+         p{
+            color: green;
+        }
+
+         #i1{
+           color: goldenrod;
+        }
+
+        .c1{
+            color: red;
+        }
+
+
+
+        div.c3{
+            color: green;
+        }
+
+        .c3{
+            color: red;
+        }
+
+        .c1 .c3{
+            color: rebeccapurple;
+        }
+        .c1 .c2 .c3{
+            color: darkcyan;
+        }
+
+        .c2 .c3{
+            color: lightblue;
+        }
+
+        #i2 {
+            color: darkblue;
+        }
+
+        .c3{
+            color: greenyellow!important;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+<p class="c1" id="i1">123</p>
+
+<div class="c1">
+    <div class="c2">
+        <div class="c3" id="i2" style="color: deeppink">666</div>
+        <div class="c4">
+             <div class="c4">
+                  <div class="c4">
+                       <div class="c4">
+                            <div class="c4">
+                                 <div class="c4">
+                                      <div class="c4"></div>
+                                 </div>
+                            </div>
+                       </div>
+                  </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

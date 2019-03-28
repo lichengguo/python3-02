@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* 多元素选择器*/
+        #i1,#i2,.c1{
+            background-color: red;
+        }
+
+        /*后代元素选择器*/
+        .c2 .c3{
+            background-color: blue;
+        }
+
+        /*且选择器*/
+        p.c4{
+            background-color: green;
+        }
+
+        /*子代选择器*/
+        .c5 > .c6{
+            background-color: yellow;
+        }
+
+        /*毗邻元素选择器 只匹配挨着C7的C8标签 只往下找*/
+        .c7 + .c8{
+            background-color: red;
+        }
+
+        /*普通兄弟选择器 只往下找*/
+        .c9 ~ .c10{
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--多元素选择器-->
+<p id="i1">alex</p>
+<p id="i2">egon</p>
+<div class="c1">yuan</div>
+<hr>
+
+<!--后代选择器-->
+<div class="c2">
+    <p class="c3">alex is dsb!</p>
+    <div>
+        <p class="c3">alex</p>
+    </div>
+</div>
+<div class="c3">egon</div>
+<hr>
+
+<!--且选择器-->
+<span class="c4">123</span>
+<p class="c4">456</p>
+<hr>
+
+<!--子选择器-->
+<div class="c5">
+    <div class="c6">alex 子代</div>
+    <div>
+        <div class="c6"> alex 孙代</div>
+    </div>
+</div>
+<hr>
+
+<!--毗邻选择器-->
+<div class="c8">c88888</div>
+<div class="c7">c77777</div>
+<div class="c8">c88888</div>
+<div class="c8">c88888</div>
+<div class="c8">c88888</div>
+<div class="c8">c88888</div>
+<hr>
+
+<!--普通兄弟选择器-->
+<div class="c10">1010101010</div>
+<div class="c9">9999</div>
+<div class="c10">1010101010</div>
+<div class="c10">1010101010</div>
+<div class="c10">1010101010</div>
+<div class="c10">1010101010</div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*属性选择器*/
+
+        /*固有属性选择器*/
+        [type='text']{
+            border: 1px solid blue;
+        }
+
+        /*自定义属性选择器*/
+        [name='xxx']{
+            background-color: red;
+        }
+
+        div[name=xxx]{
+            background-color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!--固有属性选择器-->
+    <div>
+        <input type="text">
+    </div>
+    <hr>
+
+    <!--自定义属性选择器-->
+    <p name="xxx">11111111</p>
+    <p name="bbb">22222222</p>
+
+    <!--组合选择器之且选择器-->
+    <div name="xxx">33333333</div>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+       #i1,#i2,.c1{
+           color: green;
+       }
+
+        /*后代选择器*/
+      /*.c2 .c3{*/
+          /*color: goldenrod;*/
+      /*}*/
+
+
+      /*子代选择器*/
+        .c2 > .c3{
+          color: goldenrod;
+      }
+
+      /*且选择器*/
+       p.c4{
+           color: darkmagenta;
+       }
+
+        /*span.c4 ~ p{*/
+            /*background-color: red;*/
+        /*}*/
+
+        /*属性选择器*/
+        [type='text']{
+            border: 1px solid green;
+        }
+
+
+        div[egon='666']{
+            background-color: darkmagenta;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<p id="i1">alex</p>
+<p id="i2">egon</p>
+<div class="c1">c1</div>
+<hr>
+
+<div class="c2">
+    <p class="c3">alex is dsb!</p>
+    <a href="">click</a>
+    <div>
+        <p class="c3">ALEX</p>
+    </div>
+</div>
+
+<div class="c3">egon...</div>
+<hr>
+<p class="c4">345</p>
+<span class="c4">123</span>
+<p class="c4">345</p>
+<p class="c4">345</p>
+<p class="c4">345</p>
+<p class="c4">345</p>
+<hr>
+
+<input type="text">
+<input type="text" alex="xxx">
+
+
+<p egon="666">123</p>
+<div egon="666">123</div>
+
+</body>
+</html>
