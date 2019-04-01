@@ -13,113 +13,121 @@
 </head>
 <body>
     <table border="1" bordercolor="blue">
-        <!--标题-->
-        <caption>课程表</caption>
-        <!--表头1-->
-        <tr>
-            <th>项目</th>
-            <!--横跨5列-->
-            <th colspan="5">上课</th>
-            <!--横跨2列-->
-            <th colspan="2">休息</th>
-        </tr>
-        <!--表头2-->
-        <tr>
-            <th>星期</th>
-            <th>星期一</th>
-            <th>星期二</th>
-            <th>星期三</th>
-            <th>星期四</th>
-            <th>星期五</th>
-            <th>星期六</th>
-            <th>星期日</th>
-        </tr>
-        <!--表格数据-->
-        <tr>
-            <!--竖跨4行-->
-            <td rowspan="4">上午</td>
-            <td>语文</td>
-            <td>数学</td>
-            <td>英语</td>
-            <td>英语</td>
-            <td>物理</td>
-            <td>计算机</td>
-            <!--竖跨4行-->
-            <td rowspan="4"><div class="c2">休息</div></td>
-        </tr>
-        <tr>
-            <td>语文</td>
-            <td>数学</td>
-            <td>英语</td>
-            <td>英语</td>
-            <td>物理</td>
-            <td>计算机</td>
-        </tr>
-        <tr>
-            <td>语文</td>
-            <td>数学</td>
-            <td>英语</td>
-            <td>英语</td>
-            <td>物理</td>
-            <td>计算机</td>
-        </tr>
-        <tr>
-            <td>语文</td>
-            <td>数学</td>
-            <td>英语</td>
-            <td>英语</td>
-            <td>物理</td>
-            <td>计算机</td>
-        </tr>
-        <tr>
-            <td rowspan="2">下午</td>
-            <td>语文</td>
-            <td>数学</td>
-            <td>英语</td>
-            <td>英语</td>
-            <td>物理</td>
-            <td>计算机</td>
-            <td rowspan="2"><div class="c2">休息</div></td>
-        </tr>
-        <tr>
-            <td>语文</td>
-            <td>数学</td>
-            <td>英语</td>
-            <td>英语</td>
-            <td>物理</td>
-            <td>计算机</td>
-        </tr>
+        <thead>
+            <!--标题-->
+            <caption>课程表</caption>
+            <!--表头1-->
+            <tr>
+                <th>项目</th>
+                <!--横跨5列-->
+                <th colspan="5">上课</th>
+                <!--横跨2列-->
+                <th colspan="2">休息</th>
+            </tr>
+            <!--表头2-->
+            <tr>
+                <th>星期</th>
+                <th>星期一</th>
+                <th>星期二</th>
+                <th>星期三</th>
+                <th>星期四</th>
+                <th>星期五</th>
+                <th>星期六</th>
+                <th>星期日</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--表格数据-->
+            <tr>
+                <!--竖跨4行-->
+                <td rowspan="4">上午</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>计算机</td>
+                <!--竖跨4行-->
+                <td rowspan="4"><div class="c2">休息</div></td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>计算机</td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>计算机</td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>计算机</td>
+            </tr>
+            <tr>
+                <td rowspan="2">下午</td>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>计算机</td>
+                <td rowspan="2"><div class="c2">休息</div></td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>数学</td>
+                <td>英语</td>
+                <td>英语</td>
+                <td>物理</td>
+                <td>计算机</td>
+            </tr>
+        </tbody>
     </table>
     <hr>
 
-    <div>
-        <table border="1" bordercolor="blue" cellspacing="0">
-            <tr>
-                <th colspan="3">星期一菜谱</th>
-            </tr>
-            <tr>
-                <td rowspan="2">素菜</td>
-                <td>清炒茄子</td>
-                <td>花椒扁豆</td>
-            </tr>
-            <tr>
-                <td>小葱豆腐</td>
-                <td>炒白菜</td>
-            </tr>
-            <tr>
-                <td rowspan="2">荤菜</td>
-                <td>油焖大虾</td>
-                <td>海参鱼翅</td>
-            </tr>
-            <tr>
-                <td>
-                    红烧肉
-                    <img src="10.png">
-                </td>
-                <td>烤全羊</td>
-            </tr>
+
+    <table border="1" bordercolor="blue" cellspacing="0">
+            <thead>
+                <tr>
+                    <th colspan="3">星期一菜谱</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">素菜</td>
+                    <td>清炒茄子</td>
+                    <td>花椒扁豆</td>
+                </tr>
+                <tr>
+                    <td>小葱豆腐</td>
+                    <td>炒白菜</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">荤菜</td>
+                    <td>油焖大虾</td>
+                    <td>海参鱼翅</td>
+                </tr>
+                <tr>
+                    <td>
+                        红烧肉
+                        <img src="10.png">
+                    </td>
+                    <td>烤全羊</td>
+                </tr>
+            </tbody>
         </table>
-    </div>
+
 
 </body>
 </html>
