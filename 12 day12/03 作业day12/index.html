@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .outer-pg {
+            position: relative;
+            width: 600px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: 1px solid red;
+        }
+
+        .caidan-pg {
+            height: 40px;
+            width: 100%;
+            background-color: #7A77C8;
+        }
+
+        .caidan-content {
+            float: left;
+            line-height: 40px;
+            font-size: 20px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .caidan-content:hover {
+            background-color: #336699;
+        }
+
+        .content {
+            position: absolute;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="outer-pg">
+    <!--菜单-->
+    <div class="caidan-pg">
+        <div class="caidan-content" id="i1">展示内容1</div>
+        <div class="caidan-content" id="i2">展示内容2</div>
+        <div class="caidan-content" id="i3">展示内容3</div>
+    </div>
+
+    <!--内容-->
+    <div class="content-pg">
+        <div class="content" id="content1">内容1..........</div>
+        <div class="content hide" id="content2">内容2...</div>
+        <div class="content hide" id="content3">内容3...</div>
+    </div>
+</div>
+
+<script>
+    var e1 = document.getElementById('i1');
+    var e2 = document.getElementById('i2');
+    var e3 = document.getElementById('i3');
+    var con1 = document.getElementById('content1');
+    var con2 = document.getElementById('content2');
+    var con3 = document.getElementById('content3');
+    var con_eles = document.getElementsByClassName('content');
+
+    e1.onclick = function () {
+        for (var i = 0; i < con_eles.length; i++) {
+            con_eles[i].classList.add('hide')
+        }
+        con1.classList.remove('hide');
+    };
+
+    e2.onclick = function () {
+        for (var i = 0; i < con_eles.length; i++) {
+            con_eles[i].classList.add('hide')
+        }
+        con2.classList.remove('hide');
+    };
+
+    e3.onclick = function () {
+        for (var i = 0; i < con_eles.length; i++) {
+            con_eles[i].classList.add('hide')
+        }
+        con3.classList.remove('hide');
+    }
+
+</script>
+
+</body>
+</html>
