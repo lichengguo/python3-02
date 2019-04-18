@@ -1,0 +1,58 @@
+/*清除浏览器自带的margin*/
+body {
+    margin: 0;
+}
+
+/*轮播图的主体框架*/
+.lunbotu {
+    width: 590px;
+    height: 470px;
+    /*border: red solid 1px;*/
+    margin: 100px auto;
+    position: relative;
+}
+
+/*去除ul标签下li标签自带的点*/
+.imgs {
+    list-style: none;
+}
+
+/*轮播图片，绝对定位到主体框架里面，全部重叠在一起*/
+.imgs li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*左右的按钮*/
+.anniu .anniu1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+/*左右的按钮*/
+.anniu .anniu2 {
+    position: absolute;
+    top: 200px;
+    left: 568px;
+}
+
+/*空心圆按钮的div框架*/
+.base_yuandian {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+/*各个空心圆*/
+.kongxinyuan {
+    margin: 4px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    float: left;
+}

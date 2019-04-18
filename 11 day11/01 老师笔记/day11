@@ -1,0 +1,165 @@
+day11
+
+
+上节回顾
+
+1 CS/BS
+  
+2 html标签
+  head:   title   meta
+  body:
+           块级标签（block）：h1-h6  p   hr  div  table  li ul  ol form
+               特点： 
+                     1 独占一行
+                     2 css可以设置长宽					 
+  					
+           内联标签(inline)：b/strong  i  a  img input select	 span	
+		        特点： 
+                     1 之战文本部分
+                     2 css不可以设置长宽		
+					 
+3 
+    <img src='' width=200 height=300 title='' alt=''>
+	<a href=''> 
+	<ul>
+	    <li>123</li>
+	    <li>123</li>
+	    <li>123</li>
+	</ul>
+	<table>
+	     <thead>
+		      <tr>
+			      <td>姓名</td>
+			      <td>性别</td>
+			      <td>年龄</td>
+			  </tr>
+		 </thead>
+		 <tbody>
+		       <tr>
+			      <td>123</td>
+			      <td>123</td>
+			      <td>123</td>
+			      
+			  </tr>
+			  <tr>
+			      <td>123</td>
+			      <td>123</td>
+			      <td>123</td>
+			     
+			  </tr>
+			  <tr>
+			      <td>123</td>
+			      <td>123</td>
+			      <td>123</td>
+			     
+			  </tr>
+		 </tbody>
+	</table>
+	
+	
+	    <form action="http://127.0.0.1:9000" method="post">
+			<p>姓名：<input type="text" name="user" placeholder="请输入用户名"></p>
+			<p>
+				<label for="user">姓名:</label>
+				<input type="text" name="user" placeholder="请输入用户名" id="user">
+			</p>
+			<p>密码：<input type="password" name="pwd"></p>
+
+			<p>爱好：篮球<input checked type="checkbox" name="hobby" value="lanqiu">
+					 足球<input type="checkbox" name="hobby" value="zuqiu">
+					 双色球<input type="checkbox" name="hobby" value="shuangseqiu">
+			</p>
+			 <p>性别： 男<input type="radio" name="gender" value="male">
+					   女<input type="radio" name="gender" value="female">
+
+			 </p>
+			籍贯
+			<select name="pro">
+				<option value="hebei">河北省</option>
+				<option value="hubei">湖北省</option>
+				<option selected value="beijing">北京市</option>
+			</select>
+
+			<p>
+				<input type="hidden" name="token" value="123asd234dsfsdfdf">
+			</p>
+			
+			<p>个人简介<br>
+				<textarea name="gerenjianjie" cols="60" rows="30" maxlength="5" required></textarea>
+			</p>
+
+			<p><input type="reset"></p>
+			<p><input type="button" value="按钮" onclick="alert(123)"></p>
+			<p><input type="submit"></p>
+		</form>
+   
+4 id 属性：标签身份证属性   
+   
+5 http协议：
+    请求协议格式：
+         请求首行
+         请求头
+         请求头
+         请求头
+         空行
+         请求体（post请求才有）	
+
+    响应协议格式：
+         响应首行
+         响应头		 
+         响应头		 
+         响应头		 
+         响应头		
+         空行
+         响应体		 
+   
+今日内容(CSS):
+
+css
+js
+jquery
+
+语法：  (1) 查找标签  (2) 控制标签
+
+
+引入方式：
+    1 
+
+(1) 查找标签
+    基本选择器
+     
+
+https://www.cnblogs.com/yuanchenqi/articles/6870763.html
+
+(2) 控制标签
+    文本控制
+	    line-height 行高
+		vertical-align 垂直设置,应用在img标签或者图标标签
+
+	背景属性
+
+    dispaly:inline-block 可设置长宽，不独占一行
+	
+
+
+布局：如何将多个可设置长宽的标签在一行显示
+解决方案： 1 dispaly:inline-block
+           2  float
+
+
+浮动元素漂浮依据：
+      假如某个div元素A是浮动的，
+	      情况1：如果A元素上一个元素也是浮动的，那么A元素会跟随在上一个元素的后边(如果一行放不下这两个元素，那么A元素会被挤到下一行)；
+		  情况2：如果A元素上一个元素是标准流中的元素，那么A的相对垂直位置不会改变，也就是说A的顶部总是和上一个元素的底部对齐。此外，浮动的框之后的block元素元素会认为这个框不存在，但其中的文本依然会为这个元素让出位置。 浮动的框之后的inline元素，会为这个框空出位置，然后按顺序排列。
+定位：
+    相对定位：不脱离文档流，以自己原位置为参照物
+	绝对定位：完全脱离文档流，以已定位了的父级标签为参照物
+	
+示例：absolute+relative的定位方式
+
+
+
+
+作业1： 轮播图案例
+作业2:
+   

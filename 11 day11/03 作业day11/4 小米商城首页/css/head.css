@@ -1,0 +1,68 @@
+/*头部*/
+.head-base-pg {
+    height: 100px;
+    background-color: white;
+}
+
+.head-base-pg .head-content-pg {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/*头部左侧*/
+.head-base-pg .head-left-pg {
+    float: left;
+}
+
+.head-base-pg .head-left-pg img {
+    margin-top: 22px;
+}
+
+/*头部中间*/
+.head-base-pg .head-center-pg {
+    float: left;
+    width: 650px;
+    height: 88px;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 12px 0 0 150px;
+}
+
+.head-base-pg .head-center-pg .head-center-content {
+    float: left;
+}
+
+.head-base-pg .head-center-content a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    line-height: 72px;
+    display: block;
+    padding-right: 23px;
+    float: left;
+}
+
+/*头部右侧*/
+.head-base-pg .head-right-pg {
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+
+.head-base-pg .head-right-pg .search {
+    width: 237px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid red;
+    font-size: 14px;
+}
+
+.head-base-pg .head-right-pg .fangdajing {
+    float: right;
+    border: 1px red solid;
+    border-left: none;
+    height: 50px;
+    width: 56px;
+    text-align: center;
+    line-height: 62px;
+}

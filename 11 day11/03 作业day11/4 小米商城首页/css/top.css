@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial,
+    "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
+}
+
+/*顶部*/
+.top-base-pg {
+    background-color: #333;
+    height: 40px;
+    font-size: 12px;
+}
+
+.top-base-pg .top-content-pg {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/*顶部左侧*/
+.top-base-pg .top-left-pg {
+    float: left;
+}
+
+.top-base-pg a {
+    text-decoration: none;
+    color: #b0b0b0;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.top-base-pg .sep {
+    margin: 0.5em;
+    color: #424242;
+}
+
+/*顶部右侧*/
+.top-base-pg .top-right-pg {
+    float: right;
+}
+
+.top-base-pg .top-right-pg a img {
+    vertical-align: -5px;
+}
+
+.top-base-pg .top-right-pg a {
+    padding-left: 20px;
+}

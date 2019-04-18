@@ -1,0 +1,115 @@
+/*内容*/
+.content-base-pg {
+    position: relative;
+    width: 1226px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/*轮播图*/
+.content-base-pg .content-content-pg img {
+    position: absolute;
+    width: 1226px;
+    height: 460px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/*下一张图片按钮*/
+.content-base-pg .xiayizhang .zuo {
+    position: absolute;
+    left: 234px;
+    top: 198px;
+}
+
+.content-base-pg .xiayizhang .you {
+    position: absolute;
+    right: 0;
+    top: 198px;
+}
+
+/*圆点按钮*/
+.content-base-pg .yuandian-pg {
+    position: absolute;
+    float: right;
+    width: 400px;
+    height: 18px;
+    right: 50px;
+    bottom: 30px;
+}
+
+.content-base-pg .yuandian-pg .yuandian {
+    margin: 4px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    float: right;
+}
+
+/*左侧菜单*/
+.content-base-pg .caidan-anniu {
+    height: 460px;
+    width: 234px;
+    background-color: #333;
+    z-index: 20;
+    color: white;
+    text-align: center;
+}
+
+.content-base-pg .caidan-anniu .anniu {
+    height: 45px;
+    width: 234px;
+    line-height: 45px;
+}
+
+/*中部内容*/
+.content-base-pg .center-content-pg {
+    position: absolute;
+    width: 1226px;
+    height: 50px;
+    /*border: solid 1px red;*/
+    margin-top: 20px;
+}
+
+.content-base-pg .center-content-pg .content-pg .list-pg {
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+}
+
+.content-base-pg .center-content-pg .content-pg .list-pg img {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 0;
+}
+
+.content-base-pg .center-content-pg .content-pg img {
+    float: right;
+    width: 316px;
+    height: 170px;
+    padding-left: 14px;
+}
+
+/*底部内容*/
+.content-base-pg .bottom-content-pg {
+    position: absolute;
+    margin-top: 206px;
+}
+
+.content-base-pg .bottom-content-pg img {
+    width: 1226px;
+    height: 116px;
+}
+
+/*侧边悬浮*/
+.xuanfu-pg img {
+    position: fixed;
+    right: 0;
+    bottom: 70px;
+    margin-top: 20px;
+}

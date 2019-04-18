@@ -1,0 +1,133 @@
+/*清除浏览器自带margin*/
+body {
+    margin: 0;
+}
+
+/*最基本主体框架*/
+.base-pg{
+    width: 1200px;
+    height: 750px;
+    margin: 50px auto;
+}
+
+/*头部框架*/
+.head-pg {
+    width: 100%;
+}
+
+/*美乐乐LOG位置调整*/
+.head-pg img{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+/*内容框架*/
+.content-pg {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    border: 1px gray solid;
+    position: relative;
+}
+
+/*发洋财图片*/
+.fayangcai {
+    float: left;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+/*登录框*/
+.login {
+    float: right;
+    padding-top: 80px;
+    padding-right: 200px;
+}
+
+/*用户输入框*/
+.user-input {
+    margin-bottom: 30px;
+}
+
+/*各个用户输入框*/
+.user-input div{
+    height: 30px;
+    padding-top: 30px;
+    position: relative;
+    }
+
+/*input框样式*/
+.user-input div input {
+    line-height: 18px;
+    height: 18px;
+    border: 1px gray solid;
+    padding: 10px 50px 10px 0px;
+    width: 254px;
+    float: none;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+}
+
+/*登录输入框后面的小图标样式*/
+.user-input div img {
+    position: absolute;
+    top: 31px;
+    right: 1px;
+}
+
+/*登录框架*/
+.anniu-login {
+    margin-top: 30px;
+    width: 302px;
+    margin-left: 70px;
+}
+
+/*登录按钮*/
+.btn {
+    border: 1px solid #e85356;
+    display: block;
+    width: 315px;
+    background: #e4393c;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+}
+
+/*自动登录 忘记密码*/
+.auto-login {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+/*免费注册框架*/
+.regedit {
+    clear: both;
+    height: 38px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+/*免费注册字体*/
+.mianfeizhuce {
+    background-color: rgb(228,57,60);
+    text-align: center;
+    line-height: 38px;
+    width: 118px;
+    float: right;
+    margin-right: 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*底部div框架*/
+.bottom-pg {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+}
