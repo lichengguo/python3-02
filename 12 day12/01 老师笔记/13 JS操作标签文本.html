@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+       function foo(self) {
+           console.log(self);
+           //  获取dom对象的文本值
+           console.log(self.innerHTML);
+           console.log(self.innerText);
+           //  给dom对象的文本值重新赋值
+           // self.innerHTML="Yuan"
+           // self.innerText="Yuan"
+           // self.innerText="<a href='#'>Yuan</a>"
+           self.innerHTML="<a href='#'>Yuan</a>"
+
+
+
+       }
+    </script>
+
+
+</head>
+<body>
+
+<div class="c1" onclick="foo(this)">ALEX</div>
+<div class="c1" onclick="foo(this)">Egon</div>
+<div class="c1" onclick="foo(this)"><a href="#">Alvin</a></div>
+
+</body>
+</html>

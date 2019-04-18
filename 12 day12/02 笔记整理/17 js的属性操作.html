@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="i1" oldboy="35" alnk="123"></div>
+<button id="change">change</button>
+
+<script>
+    var ele = document.getElementById('i1');
+    var change = document.getElementById('change');
+
+    // 属性，自定义属性
+
+    change.onclick = function () {
+        ele.setAttribute("oldboy",55);  // 修改
+        ele.setAttribute('xxx',999);  // 增加
+        ele.removeAttribute('alnk');  // 删除
+    }
+
+</script>
+</body>
+</html>

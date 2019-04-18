@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 字符串对象
+
+        // 创建字符串的方式
+        let s1 = ' Alex ';
+        // let s2 = new String('egon');
+        console.log(s1);
+        // console.log(s2);
+
+        // 获取字符串的长度
+        console.log(s1.length);
+
+        // 转为小写
+        console.log(s1.toLowerCase());
+
+        // 转为大写
+        console.log(s1.toUpperCase());
+
+        // 去除字符串两边空格
+        console.log(s1.trim());
+
+        // 获取指定位置字符 其中2为要获取的字符索引
+        console.log(s1.charAt(2));
+
+        // 查询字符串位置，返回的是索引 从索引1的地方开始查找
+        console.log(s1.indexOf('e',1));
+        //
+        console.log(s1.lastIndexOf('e'));
+
+        // match 返回匹配字符串的数组，如果没有匹配则返回null
+        // search 返回匹配字符串的首字符位置索引
+        let str1="welcome to the world of JS!";
+        let str2=str1.match("world");
+        let str3=str1.search("world");
+        console.log(str2);  // Array [ "world" ]
+        console.log(str2[0]);  // 结果为"world"
+        console.log(str3);     // 结果为15
+
+        // x.substr(start, length) －－－－start表示开始位置，length表示截取长度
+        let str4='abcdefgh';
+        let str5=str4.substr(2,4);
+        console.log(str5);  // cdef
+        // x.substring(start, end) －－－－end是结束位置
+        console.log(str4.substring(2,4));  // cd
+        // x.slice(start, end)     －－－－切片操作字符串
+        console.log(str4.slice(1,3));
+        console.log(str4.slice(1,));
+        console.log(str4.slice(1,-1));
+
+        // 字符串替换
+        let str6 = 'alex';
+        console.log(str6.replace('a','A'));
+
+        // 分割字符串
+        let str7 = 'hello world';
+        console.log(str7.split(' ')); // Array [ "hello", "world" ]
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

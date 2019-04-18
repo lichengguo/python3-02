@@ -1,0 +1,86 @@
+
+
+html+css
+
+day12 ---- javascript
+
+JS:
+     (1) ECMASCRIPT
+     (2) BOM  --- browser  object model  
+	 (3) DOM  --- document object model   (******)
+
+(1) ECMASCRIPT   
+    变量
+	    var x;
+		x=10;
+		
+	数据类型
+         	
+	运算符	
+	     
+	流程控制语句
+	   
+	
+	基于对象
+	   
+	   
+	   
+	   函数对象
+
+
+(2) BOM --- browser  object model 
+
+(3) DOM对象 --- document object model
+    
+	DOM对象
+	
+	DOM对象==DOM节点:
+	          (1) document(文档对象)
+			  (2) element (标签对象)
+	
+	
+    一 查找标签
+        1、直接查找
+		    document.getElementById(“idname”)  # dom对象
+			document.getElementsByTagName(“tagname”) # dom对象集合：  [dom对象,dom对象2,...]
+			document.getElementsByName(“name”)
+			document.getElementsByClassName(“name”)
+				
+		2、导航查找
+		    parentElement           // 父节点标签元素  # dom对象
+			children                // 所有子标签      # dom对象集合  
+			firstElementChild       // 第一个子标签元素   # dom对象
+			lastElementChild        // 最后一个子标签元素 # dom对象
+			nextElementSibling     // 下一个兄弟标签元素  # dom对象
+			previousElementSibling  // 上一个兄弟标签元素  # dom对象
+		
+	二 操作标签
+        (1) 操作标签的文本
+		(2) 操作标签的value
+		(3) 操作标签的属性
+		(4) 操作标签的class属性(******)  
+		(5) 操作标签的节点增删改查 (******)
+
+
+	
+
+    
+
+
+
+
+
+
+
+
+
+
+jquery+bootstrap
+
+vue
+
+
+
+
+
+

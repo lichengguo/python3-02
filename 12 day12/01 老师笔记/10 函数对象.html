@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+     /*
+          // 函数
+
+        function 函数名(参数1,...) {
+            函数体
+        }
+
+        */
+
+     function foo() {
+         console.log("foo")
+     }
+
+     //  函数调用
+
+     foo();
+
+     function bar(x,y,z) {
+         console.log(x+y);
+         console.log(z);   //  undefined
+         console.log(arguments) // [1,2,4,5,6]
+     }
+
+     bar(1,2);
+     bar(1,2,4,5,6);
+
+
+
+     add(1,4,5,6);
+     function add() {
+         ret=0;
+         for(var i=0;i<arguments.length;i++){
+            ret+=arguments[i];
+
+        }
+
+         console.log(ret);
+     };
+
+     //  匿名函数
+
+     (function(x,y){
+        console.log(x+y)
+    })(4,5)
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

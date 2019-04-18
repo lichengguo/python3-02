@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 数组
+        let arr=[123,345,567,'hello'];
+        console.log(arr);
+        console.log(arr[1]);
+
+        // join方法
+        console.log(arr.join('---'));  // 123---345---567---hello
+
+        // concat 和python的extend有点像
+        let a=[1,2,3];
+        let b=a.concat(4,5);
+        console.log(b);  // Array(5) [ 1, 2, 3, 4, 5 ]
+
+        // 数组排序 reverse sort
+        let a1=[32,12,111,333];
+        // reverse 翻转
+        // a1.reverse();
+        // console.log(a1);  // Array(4) [ 333, 111, 12, 32 ]
+
+        // sort 排序:不是按照数字大小排序的，按照首字母排序的，先比较第一个字母，然后在比较第二个
+        // a1.sort();
+        // console.log(a1);  // Array(4) [ 111, 12, 32, 333 ]
+        // 扩展，按照数字大小排序
+        // function intSort(a,b) {
+        //     if (a>b) {
+        //         return 100;  // 为正数就可以
+        //     } else if (a<b) {
+        //         return -1;
+        //     } else {
+        //         return 0;
+        //     }
+        // }
+        function intSort(a,b) {
+            return a-b;
+        }
+        console.log(a1.sort(intSort));  // Array(4) [ 12, 32, 111, 333 ]
+
+        // 数组切片操作
+        let arr1=['a','b','c','d','e','f','g','h'];
+        let arr2=arr1.slice(2,4);
+        let arr3=arr1.slice(4);
+        let arr4=arr1.slice(2,-1);
+        console.log(arr2.toString());  //结果为"c,d"
+        console.log(arr3.toString());  //结果为"e,f,g,h"
+        console.log(arr4.toString());  //结果为"c,d,e,f,g"
+
+        // 删除子数组
+        let a4 = [1,2,3,4,5,6,7,8];
+        a4.splice(1,2);  // 从索引1开始，删除2个元素
+        console.log(a4);  // Array(6) [ 1, 4, 5, 6, 7, 8 ]
+        a4.splice(1,1);  // 从索引1开始，删除1个元素
+        console.log(a4); // Array(5) [ 1, 5, 6, 7, 8 ]
+        a4.splice(1,0,2,3);  // 在索引为1的位置 插入2个元素2和3，0表示插入新元素
+        console.log(a4);  // Array(7) [ 1, 2, 3, 5, 6, 7, 8 ]
+
+        // 数组的push和pop
+        // push是将value值添加到数组的结尾
+        let arr9 = [1,2,3];
+        arr9.push(4,5);
+        console.log(arr9);  // Array(5) [ 1, 2, 3, 4, 5 ]
+        arr9.push([6,7]);
+        console.log(arr9); // Array(6) [ 1, 2, 3, 4, 5, (2) […] ]
+        // pop是将数组x的最后一个元素删除
+        arr9.pop();  // 注意删除了最后添加的[6,7]这个数组
+        console.log(arr9);  // Array(5) [ 1, 2, 3, 4, 5 ]
+        arr9.pop();
+        console.log(arr9);  // Array(4) [ 1, 2, 3, 4 ]
+
+        // shift 和 unshift  对索引为0的地方进行操作
+        // unshift 添加
+        let ar=[1,2,3];
+        ar.unshift(4,5);
+        console.log(ar);  // Array(5) [ 4, 5, 1, 2, 3 ]
+        ar.unshift([8,9]);
+        console.log(ar); // Array(6) [ (2) […], 4, 5, 1, 2, 3 ]
+        // shift 删除
+        ar.shift();
+        console.log(ar);  // Array(5) [ 4, 5, 1, 2, 3 ]
+        ar.shift();
+        console.log(ar);  // Array(4) [ 5, 1, 2, 3 ]
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

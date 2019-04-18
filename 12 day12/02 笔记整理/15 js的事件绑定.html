@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" name="" id="i1">
+
+<div class="c1">alex</div>
+<div class="c1">egon</div>
+<div class="c1"><a href="#">tom</a></div>
+
+<!-- script写在这里的好处，可以加快网页打开的速度，先显示基本的文本 -->
+<script>
+    /*
+    事件绑定样式
+
+    dom对象.onclick=function () {}
+     */
+
+    // 举例1 绑定标签1
+    // 1 查找标签
+    i1 = document.getElementById('i1');
+    // 2 绑定标签
+    i1.onclick = function () {
+        alert(123);
+    };
+
+    // 举例2  绑定标签2
+    // 1 找到标签，是一个数组
+    let eles = document.getElementsByClassName('c1');
+    // 2 循环绑定标签
+    for (var i=0;i<eles.length;i++) {
+        eles[i].onclick = function () {
+            // this:dom对象，即事件触发的标签
+            // console.log(this);
+            // this.innerHTML='yuan';
+
+            // 坑点，这里的this不能用eles代替
+            // console.log(i);  // 3
+            // eles[i].innerHTML="yuan";  // 代码循环结束以后，i=3
+
+        }
+    }
+
+</script>
+</body>
+</html>

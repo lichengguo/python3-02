@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 运算符
+        /*
+            算术运算符：
+                +   -    *    /     %       ++     --
+
+            比较运算符：
+                >   >=   <    <=    !=    ==    ===   !==
+
+            逻辑运算符：
+               &&    ||    ！
+               and   or   not  -- 相当于python的and or not
+
+            赋值运算符：
+                =  +=   -=  *=   /=
+
+            字符串运算符：
+                +  连接，两边操作数有一个或两个是字符串就做连接运算
+        */
+
+        let i = 100;
+        // i+=1;  // i=i+1
+        // i++;  // 等价于 i=i+1
+        ++i;  // 等价与 i=i+1
+        console.log(i);  // 101
+
+        let i2=100;
+        y=++i2;  // i2自己先加1，然后赋值给y
+        console.log(i2);  //101
+        console.log(y);  // 101
+
+        let i3=100;
+        y=i3++;  // 先把i3 赋值给y，然后i3自己在加1
+        console.log(i3);  //101
+        console.log(y);  // 100
+
+        // 全等于 === 要类型和值都相等才返回true
+        console.log(123==='123');  // false
+
+        // 等于 ==
+        console.log(123=='123');  // true
+        console.log(1234=='123');  // false
+        // 类型转化 . JS在判断两个值相等的时候，如果不相等，会转化成字符串在比较一下，如果这时候相等，就返回true
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

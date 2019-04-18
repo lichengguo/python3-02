@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        /*
+        if (表达式){
+                   语句１;
+                   ......
+                   }
+         else{
+                   语句２;
+                   .....
+                   }
+         */
+
+
+
+        var score=89;
+        if (score > 90){
+            console.log("优秀")
+        }else{
+            console.log("一般")
+        }
+
+
+        if (score > 90){
+            console.log("优秀")
+        }else if(score > 60){
+            console.log("及格")
+        }else{
+            console.log("不及格")
+        }
+
+
+        var x=13;
+
+        switch (x) {
+            case 1:console.log("星期一");break;
+            case 2:console.log("星期二");break;
+            case 3:console.log("星期三");break;
+            case 4:console.log("星期四");break;
+            case 5:console.log("星期五");break;
+            case 6:console.log("星期六");break;
+            case 7:console.log("星期日");break;
+            default:console.log("非法输入");break;
+        };
+
+
+
+      // 循环语句：  迭代循环    条件循环
+      let count=0;
+      while (count<5){
+          console.log(count);
+          count++;
+      }
+
+      //  推荐使用
+      for(var i=0;i<10;i++){
+          // 语句体
+          console.log("OK");
+      }
+
+      var arr=["123",456,678];
+      for (var i in arr){
+          console.log(i,"ok");
+          console.log(arr[i]);
+      }
+
+
+
+
+
+
+
+
+      //
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

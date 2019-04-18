@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        //  基于BOM和DOM下的定时器案例
+        
+        
+        function foo() {
+            //  1 获取当前时间字符串
+            var now=new Date();
+            var now_str=now.toLocaleString();
+            console.log(now_str);
+
+            // 2 将时间字符串放入到input框中
+            let ele=document.getElementById("timer");
+            console.log(ele);
+            ele.value=now_str;
+
+        }
+
+        var ID;
+        function start() {
+            if(ID===undefined){
+                 foo();
+                 ID=setInterval(foo,1000)
+            }
+        }
+
+
+        function end() {
+            clearInterval(ID);
+            ID=undefined;
+        }
+    </script>
+
+
+</head>
+<body>
+
+
+<input id="timer" type="text"><button onclick="start()">start</button><button onclick="end()">end</button>
+
+</body>
+</html>

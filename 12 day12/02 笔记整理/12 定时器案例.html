@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 获取时间，填充数据函数
+        function foo() {
+            // 获取当前时间
+            let date = new Date();
+            let now_date = date.toLocaleString();
+            console.log(now_date);
+
+            // 把数据填充到input标签
+            let ele = document.getElementById('timer');
+            ele.value = now_date;
+        }
+
+
+        // 定时函数
+        let ID;
+        function start() {
+            if (ID===undefined) {
+                foo();  // 防止点击按钮要1s以后才会填充数据
+                ID = setInterval(foo,1000);
+            }
+        }
+
+
+        // 停止函数
+        function end() {
+            clearInterval(ID);
+            ID = undefined;  // 重置ID状态
+        }
+
+    </script>
+</head>
+<body>
+
+<input type="text" name="" id="timer"><button onclick="start()">start</button><button onclick="end()">end</button>
+
+</body>
+</html>

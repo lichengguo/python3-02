@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function foo(self) {
+            console.log(self);
+
+            // 获取dom对象的文本值
+            console.log(self.innerText);  // 纯文本  alvin
+            console.log(self.innerHTML);  // 包含了标签的文本，这个比较常用  <a href="#">alvin</a>
+
+            // 给dom对象的文本值重新赋值
+            // self.innerHTML="<a href='#'>yuan</a>";  // 会按照标签显示
+            self.innerText="<a href='#'>yuan</a>";  // 按照纯文本显示
+        }
+    </script>
+</head>
+<body>
+
+<!--注意这里的this关键词的意思是：点击哪个标签，就触发哪个标签的foo()-->
+<div class="c1" onclick="foo(this)">alex</div>
+<div class="c1" onclick="foo(this)">egon</div>
+<div class="c1" onclick="foo(this)"><a href="#">alvin</a></div>
+
+</body>
+</html>

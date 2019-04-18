@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+    </script>
+
+
+</head>
+<body>
+<input type="text" id="i1" value="alex">
+
+<textarea name="" id="i2" cols="30" rows="10"></textarea>
+
+
+<select name="" id="i3">
+    <option value="hebei">河北省</option>
+    <option value="henan">河南省</option>
+    <option value="hunan">湖南省</option>
+</select>
+
+<button id="change">change</button>
+
+<script>
+    var change=document.getElementById("change");
+    var ele1=document.getElementById("i1");
+    var ele2=document.getElementById("i2");
+    var ele3=document.getElementById("i3");
+
+    change.onclick=function () {
+        ele1.value="yuan";
+        console.log(ele1.value);
+        ele2.value="alex";
+        console.log(ele2.value);
+        ele3.value="hunan";
+        console.log(ele3.value);
+
+    }
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

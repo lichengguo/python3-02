@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // js的流程控制语句
+        /*
+            if (表达式){
+                       语句１;
+                       ......
+                       }
+             else{
+                       语句２;
+                       .....
+                       }
+         */
+
+
+        // 判断语句
+        // if ... else if ... else
+        let score = 99;
+        if (score > 90) {
+            console.log('优秀');
+        } else if (score > 80) {
+            console.log('良好');
+        } else {
+            console.log('一般');
+        }
+
+        // switch ... case ... break
+        let x = 'a';
+        switch (x) {
+            case 1:
+                console.log('星期1');
+                break;
+            case 2:
+                console.log('星期2');
+                break;
+            case 3:
+                console.log('星期3');
+                break;
+            case 4:
+                console.log('星期4');
+                break;
+            case 5:
+                console.log('星期5');
+                break;
+            case 6:
+                console.log('星期6');
+                break;
+            case 7:
+                console.log('星期7');
+                break;
+            default:
+                console.log('非法输入');
+                break;
+        }
+
+        // 循环语句 迭代循环 条件循环
+        // while
+        let n = 0;
+        while (n < 5) {
+            console.log(n);
+            n++;
+        }
+
+        // for 在js中，for循环也属于条件循环
+        for (let z=0;z<5;z++) {
+            console.log(z);
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

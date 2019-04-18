@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // bom 控制浏览器对象
+        // window对象弹框
+        // window.alert(123);
+        // window.alert('还有10分钟关机');
+        //
+        // let flag = window.confirm('你是否还继续游戏');
+        // console.log(flag);
+        //
+        // let str1 = window.prompt('请输入');
+        // console.log(str1);
+
+        // 弹窗跳转
+        // window.open('http://www.baidu.com','http://www.baidu.com','width=600,height=400,top=200,left=200');
+        // window.close()  // 关闭窗口
+
+
+        // 定时方法
+        function foo() {
+            console.log('123');
+        }
+        let ID = setInterval(foo,1000);  // 每隔1s执行一下foo函数,如果不停止，会一直执行
+
+        // 取消定时
+        clearInterval(ID);
+
+
+        // 隔多久执行一次，只执行一次
+        setTimeout(function () {
+            console.log('alex')
+        },2000)
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

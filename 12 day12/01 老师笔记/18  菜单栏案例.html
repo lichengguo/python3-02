@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .left,.right{
+            float: left;
+            height: 750px;
+        }
+
+        .left{
+            width: 20%;
+            background-color: lightblue;
+        }
+        .right{
+            width: 80%;
+            background-color: lightgray;
+        }
+
+        .item{
+            padding: 15px;
+        }
+
+        .item .title{
+            text-align: center;
+            background-color: goldenrod;
+        }
+
+        .hide{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+
+
+
+<div class="outer">
+    <div class="left">
+         <div class="item">
+             <div class="title">菜单一</div>
+             <div class="con">
+                 <p>111</p>
+                 <p>111</p>
+                 <p>111</p>
+             </div>
+         </div>
+         <div class="item">
+             <div class="title">菜单二</div>
+             <div class="con hide">
+                 <p>111</p>
+                 <p>111</p>
+                 <p>111</p>
+             </div>
+         </div>
+         <div class="item">
+             <div class="title">菜单三</div>
+             <div class="con hide">
+                 <p>111</p>
+                 <p>111</p>
+                 <p>111</p>
+             </div>
+         </div>
+    </div>
+    <div class="right">
+
+    </div>
+</div>
+
+
+
+
+<script>
+
+    let eles=document.getElementsByClassName("title");
+    let eles_con=document.getElementsByClassName("con");
+
+
+    for(var i=0;i<eles.length;i++){
+        eles[i].onclick=function () {
+            // this ： 点击标签
+            // for(var j=0;j<eles_con.length;j++){
+            //     eles_con[j].classList.add("hide")
+            // }
+            //  让点击标签的下一个兄弟标签显示
+            this.nextElementSibling.classList.remove("hide");
+
+            //  让其他item下的con标签隐藏
+
+           for(var j=0;j<eles.length;j++){
+                if(eles[j]!=this){
+                    eles[j].nextElementSibling.classList.add("hide")
+                }
+            }
+
+
+
+        }
+    }
+
+
+
+
+</script>
+</body>
+</html>

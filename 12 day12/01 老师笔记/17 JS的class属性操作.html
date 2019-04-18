@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .c1{
+            color: red;
+        }
+
+        .c2{
+            background-color: #336699;
+        }
+
+        .c3{
+            font-size: 45px;
+        }
+
+        .hide{
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<div class="c1">ALEX</div><button id="change">change</button>
+
+<script>
+    var change=document.getElementById("change");
+    var ele=document.getElementsByClassName("c1")[0];
+    change.onclick=function () {
+
+           // ele.classList.add("c1","c2","c3");
+           //
+           // ele.classList.remove("c2");
+           // ele.classList.remove("c2");
+
+
+        ele.classList.add("hide")
+
+
+    }
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

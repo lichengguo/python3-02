@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+    </script>
+
+
+</head>
+<body>
+<input type="text" id="i1">
+<div class="c1" style="color: red">ALEX</div>
+<div class="c1" >Egon</div>
+<div class="c1"><a href="#">Alvin</a></div>
+
+
+
+
+<script>
+    /*
+
+
+    dom对象.on事件=function () {
+
+    }
+
+    */
+
+    i1=document.getElementById("i1");
+    i1.onclick=function () {
+        alert(123)
+    };
+
+
+    let eles=document.getElementsByClassName("c1")
+    for(let i=0;i<eles.length;i++){
+        eles[i].onclick=function () {
+             //  this ：dom对象，即 事件触发标签
+            // console.log(this);
+            //  this.innerHTML="Yuan"
+             eles[i].innerHTML="yuan"
+
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        try {
+            // 这段代码从上往下运行，其中任何一个语句抛出异常该代码块就结束运行
+        }
+        catch (e) {
+            // 如果try代码块中抛出了异常，catch代码块就会被执行
+            // e 是一个局部变量，用来指向error对象或者其他抛出的异常
+        }
+        finally {
+            // 无所怎样，这块代码最后都会被执行
+        }
+         */
+
+        try {
+            console.log('a');
+            console.lo('b');
+            console.log('c');
+            console.log('d');
+        } catch (e) {
+            console.log(e);
+            console.log('eeee');
+        } finally {
+            console.log('end');
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

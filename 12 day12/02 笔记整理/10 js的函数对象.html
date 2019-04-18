@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 函数对象
+        /*
+        function 函数名(参数1,....) {
+            函数体
+        }
+        */
+        function foo() {
+            console.log('foo')
+        }
+        foo(); // 函数调用
+
+
+        //  参数不对齐,也不报错
+        function f1(x, y, z) {
+            console.log(x + y);
+            console.log(z); // undefined
+            console.log(arguments) // 所有传入的参数都会放到这个关键字里 Arguments { 0: 1, 1: 2, … }
+        }
+        f1(1, 2); // 参数不对齐，也不会报错
+
+
+        // arguments 应用 累加
+        function add() {
+            ret = 0;
+            for (let i = 0; i < arguments.length; i++) {
+                ret += arguments[i];
+            }
+            return ret;
+        }
+        ret = add(1,2,3,4);
+        console.log(ret);  // 10
+
+
+        // 匿名函数
+        (function(x,y) {
+           console.log(x+y);
+        })(4,5);  // 9
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

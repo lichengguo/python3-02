@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" id="i1" value="alex">
+
+<textarea name="" id="i2" cols="30" rows="10"></textarea>
+
+<select name="" id="i3">
+    <option value="hebei">河北省</option>
+    <option value="hunan">湖南省</option>
+    <option value="henan">河南省</option>
+</select>
+
+<button id="change">change</button>
+
+
+<script>
+    var ele1 = document.getElementById('i1');
+    var ele2 = document.getElementById('i2');
+    var ele3 = document.getElementById('i3');
+    var change = document.getElementById('change');
+
+    change.onclick = function () {
+        ele1.value="yuan";
+        ele2.value='alex';
+        ele3.value='hunan';
+
+        console.log(ele1.value);
+        console.log(ele2.value);
+        console.log(ele3.value);
+    }
+
+</script>
+</body>
+</html>

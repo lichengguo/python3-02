@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .caidan-pg,.content-pg {
+            height: 600px;
+            float: left;
+            padding: 15px;
+
+        }
+
+        .caidan-pg {
+            background-color: #7A77C8;
+
+            width: 25%;
+        }
+
+        .content-pg {
+            width: 70%;
+            background-color: #5f5750;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="outer-pg">
+    <!--菜单栏-->
+    <div class="caidan-pg">
+        <div class="items">
+            <div class="title">菜单1</div>
+            <div class="conn">
+                <p>111</p>
+                <p>111</p>
+                <p>111</p>
+            </div>
+        </div>
+        <div class="items">
+            <div class="title">菜单2</div>
+            <div class="conn hide">
+                <p>111</p>
+                <p>111</p>
+                <p>111</p>
+            </div>
+        </div>
+        <div class="items">
+            <div class="title">菜单3</div>
+            <div class="conn hide">
+                <p>111</p>
+                <p>111</p>
+                <p>111</p>
+            </div>
+        </div>
+    </div>
+
+    <!--内容区-->
+    <div class="content-pg"></div>
+
+
+    <script>
+        var eles = document.getElementsByClassName('title');
+        var conn_eles = document.getElementsByClassName('conn');
+
+        for (var i=0;i<eles.length;i++) {
+            eles[i].onclick = function () {
+                // 隐藏所有菜单里面的内容
+                for (var j=0;j<conn_eles.length;j++) {
+                    conn_eles[j].classList.add('hide');
+                }
+
+                // 删除隐藏
+                this.nextElementSibling.classList.remove('hide');
+            }
+        }
+    </script>
+</div>
+
+</body>
+</html>
