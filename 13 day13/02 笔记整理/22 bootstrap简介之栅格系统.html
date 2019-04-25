@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--bootstrap-->
+    <!--第一种引入方式：直接利用bootstrap的cdn引入-->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <!--第二种引入方式：下载文件到本地，然后引入-->
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+
+    <style>
+        .row div {
+            border: 1px solid red;
+        }
+    </style>
+
+</head>
+<body>
+<!--
+Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列
+详情看官网。
+不需要详细笔记，官网有详细的使用说明，直接查看官网就行了
+-->
+
+<!--栅格系统-->
+<div class="row">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">.col-md-1</div>
+  <div class="col-md-6">.col-md-1</div>
+</div>
+
+<!--响应式布局，屏幕缩小到一定的时候，比例变成1:3-->
+<div class="row">
+  <div class="col-md-6 col-sm-3">.col-md-xxx</div>
+  <div class="col-md-6 col-sm-9">.col-md-yyy</div>
+</div>
+
+<!--列偏移-->
+<div class="row">
+  <div class="col-md-3 col-md-offset-4">.col-md-xxx</div>
+</div>
+
+<!--嵌套列-->
+<div class="row">
+    <div class="col-md-6">.col-md-xxx</div>
+        <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-6">alex</div>
+            <div class="col-md-6">yuan</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

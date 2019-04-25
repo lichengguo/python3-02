@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p class="c1">666</p>
+
+<script src="jquery.js"></script>
+<script>
+    // 文本操作
+    // 1 取值操作
+    var s1 = $(".c1").html();
+    console.log(s1);
+
+    // 2 赋值操作
+    // $(".c1").html("<a href=''>alex</a>");  // 能够处理标签文本
+    $(".c1").text("<a href=''>alex</a>");  // 不能处理标签文本
+</script>
+</body>
+</html>

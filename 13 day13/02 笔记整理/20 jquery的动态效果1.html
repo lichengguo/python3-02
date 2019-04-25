@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>hello</p>
+<button id="i1">隐藏</button>
+<button id="i2">显示</button>
+<button id="i3">切换</button>
+
+<script src="jquery.js"></script>
+
+<script>
+    $("#i1").click(function () {
+        $("p").hide(1000)
+    });
+
+    $("#i2").click(function () {
+        $("p").show(1000)
+    });
+
+    $("#i3").click(function () {
+        $("p").toggle(1000)
+    });
+</script>
+
+</body>
+</html>

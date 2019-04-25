@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <script>
+        // 一般会把js写在文档末尾，那么非要卸载文档开头呢，可以采用此种方法
+        // 简写
+        $(function () {
+            $(".add").click(function () {
+                $("ul").append("<li>456</li>")
+            });
+            //  事件委派
+            $("ul").on("click","li",function () {
+            console.log(this)
+            })
+        });
+
+        // 正常写法
+        // $(document).ready(function () {
+        //     $(".add").click(function () {
+        //     $("ul").append("<li>456</li>")
+        //     });
+        //
+        //     //  事件委派
+        //     $("ul").on("click","li",function () {
+        //     console.log(this)
+        //     })
+        // });
+    </script>
+</head>
+
+<body>
+
+<ul>
+    <li>123</li>
+    <li>234</li>
+    <li>345</li>
+</ul>
+
+<button class="add">ADD</button>
+
+</body>
+</html>

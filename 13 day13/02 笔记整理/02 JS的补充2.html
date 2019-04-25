@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p id="i1">123</p>
+
+<script>
+    /*
+    2 操作标签
+        (1) 操作文本
+		    取值操作：
+			    # dom:   <p>123</p>
+			    dom:   <p><a>123</a></p>
+				dom.innerHTML : <a>123</a>
+				dom.innerText : 123
+	        赋值文本
+			    dom.innerHTML="yuan"  # <p>yuan</p>
+			    dom.innerText="yuan"  # <p>yuan</p>
+                dom.innerHTML="<span>111</span>"  #  <p><span>111</span></p>
+                dom.innerText="<span>111</span>"  #  <p>'<span>111</span>'</p>
+
+		(2) 操作value
+		    针对 input,select,textare标签:
+			  dom.value
+			  dom.value="123"
+
+	    (3) 操作属性
+		    dom=<span id="i1" class="c1 c2 c3">123</span>
+		    dom.setAttribute(name,value)
+			dom.getAttribute(属性名)
+            dom.removeAttribute(“属性名”);
+
+	    (4) class属性操作
+		    dom.classList.add("c4")
+		    dom.classList.remove("c1")
+
+        (5) css的样式操作
+		    dom.style.color="red"
+     */
+
+
+    // css的样式操作
+    var dom = document.getElementById('i1');
+    console.log(dom);
+    dom.onclick = function () {
+        this.style.color='red';
+    }
+
+</script>
+</body>
+</html>

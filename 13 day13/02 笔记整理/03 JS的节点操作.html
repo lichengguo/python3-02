@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>welcome to</h3>
+
+<div class="c1">
+    <p class="c3">123</p>
+</div>
+
+<div class="c2">
+    <img id="img" width="300" src="http://www.33lc.com/uploadfile/2014/0421/20140421065215143.jpg" alt="">
+</div>
+<hr>
+
+<button class="add">add</button>
+<button class="remove">remove</button>
+<button class="replace">replace</button>
+
+
+<script>
+    // 节点的增删改查
+    var add = document.getElementsByClassName('add')[0];
+    var parent = document.getElementsByClassName('c1')[0];
+
+    var remove = document.getElementsByClassName('remove')[0];
+    var parent2 = document.getElementsByClassName('c2')[0];
+
+    var replace = document.getElementsByClassName('replace')[0];
+    var p = document.getElementsByClassName('c3')[0];
+
+    // 添加节点
+    // add.onclick = function () {  // 鼠标单击事件
+    add.ondblclick = function () {  // 鼠标双击事件
+    // add.onmouseover = function () {  // 鼠标悬停触发事件
+        // 创建节点
+        var p = document.createElement("p");  // <p></p>
+        p.innerHTML = "234";  // <p>234</p>
+        // 添加节点，需要找到父亲然后再添加
+        parent.appendChild(p);
+    };
+
+    // 删除节点
+    remove.onclick = function () {
+        // 找到需要删除的节点
+        var img = document.getElementById('img');
+        // 删除节点，需要找到父节点然后在删除
+        parent2.removeChild(img);
+    };
+
+    // 替换节点
+    replace.onclick = function () {
+        // 创建节点
+        var img = document.createElement('img'); // <img>
+        img.src = 'http://www.33lc.com/uploadfile/2014/0421/20140421065215190.jpg';
+        // 替换节点 需要找到父节点再替换
+        parent.replaceChild(img,p);
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <li>123</li>
+    <li>234</li>
+    <li>345</li>
+</ul>
+
+<button class="add">add</button>
+
+<script src="jquery.js"></script>
+
+<script>
+    // 绑定事件，简写的方式
+    // $('ul li').click(function () {
+    //     alert(123)
+    // })
+
+    // 正常的方式
+    // $('ul li').on('click',function () {
+    //     alert(123)
+    // })
+
+    // 需求 添加的li标签也能弹出123
+    // 事件委派
+    $('ul').on('click','li',function () {  // 把ul绑定的事件委派给li标签
+        console.log(this);  // li标签，委派给谁就是谁
+        alert(123)
+    });
+
+    $('.add').click(function () {
+        $('ul').append("<li>456</li>")
+    })
+</script>
+
+
+</body>
+</html>

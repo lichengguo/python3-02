@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // 补充知识点1
+    // 类似字典的数据类型，js中叫object
+    // 这3种写法都可以
+    var info = {"name":"alex"};
+    var info = {name:"alex"};
+    var info = {'name':"alex",age:24};
+    console.log(info);
+
+    for (var i in info) {
+        console.log(i,info[i])
+    }
+
+
+    // 补充知识点2
+    /*
+    查找标签
+        1直接查找
+            全局查找
+				document.getElementById(“idname”)
+				document.getElementsByTagName(“tagname”)
+				document.getElementsByName(“name”)
+				document.getElementsByClassName(“name”)
+			局部查找
+			    <div id='“idname”'>
+				      <div class='c1'></div>
+				      <div class='c2'></div>
+                 </div>
+
+			     ele=document.getElementById(“idname”)  // 全局查找idname
+				 ele.getElementsByClassName("c1")         // 在idname下局部查找c1
+     */
+
+</script>
+
+</body>
+</html>

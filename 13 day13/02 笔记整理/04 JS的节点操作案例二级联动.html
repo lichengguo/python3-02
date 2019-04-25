@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<select name="" id="province">
+    <option value="">请选择省份</option>
+    <option value="henan">河南省</option>
+    <option value="hubei">湖北省</option>
+    <option value="hunan">湖南省</option>
+</select>
+
+<select name="" id="city">
+    <option value="">请选择城市</option>
+</select>
+
+<script>
+    var province = document.getElementById('province');
+    var city = document.getElementById('city');
+
+    province.onchange = function () {  // 选择触发事件，当页面的数据发生改变的时候触发这个事件
+        var data = {"henan":["郑州","开封","洛阳"],"hunan":["长沙","岳阳","衡阳"],"hubei":["武汉","宜昌","襄阳"]};
+
+        console.log(this.value);
+        var choose_pro = this.value;  // 被选择的省份
+        var citys = data[choose_pro];
+
+        // 清空操作
+        city.options.length = 1;
+
+        for (var i=0; i<citys.length; i++ ) {
+            // 创建节点
+            var option = document.createElement("option");
+            option.innerHTML = citys[i];
+            // 添加节点
+            city.appendChild(option);
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

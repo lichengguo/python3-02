@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="c1">
+    <div class="c2">234</div>
+    <p>345</p>
+    <div>
+        <span>678</span>
+        <span class="c6">alnk</span>
+        <a href="" id="i1" class="c1">789</a>
+        <p class="c2">666</p>
+    </div>
+    <ul class="c2">
+        <li class="c3 end">111</li>
+        <li class="c3">111</li>
+        <li class="c3 son">111</li>
+        <li class="c3 ">111</li>
+        <li class="c3 end">111</li>
+    </ul>
+</div>
+
+<div class="c2">999</div>
+
+<p class="c4" alex="xxx">alex</p>
+<p class="c4" alex="yyy">alex2</p>
+<p class="c5" alex="xxx">egon</p>
+
+<input type="text">
+<input type="password">
+
+
+<script src="jquery.js"></script>
+
+<script>
+    // 选择器
+    // 1 基本选择器
+    // $('.c2').css('color','red');  // 类选择器
+    // $('span').css('color','red');  // 标签选择器
+    // $('*').css('color','red');  // 通用选择器
+    // $('.c2 *').css('color','red');  // 通用选择器
+    // $("#i1").css('color','red');  // id选择器
+
+    // 2 层级选择器（组合选择器）
+    // $(".c1 .c2").css('color','red');  // 后代选择器
+    // $(".c3,span").css('color','red');  // 多元素选择器
+    // $(".c1>.c2").css('color', 'red');  // 子代选择器
+    // $("span.c6").css('color', 'red');  // 且选择器 span标签且class="c6"
+
+    // 3 属性选择器
+    // $("[alex='xxx']").css('color', 'red');  // 自定义属性选择器
+    // $("[alex='xxx'][class='c4']").css('color', 'red');
+
+    // 4 表单选择器  也是属性选择器的一种
+    // $("[type='text']").css('border','red 2px solid');
+    // $(":text").css('border','red 2px solid');  // 一种简写的方式
+
+    // 5 基本筛选器 基本不用
+    // $(".c2 .c3:first").css('color', 'red');
+    // $(".c2 .c3:last").css('color', 'red');
+    // $(".c2 .c3:eq(3)").css('color', 'red');  // 3 是索引
+    // $(".c2 .c3:even").css('color', 'red');  // 偶数
+    // $(".c2 .c3:odd").css('color', 'red');  // 奇数
+    // $(".c2 .c3:lt(2)").css('color', 'red');  // 小于
+    // $(".c2 .c3:gt(3)").css('color', 'red');  // 大于
+
+    // 6 高级筛选器
+    // $(".c2 .c3").eq(3).css("color","red");
+    // $(".c2 .c3").first().css("color","red");
+    // $(".c2 .c3").last().css("color","red");
+    // $(".c2 .c3").gt(3).css("color","red");
+    // $("#i1").hasClass("c1")
+
+
+    // 导航查找
+    // 查找兄弟标签
+    // $(".c2 .c3").eq(1).next().css("color","red")  // 下一个兄弟
+    // $(".c2 .c3").eq(1).nextAll().css("color","red")  // 后面所有的兄弟
+    // $(".c2 .c3").eq(1).nextUntil(".end").css("color","red")  // 后面所有的兄弟，直到.end结束。顾头不顾尾
+    // $(".c2 .c3").eq(3).prev().css("color","red")  // 上一个兄弟
+    // $(".c2 .c3").eq(3).prevAll().css("color","red");  // 前面所有的兄弟
+    // $(".c2 .c3").eq(3).prevUntil(".end").css("color","red")  // 前面所有的兄弟,直到.end结束。顾头不顾尾
+    // $(".c2 .c3").eq(3).siblings().css("color",'red');  // 所有的兄弟
+
+    // 查找父亲
+    // console.log($(".son").parent());  // <ul class="c2">
+    // console.log($(".son").parent().parent());  // <div class="c1">
+    // console.log($(".son").parents())  // 0: ul.c2, 1: div.c1, 2: body, 3: html 祖宗18代都查找
+
+    // 查找后代
+    // $(".c1").children(".c2").css('color','red');  // 儿子层
+    // $(".c1").find(".c2").css('color','red');  // 后代层
+</script>
+
+</body>
+</html>

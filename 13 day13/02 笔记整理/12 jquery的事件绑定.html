@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <li class="c1">111</li>
+    <li class="c1">222</li>
+    <li class="c1">333</li>
+    <li class="c1">444</li>
+</ul>
+
+<script src="jquery.js"></script>
+
+<script>
+    // js 实现
+    // var eles = document.getElementsByClassName('c1');
+    //
+    // for (var i=0; i<eles.length; i++) {
+    //     eles[i].onclick=function () {
+    //         alert(this.innerHTML)
+    //     }
+    // }
+
+    // jquery 实现
+    $('.c1').click(function () {
+        // this:当前触发的dom对象
+        // alert(this.innerHTML)
+
+        // 把dom的this对象转为jquery的this对象
+        alert($(this).html())
+    })
+</script>
+
+</body>
+</html>

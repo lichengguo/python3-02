@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <li>123</li>
+    <li>234</li>
+    <li>345</li>
+</ul>
+
+<script src="jquery.js"></script>
+
+<script>
+    // 用法1 循环数据
+    var arr = [111,222,333,];
+    $.each(arr, function (i,j) {
+        if (j===222) {
+            // return  // 类似python的continue
+            return false  // 类似python的break
+        }
+        // 循环体
+        console.log(i,j);  // i:索引 j:值
+    });
+
+    var obj = {'name':'alex','age':34};
+    $.each(obj,function (i,j) {
+        console.log(i,j);  // i:键  j:值
+    });
+
+
+    // 用法2 循环dom对象 常用
+    $('ul li').each(function () {
+        // this：代指当前循环的标签，dom对象
+        console.log(this);
+        $(this).html($(this).html()+"yuan")
+    })
+</script>
+
+</body>
+</html>

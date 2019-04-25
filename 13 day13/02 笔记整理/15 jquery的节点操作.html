@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3 class="c4">welcome to</h3>
+
+<div class="c1">
+    <p class="c3">123</p>
+</div>
+
+<div class="c2">
+    <img id="img" width="300" src="http://www.33lc.com/uploadfile/2014/0421/20140421065215143.jpg" alt="">
+</div>
+<hr>
+
+<button class="add">add</button>
+<button class="remove">remove</button>
+<button class="replace">replace</button>
+
+
+<script src="jquery.js"></script>
+
+<script>
+    // 添加节点
+    $('.add').click(function () {
+        // 创建节点
+        var $s1 = $("<p>");
+        $s1.html("234");
+        // 添加节点
+        $('.c1').append($s1);
+    })
+
+    // 删除节点
+    $('.remove').click(function () {
+        $('.c2 img').remove();
+    })
+
+    // 替换节点
+    $('.replace').click(function () {
+        $('.c4').replaceWith("<h1>hello</h1>")
+    });
+
+    // 知识点扩展
+    /*
+        //创建一个标签对象
+        $("<p>")
+
+        //内部插入
+        $("").append(content|fn)      ----->$("p").append("<b>Hello</b>");
+        $("").appendTo(content)       ----->$("p").appendTo("div");
+        $("").prepend(content|fn)     ----->$("p").prepend("<b>Hello</b>");
+        $("").prependTo(content)      ----->$("p").prependTo("#foo");
+
+        //外部插入
+        $("").after(content|fn)       ----->$("p").after("<b>Hello</b>");
+        $("").before(content|fn)      ----->$("p").before("<b>Hello</b>");
+        $("").insertAfter(content)    ----->$("p").insertAfter("#foo");
+        $("").insertBefore(content)   ----->$("p").insertBefore("#foo");
+
+        //替换
+        $("").replaceWith(content|fn) ----->$("p").replaceWith("<b>Paragraph. </b>");
+
+        //删除
+        $("").empty()
+        $("").remove([expr])
+
+        //复制
+        $("").clone([Even[,deepEven]])
+    */
+</script>
+
+</body>
+</html>

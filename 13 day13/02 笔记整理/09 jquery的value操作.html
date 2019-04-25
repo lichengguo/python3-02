@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" class="c1" value="alex">
+
+<textarea name="" id="" cols="30" rows="10" class="c2">egon</textarea>
+
+<select name="" id="s1">
+    <option value="1">111</option>
+    <option value="2" selected>222</option>
+    <option value="3">333</option>
+</select>
+
+<script src="jquery.js"></script>
+
+<script>
+    // 只针对 input  select  textarea 这三个标签  $().val()
+    // 1 取值操作
+    console.log($(".c1").val());
+    console.log($(".c2").val());
+    console.log($("#s1").val());
+
+    // 2 赋值操作
+    $(".c1").val("123");
+    $(".c2").val("456");
+    $("#s1").val("1");
+</script>
+
+</body>
+</html>

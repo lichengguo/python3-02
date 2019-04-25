@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="c1" id="i1" alex="xxx">alex</div>
+
+<script src="jquery.js"></script>
+
+<script>
+    // 属性操作
+    // 1 查
+    console.log($('.c1').attr('class'));
+    console.log($('.c1').attr('id'));
+    console.log($('.c1').attr('alex'))
+
+    // 2 添加
+    console.log($('.c1').attr('alnk','555'));
+    console.log($('.c1').attr('class','c1 c2'));
+
+    // 3 修改
+    console.log($('.c1').attr('class','c2'));
+
+    // 4 删除
+    console.log($('#i1').removeAttr('class'));
+</script>
+
+</body>
+</html>

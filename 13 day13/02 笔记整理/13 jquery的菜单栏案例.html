@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .left,.right{
+            float: left;
+            height: 750px;
+        }
+
+        .left{
+            width: 20%;
+            background-color: lightblue;
+        }
+        .right{
+            width: 80%;
+            background-color: lightgray;
+        }
+
+        .item{
+            padding: 15px;
+        }
+
+        .item .title{
+            text-align: center;
+            background-color: goldenrod;
+        }
+
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="outer">
+    <div class="left">
+         <div class="item">
+             <div class="title">菜单一</div>
+             <div class="con">
+                 <p>111</p>
+                 <p>111</p>
+                 <p>111</p>
+             </div>
+         </div>
+         <div class="item">
+             <div class="title">菜单二</div>
+             <div class="con hide">
+                 <p>111</p>
+                 <p>111</p>
+                 <p>111</p>
+             </div>
+         </div>
+         <div class="item">
+             <div class="title">菜单三</div>
+             <div class="con hide">
+                 <p>111</p>
+                 <p>111</p>
+                 <p>111</p>
+             </div>
+         </div>
+    </div>
+    <div class="right">
+
+    </div>
+</div>
+
+<script src="jquery.js"></script>
+
+<script>
+    $('.title').click(function () {
+        /*
+        // 方法1
+        // 所有的隐藏
+        $('.con').addClass('hide');
+        // 删除被点击的隐藏
+        $(this).next().removeClass('hide');
+        */
+
+        /*
+        // 方法2
+        // 显示被点击的内容
+        $(this).next().removeClass('hide');
+        // 隐藏其他的内容
+        $(this).parent().siblings().children('.con').addClass('hide');
+        */
+
+        // 方法3
+        // jquery的链式操作
+         $(this).next().removeClass('hide').parent().siblings().children('.con').addClass('hide');
+    })
+
+
+</script>
+
+</body>
+</html>
