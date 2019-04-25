@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<ul>
+    <li>123</li>
+    <li>234</li>
+    <li>345</li>
+    <li>567</li>
+</ul>
+
+<script src="jquery.js"></script>
+<script>
+    /*
+    var eles=document.getElementsByTagName("li");
+
+    for(var i=0;i<eles.length;i++){
+        eles[i].onclick=function () {
+            alert(this.innerHTML)
+        }
+    }
+    */
+
+    $("ul li").click(function () {
+       //  alert(this.innerHTML)
+      // this: 当前触发DOM
+       alert($(this).html())
+    })
+
+
+
+
+</script>
+</body>
+</html>

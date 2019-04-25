@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<select id="s1">
+    <option value="1">111</option>
+    <option value="2">222</option>
+    <option value="3">333</option>
+</select>
+<hr>
+
+
+<select id="province">
+    <option value="">请选择省份</option>
+    <option value="henan">河南省</option>
+    <option value="hubei">湖北省</option>
+    <option value="hunan">湖南省</option>
+</select>
+
+
+<select id="city">
+    <option value="">请选择城市</option>
+
+</select>
+
+
+
+
+
+<script>
+    /*
+    var s1=document.getElementById("s1")
+
+    s1.onchange=function () {
+        console.log(this);
+        console.log(this.value);
+    }
+    */
+
+    var province=document.getElementById("province");
+    var city=document.getElementById("city");
+    
+    province.onchange=function () {
+        var data={"henan":["郑州","开封","洛阳"],"hunan":["长沙","岳阳","衡阳"],"hubei":["武汉","宜昌","襄阳"]};
+
+        var choose_pro=this.value;
+        console.log(choose_pro);
+        var cities=data[choose_pro];
+        console.log(cities);
+        // 清空操作
+        city.options.length=1;
+        for(var i=0;i<cities.length;i++){
+            // 创建节点：option
+            var option=document.createElement("option");
+            option.innerHTML=cities[i];
+            // 添加节点
+            city.appendChild(option)
+
+
+        }
+
+
+    }
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

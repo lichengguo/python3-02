@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+
+</head>
+<body>
+
+<p id="i1">123</p>
+
+<script>
+    var dom= document.getElementById("i1");
+    console.log(dom);
+
+    dom.onclick=function () {
+        //  this 指代的是事件触发的dom对象
+        this.style.color="red"
+
+    }
+
+</script>
+
+</body>
+</html>

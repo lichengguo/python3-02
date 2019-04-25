@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+
+
+<div class="c1">
+    <div class="c2">234</div>
+    <p>345</p>
+    <div>
+        <span>678</span>
+        <a href="" id="i1" class="c1">789</a>
+        <p class="c2">666</p>
+    </div>
+    <ul class="c2">
+        <li class="c3 end">111</li>
+        <li class="c3">111</li>
+        <li class="c3">111</li>
+        <li class="c3">111</li>
+        <li class="c3">111</li>
+    </ul>
+
+</div>
+
+<div class="c2">999</div>
+
+
+
+<p class="c4" alex="xxx">alex</p>
+<p class="c4" alex="yyy">alex2</p>
+<p class="c5" alex="yyy">egon</p>
+
+
+<input type="text">
+<input type="password">
+
+
+<script src="jquery.js"></script>
+
+<script>
+   // 基本选择器
+   // $(".c2").css("color","red")
+   // $(".c1 *").css("color","red")
+   // $("span").css("color","red")
+   // $("#i1").css("color","red");
+
+    // 层级选择器
+    // $(".c1 .c2,.c1 span").css("color","red")
+    // $(".c1>.c2").css("color","red")
+
+    // 基本筛选器
+    // $(".c2 .c3").css("color","red")
+    // $(".c2 .c3:first").css("color","red");
+    // $(".c2 .c3:last").css("color","red");
+
+    // $(".c2 .c3:eq(3)").css("color","red");
+    // $(".c2 .c3:even").css("color","red");
+    // $(".c2 .c3:odd").css("color","red");
+    // $(".c2 .c3:gt(1)").css("color","red");
+    // $(".c2 .c3:lt(3)").css("color","red");
+
+     //  属性选择器
+
+   // $("[alex='xxx']").css("color","red");
+   // $("[alex='yyy'][class='c4']").css("color","red");
+
+   //  表单选择器
+
+    // $("[type='text']").css("border","red solid 1px");
+    // $(":password").css("border","red solid 1px")
+
+    //  筛选器
+
+    // $(".c2 .c3").eq(3).css("color","red");
+    // $(".c2 .c3").first().css("color","red");
+    // $(".c2 .c3").last().css("color","red");
+    // $(".c2 .c3").gt(3).css("color","red");
+    // $("#i1").hasClass("c1")
+
+    //  导航查找
+      // 查找兄弟标签
+      // [dom1,dom2,dom3,dom4,dom5]---->[dom2]------>[dom3,]
+       // next
+      // $(".c2 .c3").eq(1).next().css("color","red");
+      // $(".c2 .c3").eq(1).nextAll().css("color","red");
+      // $(".c2 .c3").eq(1).nextUntil(".end").css("color","red");
+       // $(".c2 .c3").eq(3).prev().css("color","red");
+       // $(".c2 .c3").eq(3).prevAll().css("color","red");
+       //$(".c2 .c3").eq(3).prevUntil(".end").css("color","red");
+       // $(".c2 .c3").eq(3).siblings().css("color","red");
+
+       // 查找父亲
+       // [c2,]----->[c1,]
+       // $(".end").parent().parent();
+       // $(".end").parents();  //   [.c2,.c1,.body]
+
+      // 查找后代
+      //  $(".c1").children(".c2").css("color","red"); // 儿子层
+      //  $(".c1").find(".c2").css("color","red");   // 后代层
+
+
+</script>
+</body>
+</html>

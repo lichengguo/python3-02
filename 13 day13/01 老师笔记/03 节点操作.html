@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h3>welcom to learn JS</h3>
+<div class="c1">
+    <p class="c3">123</p>
+    
+</div>
+<div class="c2">
+    <img id="img" width="300" height="300" src="http://img0.imgtn.bdimg.com/it/u=2777233881,1106483217&fm=26&gp=0.jpg" alt="">
+</div>
+<hr>
+<button class="add">ADD</button>
+<button class="remove">remove</button>
+<button class="replace">replace</button>
+<script>
+    var add=document.getElementsByClassName("add")[0];
+    var remove=document.getElementsByClassName("remove")[0];
+    var replace=document.getElementsByClassName("replace")[0];
+    var parent=document.getElementsByClassName("c1")[0];
+    var parent2=document.getElementsByClassName("c2")[0];
+    var p=document.getElementsByClassName("c3")[0];
+
+    add.onmouseover=function () {
+        // 创建节点/DOM
+        var p=document.createElement("p");  //  <p></p>
+        p.innerText="234";   //  //  <p>234</p>
+        //  添加节点
+        parent.appendChild(p)
+
+
+
+     };
+    
+    remove.onclick=function () {
+     var img=document.getElementById("img");
+
+     //  删除节点: 父节点.removeChild(删除节点)
+     parent2.removeChild(img);
+
+
+
+    };
+
+    replace.onclick=function () {
+           // 创建节点/DOM
+        var img=document.createElement("img");//  <img>
+        img.src="http://img2.imgtn.bdimg.com/it/u=3009596311,115837891&fm=26&gp=0.jpg"
+        // 替换节点  父节点.replaceChild()
+
+        parent.replaceChild(img,p)
+
+    }
+</script>
+
+</body>
+</html>

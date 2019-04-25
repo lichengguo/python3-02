@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <li class="c1">123</li>
+    <li class="c1">234</li>
+    <li class="c1">345</li>
+</ul>
+
+<script src="jquery.js"></script>
+<script>
+      console.log($(".c1"));
+      console.log($(".c1")[0]);
+      console.log($(".c1")[1]);
+      console.log($(".c1")[2]);
+
+      // var eles=document.getElementsByClassName("c1");
+      // // eles.style.color="red";
+      // for(var i=0;i<eles.length;i++){
+      //     eles[i].style.color="red";
+      // }
+
+
+     $(".c1").css("color","red")
+
+</script>
+
+</body>
+</html>

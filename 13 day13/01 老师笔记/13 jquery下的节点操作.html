@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h3>welcom to learn JS</h3>
+<div class="c1">
+
+    <p class="c3">123</p>
+
+</div>
+
+<div class="c2">
+    <img id="img" width="300" height="300" src="http://img0.imgtn.bdimg.com/it/u=2777233881,1106483217&fm=26&gp=0.jpg" alt="">
+</div>
+<hr>
+<button class="add">ADD</button>
+<button class="remove">remove</button>
+<button class="replace">replace</button>
+<script src="jquery.js"></script>
+<script>
+    // 创建添加节点
+    $(".add").click(function () {
+        // 创建节点
+        var $ele=$("<p>");
+        $ele.html("234");   // $ele=$("<p>234</p>");
+        // 添加节点
+        //$(".c1").append($ele)
+        $(".c1").append("<p>666</p>");
+        $("<p>666</p>").appendTo(".c1");
+        $(".c1").after("<p>666</p>");
+
+
+    });
+
+    // 删除节点
+    $(".remove").click(function () {
+        $(".c2 img").remove()
+    });
+
+    // 替换节点
+    $(".replace").click(function () {
+        $(".c1 .c3").replaceWith("<h1>Hello</h1>")
+    })
+
+
+
+</script>
+
+</body>
+</html>

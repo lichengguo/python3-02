@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div class="c1" id="i1" alex="xxx">alex</div>
+
+
+<script src="jquery.js"></script>
+
+
+<script>
+   console.log($(".c1").attr("id"));
+   console.log($(".c1").attr("class"));
+   console.log($(".c1").attr("alex"));
+
+   $(".c1").attr("id","i2");
+   $(".c1").attr("alex","yyy");
+   $(".c1").removeAttr("alex")
+
+</script>
+
+</body>
+</html>
