@@ -1,0 +1,71 @@
+-- 查询出班级205有多少个男生
+select count(1)  from student where class = '305' and sex = '1';
+
+-- 查询出名字为4个字的所有学生信息(编号、姓名，年龄，班级)
+select id,name,age,class from student where name like '____';
+
+-- 查询出所有姓王的学生信息(编号、姓名，年龄，班级)
+select id,name,age,class from student where name like '王%';
+
+-- 查询出班级编号为301,203,303的女生总人数
+select count(1) from student where class in (301,203,303)
+
+-- 查询出学号整十的所有女生信息(姓名、年龄、个人简介)
+select name,age,description from student where id%10=0 and sex = '2'
+
+-- 删除301班级中年龄在23岁以上的学生信息
+-- select id,name,age from student where class = '301' and age >= '23';
+delete from student where class = '301' and age >= '23';
+
+-- 把一个叫'卫然'的学生的性别改成女的
+select name,sex from student where name='卫然';
+update student set sex = 2 where name='卫然';
+
+-- 把401班级中的姓名为'吴杰'的学生信息删除
+delete from student where class = 401 and name = '吴杰';
+
+-- 计算305班中所有学生的平均年龄以及他们的最大年龄和最小年龄
+select max(age),min(age),avg(age) from student where class = 305;
+
+-- 查询401，402，403，404，405中所有学生的年龄平均值
+select avg(age) from student where class in (401,402,403,404,405);
+
+-- 查询出所有学生中名字带"白"字的学生信息，并对他们使用年龄进行升序排列
+select name,age from student where name like '%白%' order by age asc;
+
+-- 添加以下学生记录到数据表中
+-- 姓名     年龄    性别    班级   个性签名
+-- 张三丰    22      1      301   我是武当老板
+-- 张翠山    21      1      302   我是武当老板的五弟子
+-- 张无忌    20      1      302   明教老板
+insert into student (name,age,sex,class,description) VALUES 
+('张三丰',22,1,301,'我是武当老板'),
+('张翠山',21,1,302,'我是武当老板的五弟子'),
+('张无忌',20,1,302,'明教老板');
+
+-- 查询年龄在18-20之间的姓李的女生
+select id,name,age,sex from student where (age between 18 and 20) and sex = 2 and (name like '李%');
+
+-- 查询年龄在18-20之间的所有女生，并按照编号进行降序排序
+select id,name,age,sex from student where (age between 18 and 20) and sex = 2 ORDER BY id desc;
+
+-- 查询出301,302,303,304,305,306中每个班级总人数。
+select class,count(1) as 总人数 from student WHERE class in (301,302,303,304,305,306) group by class;
+
+-- 查询出学号为9的学生的总成绩
+select sid,sum(achievement) from achievement where sid=9;
+
+-- 查询出课程编号为4的课程平均成绩
+select cid,avg(achievement) from achievement where cid=4;
+
+-- 查询出学号为6的学生的所有成绩，并显示对应的课程编号。
+select sid,achievement,cid from achievement where sid=6;
+
+-- 查询出课程编号为20的课程成绩，并进行分数的降序排列，显示10个成绩即可
+select cid,achievement from achievement where cid=20 ORDER BY achievement desc limit 10 ;
+
+-- 查询出学号为1,2,3,4,5,6这几个学员的平均成绩。
+select sid,avg(achievement) from achievement where sid in (1,2,3,4,5,6) group by sid;
+
+-- 查询出成绩表中每个学科的平均成绩
+select cid,avg(achievement) from achievement GROUP BY cid;
