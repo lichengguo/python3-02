@@ -1,73 +1,85 @@
-# 笔记
+# django笔记-第一天
 
-截图工具： https://zh.snipaste.com/
+截图小工具： https://zh.snipaste.com/
 
-## django框架
+
+
+
+
+## 00-django框架
 
 官方网站:https://www.djangoproject.com/
 
 中文文档:https://docs.djangoproject.com/zh-hans/2.2/
 
+
+
 程序版本号声明规则:  大版本.小版本.修订号
 
-大版本: 内核核心功能已经修改代码.
+​		大版本: 内核核心功能已经修改代码.
 
-小版本: 增加/删除功能
+​		小版本: 增加/删除功能
 
-修订号: bug, 补丁, 不涉及功能的增加或删除.
+​		修订号: bug, 补丁, 不涉及功能的增加或删除.
+
+
 
 最新版本:2.2
 
-分两种不同的发行版本:  LTS[ long-time support ] 长线支持版本
+分两种不同的发行版本:  
 
-​                                          发行版本[普通版本]: 
+​				长线支持版本 [ long-time support ] ，简称LTS
+
+​                普通发行版本[版本]
 
 
 
-## 0.0 虚拟环境virtualenv
+
+
+## 01-虚拟环境virtualenv
 
 ```text
-作用: 让开发人员可以在一台机子中一个模块包的多个不同版本.
+作用: 让开发人员可以在一台服务器中安装一个模块包的多个不同版本.
 例如: 可以安装多个不同版本的django框架, 他们之间被虚拟环境隔离开来.
 
 虚拟环境本质就是一个保存python的目录,当我们安装使用了虚拟环境,那么我们切换不同虚拟环境的时候,程序中引用的python模块也就不一样了.
 
-虚拟虚拟环境只会针对通过pip安装下载的包/模块起作用,其他的文件/代码是不会被虚拟环境影响到的.
+虚拟环境只会针对通过pip安装下载的包/模块起作用,其他的文件/代码是不会被虚拟环境影响到的.
 ```
 
-
-
-如果在一台电脑上, 想开发多个不同的项目, 需要用到同一个包的不同版本, 如果直接使用安装包的命令, 在同一个目录下安装或者更新, 新版本会覆盖以前的版本, 其它的项目就无法运行了.而公司里面往往会存在多个项目的情况，所以需要使用虚拟环境，把当前项目所需要用到的模块及其版本进行隔离包装到一个虚拟环境中使用。
+如果在一台服务器上, 想开发多个不同的项目, 需要用到同一个包的不同版本, 如果直接使用安装包的命令, 在同一个目录下安装或者更新, 新版本会覆盖以前的版本, 那么以前的项目就无法运行了.而公司里面往往会存在多个项目的情况，所以需要使用虚拟环境，把当前项目所需要用到的模块及其版本进行隔离的包安装到一个虚拟环境中使用。
 
 
 
-### 0.0.1 安装虚拟环境管理器
+### 01.1 安装虚拟环境管理器
 
 ```bash
 pip install virtualenv             
 pip install virtualenv-clone       
 pip install virtualenvwrapper
 pip install virtualenvwrapper-win
-
 # 注意以上命令适用于window系统
 ```
 
-### 0.0.2 常用命令
+
+
+### 01.2 常用命令
 
 ```bash
 查看所有虚拟环境：            workon+2次tab键
 创建虚拟环境：                mkvirtualenv 虚拟环境名称
-创建虚拟环境(指定python版本)： mkvirtualenv -p python 虚拟环境名称
+创建虚拟环境(指定python版本)： mkvirtualenv -p python版本 虚拟环境名称
 使用虚拟环境：               workon 虚拟环境名称
 退出虚拟环境：               deactivate
-删除虚拟环境（必须先退出虚拟环境内部才能删除当前虚拟环境）:
-                           	rmvirtualenv 虚拟环境名称
-    
+删除虚拟环境（必须先退出虚拟环境内部才能删除当前虚拟环境）: rmvirtualenv 虚拟环境名称
+                           	  
 其他相关命令：
 查看虚拟环境中安装的包：              pip freeze  或者 pip list
 收集当前环境中安装的包及其版本：       pip freeze > requirements.txt
 在部署项目的服务器中安装项目使用的模块： pip install -r requirements.txt
 ```
+
+
 
 提示:
 
@@ -87,7 +99,9 @@ pip install virtualenvwrapper-win
 
 
 
-## 01-创建Django项目
+
+
+## 02-创建Django项目
 
 1. 安装虚拟环境：
 
@@ -98,7 +112,7 @@ mkvirtualenv django_demo -p python3
 2. 安装django安装包(联网安装)：
 
 ```bash
-pip install django
+pip install django==版本号
 ```
 
 3. 创建django工程（项目）：
@@ -132,7 +146,9 @@ python manage.py runserver
 
 
 
-## 01.2-使用pycharm管理项目
+
+
+## 03-使用pycharm管理项目
 
 打开项目
 
@@ -146,13 +162,13 @@ python manage.py runserver
 
 ![1558237686142](assets/1558237686142.png)
 
+
+
 然后给当前项目设置虚拟环境
 
 ![1558237724982](assets/1558237724982.png)
 
 ![1558237827546](assets/1558237827546.png)
-
-
 
 ![1558239136027](assets/1558239136027.png)
 
@@ -170,8 +186,6 @@ python manage.py runserver
 
 ![1558239298967](assets/1558239298967.png)
 
-
-
 完成上面的操作步骤就可以直接在pycharm中把项目运行在我们指定的虚拟环境中了。
 
 打开manage.py文件，运行当前文件。
@@ -184,13 +198,13 @@ python manage.py runserver
 
 ![1558239559990](assets/1558239559990.png)
 
-
-
 ![1558239603905](assets/1558239603905.png)
 
 
 
-## 02. 创建子应用
+
+
+## 04. 创建子应用
 
 ```bash
 python manage.py startapp 子应用目录
@@ -219,7 +233,9 @@ tests.py 文件用于开发测试用例，编写单元测试。
 views.py 文件用于编写Web应用视图。
 ```
 
-安装子应用打开项目的配置文件，settings.py。找到INSTALLED_APPS配置项：
+
+
+注册子应用，打开项目的配置文件settings.py。找到INSTALLED_APPS配置项：
 
 ```python
 
@@ -237,7 +253,9 @@ INSTALLED_APPS = [
 
 
 
-## 03-创建视图
+
+
+## 05-创建视图
 
 1. 在子应用的视图文件views.py中，编写视图函数，例如：
 
@@ -300,12 +318,14 @@ INSTALLED_APPS = [
 
 ```python
 主应用的url地址 + 子应用的url地址
-"home/" + "list/"   ==>      home/list/
+"home/"       +   "index/"     ==>      home/index/
 ```
 
 
 
-## 04-配置文件
+
+
+## 06-配置文件
 
 在主应用目录下的settings.py，是django 项目的核心配置文件。
 
@@ -448,11 +468,13 @@ STATIC_URL = '/static/'
 
 
 
+
+
+## 07-设置静态资源
+
 访问静态资源与项目的路由无关，是在settings的STATICFILES_DIRS和STATIS_URL里面单独进行配置的。
 
 
-
-## 05-设置静态资源
 
 1. 在项目配置文件中STATIC_URL下面添加一个配置项`STATICFILES_DIRS和STATIS_URL`，代码：
 
@@ -464,7 +486,9 @@ STATIC_URL = '/static/'
    ]
    ```
 
-2. 在项目根目录下创建指定名称的自定义目录名`static`(上面配置项中指定的)。
+2. 在项目根目录下创建指定名称的自定义目录名`statics`(上面配置项中指定的)。
+
+   ​	  注意这里需要创建的是statics目录，但是用url链接访问的时候是 /static/
 
    ```
    项目根目录/
@@ -500,7 +524,7 @@ STATIC_URL = '/static/'
 
 
 
-## 06-路由
+## 08-路由
 
 用户访问视图的路由地址 = 总路由的前半段路由+子应用的后半段路由
 
@@ -510,7 +534,7 @@ Django路由解析匹配的顺序，django先读取主应用[djangodemo]下面�
 
 最终访问视图函数的路由地址：
 
-```
+```text
 http://127.0.0.1:8000/总路由文件中的路由前缀/子应用路由文件中的路由地址
 
 
@@ -533,9 +557,11 @@ django本身执行视图的顺序是先找到路由，根据路由地址找到�
 
 在路由中路由地址有两种声明方式，分别通过path和re_path来进行声明。
 
-#### 06.1-path
 
-path是不支持编写正则的路由地址，
+
+#### 08.1-path
+
+path是不支持编写正则的路由地址
 
 路由代码：
 
@@ -559,7 +585,7 @@ def index(request):
 
 
 
-#### 06.2-re_path
+#### 08.2-re_path
 
 re_path支持使用正则提取路由地址中的数据
 
@@ -600,13 +626,13 @@ def list3(request,cat,pn):
 
 
 
-
+## 09-路由反解析
 
 反解析：就是在视图中通过路由的命名空间和路由的别名获取对应的路由地址，和上面的顺序相反。
 
-## 06.1-路由反解析
-
 reverse()是一个函数，可以帮我们自动获取视图函数对应的路由地址。
+
+
 
 #### reverse反解析分三个步骤：
 
@@ -628,13 +654,13 @@ reverse()是一个函数，可以帮我们自动获取视图函数对应的路�
 
 
 
-
-
-## 07-请求
+## 10-请求
 
 request有提供了5种方式给我们获取客户端发送过来的数据
 
-#### 07.1-提取URL的特定部分
+
+
+#### 10.1-提取URL的特定部分
 
 两个简便的方式可以完成：
 
@@ -655,12 +681,6 @@ request有提供了5种方式给我们获取客户端发送过来的数据
   
   ```
 
-  访问：http://127.0.0.1:8000/students/list4/alnk/p123456
-
-  ![assets/222.jpg](assets\222.png)
-
-  
-
 + 命名参数
 
   在未命名参数 的左边圆括号后面加上?P<参数名称>.
@@ -677,9 +697,13 @@ def list4(request, user, password):  # 可以接收多个参数
     return HttpResponse("user = %s <br> password = %s" % (user, password))
 ```
 
+访问：http://127.0.0.1:8000/students/list4/alnk/p123456
+
+![assets/222.jpg](/assets/222.png)
 
 
-#### 07.2-查询字符串（query string)
+
+#### 10.2-查询字符串（query string)
 
 建议使用 postman 工具，可以模拟发送各种请求，例如：get、post、put、patch、delete等
 
@@ -725,9 +749,9 @@ def list4(request, user, password):  # 可以接收多个参数
 
 
 
-#### 07.3-请求体（body）
+#### 10.3-请求体（body）
 
-+ 表单类型数据，只能获取method="post"的数据
++ 表单类型数据，只能获取 method="post" 的数据
 
   ```python
   def list7(request):
@@ -761,8 +785,6 @@ def list4(request, user, password):  # 可以接收多个参数
 
 ![](assets\13.png)
 
-
-
 + 非表单类型数据[ajax]
 
   ```python
@@ -794,10 +816,7 @@ def list4(request, user, password):  # 可以接收多个参数
 
 
 
-
-
-
-#### 07.4-请求头信息（header）
+#### 10.4-请求头信息（header）
 
 + 自定义请求头信息
 
@@ -839,9 +858,7 @@ def list4(request, user, password):  # 可以接收多个参数
 
 
 
-
-
-#### 07.5-其他的request请求信息
+#### 10.5-其他的request请求信息
 
 + request.method
 
@@ -857,7 +874,7 @@ def list10(request):
     :return:
     """
     # print( request.method)  # 获取http请求方法, 等同于 request.META.get("REQUEST_METHOD")
-    # print(request.FILES)  # 获取上传文件      等同于 request._files
+    # print(request.FILES)    # 获取上传文件信息，等同于 request._files
 
     # 获取已经登录的用户信息[模型对象]
     print(request.user)  # 没有登录的用户访问,request.user = AnonymousUser
@@ -874,9 +891,9 @@ def list10(request):
 
 
 
-## 08-响应
+## 11-响应
 
-#### 08.1-内容响应
+#### 11.1-内容响应
 
 + 响应html文本信息
 
@@ -935,9 +952,9 @@ def res1(request):
 
 
 
-#### 08.2-页面跳转
+#### 11.2-页面跳转
 
-也叫页面重定向。
+也叫页面重定向
 
 ```python
 # shortcuts 简写函数库
@@ -956,7 +973,7 @@ def res2(request):
 
 
 
-## 扩展内容
+## 12-扩展内容
 
 前后端传递数据时，数据的格式可以是html文本格式，json格式，xml格式。当然不同平台，不同的编程语言也是如此。
 
@@ -989,46 +1006,4 @@ def res2(request):
   	<sex>女</sex>
   </xml>
   ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
