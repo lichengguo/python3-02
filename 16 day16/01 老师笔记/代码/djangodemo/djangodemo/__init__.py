@@ -1,0 +1,3 @@
+import pymysql
+# 用于给django的orm框架设置底层数据库操作调用pymysql来代替mysqldb
+pymysql.install_as_MySQLdb()
