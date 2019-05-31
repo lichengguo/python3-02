@@ -654,6 +654,108 @@ reverse()是一个函数，可以帮我们自动获取视图函数对应的路�
 
 
 
+**【以这个为准】**
+
+反向解析：注意反向解析只是为了在后台内部方便，不是为了给用户直接访问.
+
+1.在主项目中的 urls.py 文件中 配置 [路由层]
+
+```python
+from django.contrib import admin
+from django.urls import path, re_path
+from app01 import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('login/', views.login, name="login_rev"),
+    path('index/', views.index, name="index_rev"),
+
+    re_path('test/(?P<sid>[0-9]{2})', views.test, name="test_rev"),  # 命名，带有参数，相当于关键字
+    re_path('test2/([0-9]{2})', views.test2, name='test2_rev'),  # 未命名，带有参数，相当于位置参数
+]
+```
+
+
+
+2.在子应用app01 中的 views.py 文件中  [视图层
+
+```python
+from django.shortcuts import render, redirect, HttpResponse
+from django.urls import reverse
+
+
+def login(request):
+    if request.method == "GET":
+        return render(request, 'login.html')  # 这个login.html 文件在 templates 文件夹中
+    else:
+        # return redirect(reverse("index_rev"))  # 反向解析
+
+        # 带有参数的命名的,相当于关键字
+        # url = reverse("test_rev", kwargs={'sid': 23})  # 注意这里定义的sid要和test函数视图中的一致
+        # return redirect(url)
+
+        # 带有参数的未命名的,相当于位置参数
+        url = reverse("test2_rev", args=(23,))
+        return redirect(url)
+
+def index(request):
+
+    return HttpResponse('这是主页')
+
+
+def test(request, sid):
+
+    return HttpResponse('test')
+
+
+def test2(request, v1):
+
+    return HttpResponse('test2')
+```
+
+login.html文件
+
+注意login.html文件的这里  "{% url 'login_rev' %}" 
+
+// <form action="{% url 'login_rev' %}" method="post">
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>用户登录</h3>
+
+<form action="{% url 'login_rev' %}" method="post">
+    {% csrf_token %}
+    <p><input type="text" name="user"></p>
+    <p><input type="password" name="pwd"></p>
+    <input type="submit">
+</form>
+
+
+</body>
+</html>
+```
+
+
+
+
+
+
+
+名称空间：
+
+
+
+
+
+
+
 ## 10-请求
 
 request有提供了5种方式给我们获取客户端发送过来的数据
