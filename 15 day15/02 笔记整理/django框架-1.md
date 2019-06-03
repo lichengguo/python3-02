@@ -1,11 +1,5 @@
 # django笔记-第一天
 
-截图小工具： https://zh.snipaste.com/
-
-
-
-
-
 ## 00-django框架
 
 官方网站:https://www.djangoproject.com/
@@ -429,7 +423,7 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
-# django默认提供了用户管理管理功能,用户管理里面内置了用户的验证功能
+# django默认提供了用户管理功能,用户管理里面内置了用户的验证功能
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -599,8 +593,12 @@ from . import views
 urlpatterns = [
 	# re_path("^路由地址$", 视图函数名)
 	re_path("^list/$",views.list),
-	re_path("^list/(?P<mobile>\d{11})/$", views.list2 ),
-    re_path("^list/(?P<cat>\d+)/(?P<pn>\d+)/$", views.list3),
+    re_path("^index3/(\d{2})$", views.index3),  # 未分组
+    
+    # 注意，分组后，视图中接收的参数和这里参数命名要一致，不然会报错
+	re_path("^list/(?P<mobile>\d{11})/$", views.list2 ),  # 分组，一个参数
+    re_path("^list/(?P<cat>\d+)/(?P<pn>\d+)/$", views.list3),  # 分组，两个多个参数
+    
 ]
 ```
 
@@ -613,6 +611,7 @@ def list(reuqest):
 	print("列表页1视图")
 	return HttpResponse("列表页2")
 
+# 分组 ，一个参数
 def list2(reuqest,mobile):
 	print("列表页2视图")
 	return HttpResponse("手机号：%s<br> <img src='/static/avatars/3.jpg'>列表页" % mobile)
@@ -620,104 +619,148 @@ def list2(reuqest,mobile):
 # 可以接受多个参数，不仅是一两个。
 def list3(request,cat,pn):
 	return HttpResponse("cat=%s pn=%s" % (cat,pn) )
+
+# 未分组
+def index3(request, number):
+    return HttpResponse('%s 正则表达式333' % number)
+
 ```
 
 
 
 
 
-## 09-路由反解析
+## 09-路由反解析和命名空间
 
-反解析：就是在视图中通过路由的命名空间和路由的别名获取对应的路由地址，和上面的顺序相反。
+在使用Django 项目时，一个常见的需求是获得 URL 的最终形式，以用于嵌入到生成的内容中（视图中和显示给用户的URL等）或者用于处理服务器端的导航（重定向等）。人们强烈希望不要硬编码这些URL（费力、不可扩展且容易产生错误）或者设计一种与URLconf 毫不相关的专门的URL 生成机制，因为这样容易导致一定程度上产生过期的URL
 
-reverse()是一个函数，可以帮我们自动获取视图函数对应的路由地址。
-
-
-
-#### reverse反解析分三个步骤：
-
-1. 需要在总路由文件中，给对应的子应用目录声明命名空间，作用是：<mark>区分路由和修改路由的时候不需要再修视图中使用到的路由地址</mark>。
-
-   ```
-   path("home/",include("students.urls",namespace="home") ),
-   ```
-
-2. 需要在子应用路由文件中， 给对应视图的路由地址（后半段）声明别名，作用是：区分路由，避免重复。如果是django2.0以后的版本.请在[app_name]目录下的urls.py中的urlpatterns前面加上app_name='[app_name]
-
-   ![](assets\1558493167167.png)
-   
-3. 在视图文件中导入 from django.urls import reverse 包，然后配置reverse
-
-   ![](assets\1558493057825.png)
+**注意：路由反解析和命名空间是相对于django后台调用来说的，前端用户还是和之前一样，该怎么访问就怎么访问**
 
 
 
+#### 09.1 路由反解析
+
+1.在子项目的 urls.py 路由文件中配置
+
+```python
+from django.urls import path, re_path
+from students import views
+
+urlpatterns = [
+    path("index2/", views.index2, name='index_rev'),  # name 配置反向解析
+    path("index5/", views.index5),
+]
+
+```
+
+2.在子项目 views.py 视图文件中配置
+
+```python
+from django.shortcuts import HttpResponse, redirect,reverse
+
+def index2(request):
+    return HttpResponse('正则表达式xxx')
+
+def index5(request):
+    # 直接反向解析返回URL，哪怕index2这个视图函数和路由中的配置改变，只要name反向解析名称不变，就不会影响index5这个视图
+    url = reverse("index_rev")  
+    return redirect(url)
+
+```
 
 
-**【以这个为准】**
 
-反向解析：注意反向解析只是为了在后台内部方便，不是为了给用户直接访问.
+#### 09.2 命名空间
 
-1.在主项目中的 urls.py 文件中 配置 [路由层]
+命名空间（英语：Namespace）是表示标识符的可见范围。一个标识符可在多个命名空间中定义，它在不同命名空间中的含义是互不相干的。这样，在一个新的命名空间中可定义任何标识符，它们不会与任何已有的标识符发生冲突，因为已有的定义都处于其它命名空间中。
+
+由于name没有作用域，Django在反解URL时，会在项目全局顺序搜索，当查找到第一个name指定URL时，立即返回。
+
+我们在开发项目时，会经常使用name属性反解出URL，当不小心在不同的app的urls中定义相同的name时，可能会导致URL反解错误，为了避免这种事情发生，引入了命名空间。
+
+1.在主应用中的urls.py 文件中配置
 
 ```python
 from django.contrib import admin
-from django.urls import path, re_path
-from app01 import views
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', views.login, name="login_rev"),
-    path('index/', views.index, name="index_rev"),
-
-    re_path('test/(?P<sid>[0-9]{2})', views.test, name="test_rev"),  # 命名，带有参数，相当于关键字
-    re_path('test2/([0-9]{2})', views.test2, name='test2_rev'),  # 未命名，带有参数，相当于位置参数
+    path("students/", include("students.urls", namespace='stu_space')),  # namespace 命名空间
 ]
 ```
 
-
-
-2.在子应用app01 中的 views.py 文件中  [视图层
+2.在子应用的urls.py 文件中配置
 
 ```python
-from django.shortcuts import render, redirect, HttpResponse
-from django.urls import reverse
+from django.urls import path, re_path
+from students import views
 
+app_name = "stu_space"  # 命名空间，在django2.2 版本中需要加入，不然会报错
 
-def login(request):
-    if request.method == "GET":
-        return render(request, 'login.html')  # 这个login.html 文件在 templates 文件夹中
-    else:
-        # return redirect(reverse("index_rev"))  # 反向解析
-
-        # 带有参数的命名的,相当于关键字
-        # url = reverse("test_rev", kwargs={'sid': 23})  # 注意这里定义的sid要和test函数视图中的一致
-        # return redirect(url)
-
-        # 带有参数的未命名的,相当于位置参数
-        url = reverse("test2_rev", args=(23,))
-        return redirect(url)
-
-def index(request):
-
-    return HttpResponse('这是主页')
-
-
-def test(request, sid):
-
-    return HttpResponse('test')
-
-
-def test2(request, v1):
-
-    return HttpResponse('test2')
+urlpatterns = [
+    path("index2/", views.index2, name='index_rev'),  # name 配置反向解析
+    path("index5/", views.index5),
+]
 ```
 
-login.html文件
+3.在子应用视图文件中配置 views.py
 
-注意login.html文件的这里  "{% url 'login_rev' %}" 
+```python
+from django.shortcuts import HttpResponse, redirect,reverse
 
-// <form action="{% url 'login_rev' %}" method="post">
+def index2(request):
+    return HttpResponse('正则表达式xxx')
+
+def index5(request):
+    # 直接反向解析返回URL，哪怕index2这个视图函数和路由中的配置改变，只要name反向解析名称不变，就不会影响index5这个视图
+    url = reverse("stu_space:index_rev")  # 注意此处，加入了命名空间
+    return redirect(url)
+```
+
+
+
+#### 09.3 小案例
+
+输入账号密码，登录成功跳转到另外一个网页显示登录成功，失败则直接返回登录失败。用到了命名空间和URL反向解析
+
+1.子项目urls.py文件
+
+```python
+from django.urls import path
+from students import views
+
+app_name = "stu_space"  # 命名空间
+
+urlpatterns = [
+    path("index2/", views.index2, name='index_rev'),
+    path("index5/", views.index5),
+    path("login/", views.login, name='login_rev'),
+]
+```
+
+2.子项目views.py文件
+
+```python
+from django.shortcuts import render, HttpResponse, redirect,reverse
+
+def index2(request):
+    return HttpResponse('登录成功')
+
+def login(request):
+    if request.method == "POST":
+        usernmae = request.POST.get("user")
+        pwd = request.POST.get("pwd")
+        if usernmae == "alex" and pwd == "123":
+            return redirect(reverse("stu_space:index_rev"))
+        else:
+            return HttpResponse('登录失败')
+
+    return render(request, 'login.html')
+
+```
+
+3.templates/ 目录下模板文件
 
 ```html
 <!DOCTYPE html>
@@ -728,27 +771,16 @@ login.html文件
 </head>
 <body>
 
-<h3>用户登录</h3>
-
-<form action="{% url 'login_rev' %}" method="post">
+<form action="{% url 'stu_space:login_rev' %}" method="post">
     {% csrf_token %}
-    <p><input type="text" name="user"></p>
-    <p><input type="password" name="pwd"></p>
+    <p>用户名：<input type="text" name="user"></p>
+    <p>密码：<input type="password" name="pwd"></p>
     <input type="submit">
 </form>
-
 
 </body>
 </html>
 ```
-
-
-
-
-
-
-
-名称空间：
 
 
 
@@ -795,7 +827,7 @@ re_path(r"list4/(?P<user>[a-z\d]+)/(?P<password>[a-z\d]+)$",views.list4 ),
 ​	在视图中获取命名参数
 
 ```python
-def list4(request, user, password):  # 可以接收多个参数
+def list4(request, user, password):  # 可以接收多个参数，但是需要和路由中的命名一致
     return HttpResponse("user = %s <br> password = %s" % (user, password))
 ```
 
