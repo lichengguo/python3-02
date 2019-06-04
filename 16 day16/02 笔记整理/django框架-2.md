@@ -34,6 +34,8 @@
 
 以函数的方式定义的视图称为**函数视图**，函数视图便于理解。但是遇到一个视图对应的路径提供了多种不同HTTP请求方式的支持时，便需要在一个函数中编写不同的业务逻辑，代码可读性与复用性都不佳。
 
+注意：在postman上post请求的时候，URL最后要添加 / 斜杠，不然会报错
+
 ```python
  def register(request):
     """处理注册"""
@@ -295,7 +297,7 @@ urlpatterns = [
 
 使用Mixin扩展类，也会为类视图的所有请求方法都添加装饰行为
 
-这种好处就是如果以后业务扩大，那么类会越来越多，如果在没个类前面都加装饰，会很麻烦
+这种好处就是如果以后业务扩大，那么类会越来越多，如果在每个类前面都加装饰，会很麻烦
 
 views.py 文件
 
@@ -444,6 +446,8 @@ MIDDLEWARE = [
 - 在请求视图被处理**前**，中间件**由上至下**依次执行
 - 在请求视图被处理**后**，中间件**由下至上**依次执行
 
+初始化那部分是由下至上
+
 
 
 示例：
@@ -585,12 +589,12 @@ django中内嵌了ORM框架，不需要直接编写SQL语句进行数据库操�
        #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
        # },
        'default': {
-           'ENGINE': 'django.db.backends.mysql',
-           'NAME': "djangodemo",
-           'HOST':"localhost",
-           'PORT':3306,
-           "USER":"root",
-           "PASSWORD":"123456",
+           'ENGINE': 'django.db.backends.mysql',  # 数据库驱动
+           'NAME': "djangodemo",  # 数据库名称
+           'HOST':"localhost",  # 地址
+           'PORT':3306,  # 端口
+           "USER":"root",  # 用户
+           "PASSWORD":"123456",  # 密码
        }
    }
    ```
@@ -914,6 +918,8 @@ INSERT INTO `tb_student`(id,name,sex,class_no,age,description,money,is_delete,bo
 通过创建模型类对象，执行对象的save()方法保存到数据库中。
 
 ```python
+from .models import Student  # 需要导入models.py 文件中的模型类，然后在这里进行类的实例化
+
 class StudentView(View):
     def post(self, request):
         """数据库操作，添加数据"""
@@ -1198,13 +1204,15 @@ Student.objects.filter(Q(age__gt=20) | Q(pk__lt=30))
 
 Q对象前可以使用~操作符，表示非not。
 
-例：查询编号不等于30的学生。
+例：查询编号不等于2的学生。
 
 ```python
-Student.objects.filter(~Q(pk=30))
+Student.objects.filter(~Q(pk=2))
 ```
 
-
+```python
+stu = Student.objects.exclude(pk=2)  # 这种方式更加常用
+```
 
 ```python
 	def get(self,request):
