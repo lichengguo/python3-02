@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    h1{
+        font-size: 22px;
+        font-weight: normal;
+        text-align: center;
+        border-bottom: 1px solid #aaa;
+        padding-bottom: 20px;
+    }
+    .btn{
+        background-color: dodgerblue;
+        border-radius: 3px;
+        text-align: center;
+        color: #fff;
+        padding: 4px 12px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 10px 0px;
+    }
+    .table{
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        width: 600px;
+    }
+    .table td,.table th{
+        text-align: center;
+        height: 25px;
+        font-size: 14px;
+        font-weight: normal;
+        border: 1px solid #ddd;
+    }
+    .table th,.th{
+        text-align: center;
+        background-color: aliceblueu;
+    }
+    </style>
+</head>
+<body>
+    <h1>学生信息录入系统</h1>
+    <a class="btn" href="">添加学生信息</a>
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>班级</th>
+            <th>操作</th>
+        </tr>
+        {% for student in students_list %}
+        <tr>
+            <td>{{ student.id }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.age }}</td>
+            <td>{{ student.sex_text }}</td>
+            <td>{{ student.class_no }}</td>
+            <td>
+                <a class="btn" href="/sys/students/update/{{ student.id }}/">更新</a>
+                <a class="btn" href="">删除</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td class="th" colspan="6">暂无信息！</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

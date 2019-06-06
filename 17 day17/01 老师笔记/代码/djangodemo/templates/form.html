@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登陆</title>
+    <style>
+    .helptext{
+        background: #ddd;
+        padding: 2px 20px;
+        border-radius: 3px;
+        display: block;
+        margin: 10px 0;
+    }
+    form label{
+        display: block;
+    }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ forms }}
+        <input type="submit" value="登陆">
+    </form>
+</body>
+</html>

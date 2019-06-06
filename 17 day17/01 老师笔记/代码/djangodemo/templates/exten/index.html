@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+    要在重写的子模板内部,调用父模板的默认内容: {{ block.super }}<br>
+首页里面大段大段的内容
+{% endblock content %}

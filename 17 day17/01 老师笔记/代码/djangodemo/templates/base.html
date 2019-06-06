@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{%  block title %}Title{% endblock %}</title>
+    <style>
+    body{background-color: #aaa;}
+    </style>
+</head>
+<body>
+    <div>公共头部</div>
+    {% block content %}
+        中间内容
+    {% endblock content %}
+    <div>公共脚部</div>
+</body>
+</html>

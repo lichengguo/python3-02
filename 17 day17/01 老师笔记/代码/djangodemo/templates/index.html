@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>模板语法</h1>
+    <h3>普通变量</h3>
+    <p>{{ title }}</p>
+    <h3>输出元组成员,必须使用 点 语法</h3>
+    <p>{{ tuple1 }}</p>
+    <p>{{ tuple1.0 }}</p>
+{#    <p>{{ tuple1.0 }}</p>#}
+    <h3>输出列表成员,必须使用 点 语法</h3>
+    <p>{{ list1 }}</p>
+    <p>{{ list1.1 }}</p>
+{#    <p>{{ list1[1] }}</p>#}
+    <h3>输出字典成员,必须使用 点 语法</h3>
+    <p>{{ dict1.price }}</p>
+    <p>{{ dict1.title }}</p>
+
+    <h3>不可以直接调用函数</h3>
+{#    <p>{{ len(['1','2']) }}</p>#}
+
+    <h3>不支持模板中编写表达式</h3>
+{#    {{ num if num < 1 else 100 }}#}
+
+    <h3>循环语句可以提取每一个复合类型数据的成员</h3>
+    <ul>
+    <li>列表循环</li>
+    {% for item in list1 %}
+        <li>{{ item }}</li>
+    {% endfor %}
+
+    <li>元组</li>
+    {% for item in tuple1 %}
+        <li>{{ item }}</li>
+    {% endfor %}
+
+    <li>字典，直接输出，只能输出键</li>
+    {% for key in dict1 %}
+        <li>{{ key }}</li>
+    {% endfor %}
+
+    <li>循环输出字典</li>
+    {% for key,value in dict1.items %}
+        <li>键={{ key }} 值={{ value }}</li>
+    {% endfor %}
+    </ul>
+
+    <h3>了解循环内部的遍历对象</h3>
+    <table border="1" width="600">
+        <tr>
+            <th>序号[从0开始]</th>
+            <th>序号[从1开始]</th>
+            <th>标题</th>
+            <th>价格</th>
+        </tr>
+        {% for book in book_list %}
+        <tr style="background: orange;">
+            <th>{{ forloop.revcounter0 }}</th>
+            <th>{{ forloop.revcounter}}</th>
+            <th>{{ book.title }}</th>
+            <th>{{ book.price }}</th>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+    <h3>判断输出内容</h3>
+    {% if num > 10 %}
+    <p>num大于10</p>
+    {% endif %}
+
+    {% if num == 10 %}
+    <p>num等于10</p>
+    {% endif %}
+
+    {% if num < 10 %}
+    <p>num小于10</p>
+    {% endif %}
+
+    {% if num == 10 %}
+    <p>num的值是10</p>
+    {% else %}
+    <p>num的值不是10</p>
+    {% endif %}
+
+    {% if num == 10 %}
+    <p>num=10</p>
+    {% elif num > 10 %}
+    <p>num>10</p>
+    {% else %}
+    <p>num<10</p>
+    {% endif %}
+
+    <h3>语句嵌套</h3>
+    <table border="1" width="600">
+        <tr>
+            <th>序号[从0开始]</th>
+            <th>序号[从1开始]</th>
+            <th>标题</th>
+            <th>价格</th>
+        </tr>
+        {% for book in book_list %}
+            {% if forloop.first %}
+            <tr style="background: orange;">
+            {% elif forloop.last %}
+            <tr style="background: blue;">
+            {% else %}
+            <tr >
+            {% endif %}
+            <td>{{ forloop.revcounter0 }}</td>
+            <td>{{ forloop.revcounter}}</td>
+            <td>{{ book.title }}</td>
+            <td>{{ book.price }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h3>多层嵌套</h3>
+    <style>
+    table{
+        border-collapse: collapse;
+        width:600px;
+    }
+    </style>
+    <table border="1">
+        <tr>
+            <th>序号</th>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>爱好</th>
+        </tr>
+        {% for item in people %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.age }}</td>
+            <td>
+                {% for love in item.lve %}
+                    第{{ forloop.parentloop.counter }}个人,第{{ forloop.counter }}爱好：{{ love }}<br>
+                {% endfor %}
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">暂时没有数据</td>
+        </tr>
+        {% endfor %}
+        
+    </table>
+</body>
+</html>
