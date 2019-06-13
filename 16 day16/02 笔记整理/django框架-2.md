@@ -563,7 +563,7 @@ django中内嵌了ORM框架，不需要直接编写SQL语句进行数据库操�
 
    
 
-2. 在Django的工程同名子目录的`__init__.py`文件中添加如下语句（主应用）
+2. 在Django的工程同名子目录的`__init__.py`文件中添加如下语句（主应用的init文件）
 
    ```python
    from pymysql import install_as_MySQLdb
