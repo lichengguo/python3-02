@@ -20,7 +20,9 @@ python manage.py startapp temp
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # 此处修改
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates')，  # 此处修改
+        ],  
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
