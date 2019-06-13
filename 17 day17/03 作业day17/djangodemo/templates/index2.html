@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>循环语句可以提取每一个复合类型数据的成员</h3>
+    <p>列表</p>
+    {% for i in list1 %}
+        <li>{{ i }}</li>
+    {% endfor %}
+
+    <p>元组</p>
+    {% for foo in tuple %}
+        <li>{{ foo }}</li>
+    {% endfor %}
+
+
+    <p>字典</p>
+    {% for i,k in dict1.items %}
+        <li>{{ i }} - {{ k }}</li>
+    {% endfor %}
+
+    {% for foo in dict1 %}
+        <li>{{ foo }} - {{ dict1.foo }}</li>
+    {% endfor %}
+
+    <p>输出下标</p>
+    {% for foo in list1 %}
+        <li>序号{{ forloop.counter0 }} - {{ foo }}</li>
+    {% endfor %}
+
+    <hr>
+
+</body>
+</html>

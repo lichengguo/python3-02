@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>循环语句和判断语句可以嵌套使用</h3>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>序号[从0开始]</th>
+            <th>序号[从1开始]</th>
+            <th>序号[反转]</th>
+            <th>名词</th>
+            <th>价格</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for book in book_list %}
+            {% if forloop.first %}
+                <tr style="background: orange">
+            {% elif forloop.last %}
+                <tr style="background: blue">
+            {% else %}
+                <tr></tr>
+            {% endif %}
+                    <td>{{ forloop.counter0 }}</td>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ forloop.revcounter }}</td>
+                    <td>{{ book.name }}</td>
+                    <td>{{ book.price }}</td>
+                </tr>
+        {% endfor %}
+
+    </tbody>
+</table>
+
+
+</body>
+</html>

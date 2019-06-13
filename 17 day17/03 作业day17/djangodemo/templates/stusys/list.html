@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <h1>学生管理系统</h1>
+        <hr>
+        <h3><a href="/stusys/add/">添加学生</a></h3>
+        <table class="table table-hover">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>班级</th>
+        <th>年龄</th>
+        <th>生日</th>
+        <th>余额</th>
+        <th>个性签名</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for stu in forms %}
+    <tr>
+        <td>{{ stu.id }}</td>
+        <td>{{ stu.name }}</td>
+        <td>{{ stu.sex_text }}</td>
+        <td>{{ stu.class_no }}</td>
+        <td>{{ stu.age }}</td>
+        <td>{{ stu.born }}</td>
+        <td>{{ stu.money }}</td>
+        <td>{{ stu.description }}</td>
+
+        <td>
+            <a href="/stusys/update/{{ stu.id }}">更新</a>
+            <a href="/stusys/delete/{{ stu.id }}">删除</a>
+        </td>
+    </tr>
+    {% empty %}
+        <tr><td colspan="9">暂无数据哦！</td></tr>
+    {% endfor %}
+
+    </tbody>
+
+</table>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

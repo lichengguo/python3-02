@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>过滤器</h3>
+    <p>使用普通方法，如果没有参数，可以直接使用，不用加小括号</p>
+    <p>{{ title | upper }}</p>
+    <p>{{ title }}</p>
+
+    <hr>
+    <p>默认情况下，django输出内容的时候，会判断是否有html标签，有则会进行转转义
+    为什么要转义呢？为了网站安全，不会被别人在留言或者表单中xss攻击（跨站脚本攻击）</p>
+    <p>我们有时候也会在页面输出我们信任的html内容，可以使用safe过滤器</p>
+    {{ title2 | safe }}
+
+    <hr>
+    {{ title3 | default:"默认值" }}
+
+    <hr>
+    {{ date_time | date:"Y年m月j日" }}
+
+    <hr>
+    <p>按字符截取长度</p>
+    <p>{{ str1 | truncatechars:3  }}</p>
+
+    <p>按单词截取长度，对于中文词语不识别</p>
+    <p>{{ str2 | truncatewords:2 }}</p>
+
+</body>
+</html>
