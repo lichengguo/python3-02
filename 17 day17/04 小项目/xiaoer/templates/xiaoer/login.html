@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        .outer {
+            width: 400px;
+            margin: 0 auto;
+            padding-top: 200px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="outer">
+    <div class="">
+        <form action="" method="post">
+            {% csrf_token %}
+            <p>{{ forms }}</p>
+            <p><input type="submit" value="登录"></p>
+        </form>
+    </div>
+</div>
+</body>
+</html>
