@@ -49,8 +49,8 @@
 
 ```bash
 pip install virtualenv             
+pip install virtualenvwrapper  # 这个在linux中也可以用，会生成一个.sh文件的管理工具
 pip install virtualenv-clone       
-pip install virtualenvwrapper
 pip install virtualenvwrapper-win
 # 注意以上命令适用于window系统
 ```
@@ -97,10 +97,10 @@ pip install virtualenvwrapper-win
 
 ## 02-创建Django项目
 
-1. 安装虚拟环境：
+1. 创建一个虚拟环境：
 
 ```bash
-mkvirtualenv django_demo -p python3
+mkvirtualenv djangodemo -p python3
 ```
 
 2. 安装django安装包(联网安装)：
@@ -127,7 +127,7 @@ django-admin startproject djangodemo
 │   ├── settings.py      项目核心配置文件
 │   ├── urls.py          总路由
 │   └── wsgi.py          web服务器的核心调用文件
-└── manage.py   # 命令行管理项目的工具[脚手架工具]
+└── manage.py   		 # 命令行管理项目的工具[脚手架工具]
 ```
 
 进入项目根目录，通过mange.py启动django项目。
@@ -321,7 +321,7 @@ INSTALLED_APPS = [
 
 ## 06-配置文件
 
-在主应用目录下的settings.py，是django 项目的核心配置文件。
+在主应用目录下的settings.py，是django项目的核心配置文件。
 
 ```python
 """
