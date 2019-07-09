@@ -27,17 +27,17 @@
         // i+=1;  // i=i+1
         // i++;  // 等价于 i=i+1
         ++i;  // 等价与 i=i+1
-        console.log(i);  // 101
+        console.log('i', i);  // 101
 
         let i2=100;
-        y=++i2;  // i2自己先加1，然后赋值给y
-        console.log(i2);  //101
-        console.log(y);  // 101
+        y1=++i2;  // i2自己先加1，然后赋值给y
+        console.log('i2', i2);  //101
+        console.log('y1', y1);  // 101
 
         let i3=100;
-        y=i3++;  // 先把i3 赋值给y，然后i3自己在加1
-        console.log(i3);  //101
-        console.log(y);  // 100
+        y2=i3++;  // 先把i3 赋值给y，然后i3自己在加1
+        console.log('i3', i3);  //101
+        console.log('y2', y2);  // 100
 
         // 全等于 === 要类型和值都相等才返回true
         console.log(123==='123');  // false
