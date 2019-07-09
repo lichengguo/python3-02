@@ -29,7 +29,7 @@
 
         .caidan-content:hover {
             background-color: #336699;
-            text-decoration: underline;  /*下划线*/
+            text-decoration: underline; /*下划线*/
         }
 
         .content {
@@ -68,24 +68,25 @@
     var con3 = document.getElementById('content3');
     var con_eles = document.getElementsByClassName('content');
 
-    e1.onclick = function () {
+    // 给所有内容标签添加hide属性
+    function add_hide() {
         for (var i = 0; i < con_eles.length; i++) {
             con_eles[i].classList.add('hide')
         }
+    }
+
+    e1.onclick = function () {
+        add_hide();
         con1.classList.remove('hide');
     };
 
     e2.onclick = function () {
-        for (var i = 0; i < con_eles.length; i++) {
-            con_eles[i].classList.add('hide')
-        }
+        add_hide();
         con2.classList.remove('hide');
     };
 
     e3.onclick = function () {
-        for (var i = 0; i < con_eles.length; i++) {
-            con_eles[i].classList.add('hide')
-        }
+        add_hide();
         con3.classList.remove('hide');
     }
 

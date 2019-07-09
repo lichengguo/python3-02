@@ -35,8 +35,8 @@
     for (var i=0;i<eles.length;i++) {
         eles[i].onclick = function () {
             // this:dom对象，即事件触发的标签
-            // console.log(this);
-            // this.innerHTML='yuan';
+            console.log(this);
+            this.innerHTML='yuan';
 
             // 坑点，这里的this不能用eles代替
             // console.log(i);  // 3
