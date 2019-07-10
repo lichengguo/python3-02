@@ -72,31 +72,39 @@
 
 <script src="jquery.js"></script>
 
+<!--<script>
+    // $('.title').click(function () {
+    //     /*
+    //     // 方法1
+    //     // 所有的隐藏
+    //     $('.con').addClass('hide');
+    //     // 删除被点击的隐藏
+    //     $(this).next().removeClass('hide');
+    //     */
+    //
+    //     /*
+    //     // 方法2
+    //     // 显示被点击的内容
+    //     $(this).next().removeClass('hide');
+    //     // 隐藏其他的内容
+    //     $(this).parent().siblings().children('.con').addClass('hide');
+    //     */
+    //
+    //     // 方法3
+    //     // jquery的链式操作
+    //      $(this).next().removeClass('hide').parent().siblings().children('.con').addClass('hide');
+    // })
+
+
+/</script>-->
+
 <script>
-    $('.title').click(function () {
-        /*
-        // 方法1
-        // 所有的隐藏
-        $('.con').addClass('hide');
-        // 删除被点击的隐藏
-        $(this).next().removeClass('hide');
-        */
-
-        /*
-        // 方法2
-        // 显示被点击的内容
-        $(this).next().removeClass('hide');
-        // 隐藏其他的内容
-        $(this).parent().siblings().children('.con').addClass('hide');
-        */
-
-        // 方法3
-        // jquery的链式操作
-         $(this).next().removeClass('hide').parent().siblings().children('.con').addClass('hide');
+    $('.title').click(function () {  // 绑定事件
+        $('.con').addClass('hide');  // 所有子菜单添加hide属性
+        $(this).next().removeClass('hide');  // 删除被点击的菜单的子菜单hide属性
     })
-
-
 </script>
+
 
 </body>
 </html>

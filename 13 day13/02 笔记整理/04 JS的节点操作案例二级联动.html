@@ -18,15 +18,14 @@
 </select>
 
 <script>
-    var province = document.getElementById('province');
+    let province = document.getElementById('province');
     var city = document.getElementById('city');
+    var data = {"henan":["郑州","开封","洛阳"],"hunan":["长沙","岳阳","衡阳"],"hubei":["武汉","宜昌","襄阳"]};
 
     province.onchange = function () {  // 选择触发事件，当页面的数据发生改变的时候触发这个事件
-        var data = {"henan":["郑州","开封","洛阳"],"hunan":["长沙","岳阳","衡阳"],"hubei":["武汉","宜昌","襄阳"]};
-
         console.log(this.value);
         var choose_pro = this.value;  // 被选择的省份
-        var citys = data[choose_pro];
+        var citys = data[choose_pro];  // 获取对应省份下的所有城市
 
         // 清空操作
         city.options.length = 1;

@@ -10,11 +10,11 @@
     // 补充知识点1
     // 类似字典的数据类型，js中叫object
     // 这3种写法都可以
-    var info = {"name":"alex"};
-    var info = {name:"alex"};
+    // var info = {"name":"alex"};
+    // var info = {name:"alex"};
     var info = {'name':"alex",age:24};
     console.log(info);
-
+    console.log(info['name']);
     for (var i in info) {
         console.log(i,info[i])
     }

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .num {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+        }
+
+        .num li {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+
+        }
+
+        .disactive {
+            background-color: grey;
+        }
+
+        .active {
+            background-color: orange;
+        }
+
+        .lunbotu {
+            width: 590px;
+            height: 470px;
+            border: 1px solid rebeccapurple;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .imgs {
+            list-style: none;
+
+        }
+
+        .imgs li {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .btn {
+            position: absolute;
+            top: 50%;
+            height: 50px;
+            width: 25px;
+            background-color: grey;
+            line-height: 50px;
+            text-align: center;
+        }
+
+        .left {
+            left: 0;
+        }
+
+        .right {
+            right: 0;
+        }
+
+        img{
+            width: 590px;
+            height: 470px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="lunbotu">
+    <ul class="imgs">
+<!--        <li class="imgs_detail" style="display: block"><a href=""><img src="imgs/1.jpg" alt=""></a></li>-->
+        <li class="imgs_detail" style="display: block"><img src="imgs/1.jpg" alt=""></li>
+        <li class="imgs_detail"><a href=""><img src="imgs/2.jpg" alt=""></a></li>
+        <li class="imgs_detail"><a href=""><img src="imgs/3.jpg" alt=""></a></li>
+        <li class="imgs_detail"><a href=""><img src="imgs/4.jpg" alt=""></a></li>
+    </ul>
+
+    <ul class="num">
+        <li class="active num_li"></li>
+        <li class="disactive num_li"></li>
+        <li class="disactive num_li"></li>
+        <li class="disactive num_li"></li>
+    </ul>
+
+    <div class="left btn" id="lbtn"> <</div>
+    <div class="right btn" id="rbtn"> ></div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var imgOuter = document.getElementsByClassName('lunbotu')[0];
+        var imgS = document.getElementsByClassName('imgs_detail');  // 获取图片组
+        var numLi = document.getElementsByClassName('num_li');  // 获取下标组
+        var rBtn = document.getElementsByClassName('right')[0];  // 获取右按钮
+        var lBtn = document.getElementsByClassName('left')[0];  // 获取左按钮
+        rBtn.onclick = GO_R;
+        lBtn.onclick = GO_L;
+        var index = 0;
+
+        function change_style(k) {
+            console.log(k);
+            for (let j = 0; j < imgS.length; j++) {
+                if (j != index) {
+                    imgS[j].style = "display: none";
+                    numLi[j].style = "background-color: grey";
+                }
+            }
+            imgS[k].style = "display: block";
+            numLi[k].style = "background-color: orange"
+        }
+
+        // 向左轮播
+        function GO_L() {
+            if (index === 0) {
+                index = imgS.length
+            }
+            index -= 1;
+            change_style(index)
+        }
+
+        // 向右轮播
+        function GO_R() {
+            if (index === imgS.length - 1) {
+                index = -1
+            }
+            index += 1;
+            change_style(index)
+        }
+
+        // 自动轮播
+        var ID = setInterval(GO_R, 2000);
+
+        // 停止自动轮播
+        console.log(imgOuter);
+        imgOuter.onmouseover = function () {
+            clearInterval(ID)
+        };
+        imgOuter.onmouseout = function () {
+            ID = setInterval(GO_R, 2000)
+        }
+
+    }
+</script>
+
+</html>

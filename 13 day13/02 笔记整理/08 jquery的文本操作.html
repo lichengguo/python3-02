@@ -14,10 +14,12 @@
     // 1 取值操作
     var s1 = $(".c1").html();
     console.log(s1);
+    let s2 = $('.c1').text();
+    console.log(s2);
 
     // 2 赋值操作
-    // $(".c1").html("<a href=''>alex</a>");  // 能够处理标签文本
-    $(".c1").text("<a href=''>alex</a>");  // 不能处理标签文本
+    $(".c1").html("<a href=''>alex</a>");  // 能够处理标签文本
+    // $(".c1").text("<a href=''>alex</a>");  // 不能处理标签文本
 </script>
 </body>
 </html>

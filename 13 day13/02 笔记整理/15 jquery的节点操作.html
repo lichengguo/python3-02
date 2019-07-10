@@ -15,11 +15,15 @@
 <div class="c2">
     <img id="img" width="300" src="http://www.33lc.com/uploadfile/2014/0421/20140421065215143.jpg" alt="">
 </div>
+
+<p>lalala</p>
+
 <hr>
 
 <button class="add">add</button>
 <button class="remove">remove</button>
 <button class="replace">replace</button>
+<button class="padd">padd</button>
 
 
 <script src="jquery.js"></script>
@@ -43,7 +47,6 @@
     $('.replace').click(function () {
         $('.c4').replaceWith("<h1>hello</h1>")
     });
-
     // 知识点扩展
     /*
         //创建一个标签对象
@@ -51,6 +54,12 @@
 
         //内部插入
         $("").append(content|fn)      ----->$("p").append("<b>Hello</b>");
+
+            //
+        $('.padd').click(function () {
+            $("p").append("<b>Hello</b>")
+        })
+
         $("").appendTo(content)       ----->$("p").appendTo("div");
         $("").prepend(content|fn)     ----->$("p").prepend("<b>Hello</b>");
         $("").prependTo(content)      ----->$("p").prependTo("#foo");
