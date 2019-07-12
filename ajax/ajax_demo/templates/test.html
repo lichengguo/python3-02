@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h3>初体验</h3>
+<button class="a_btn">ajax提交</button>
+<h3 class="texth3"></h3>
+<hr>
+
+
+<h3>计算示例</h3>
+{% csrf_token %}
+<input type="text" class="num1"> + <input type="text" class="num2"> = <input type="text" class="total"><button class="to_btn">计算</button><span class="sp"></span>
+<hr>
+
+<h3>上传json数据</h3>
+<button class="js_btn">上传json数据</button>
+
+<h3>form表单上传文件</h3>
+<form action="/ajax/upload_file/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="file_name">
+    <input type="submit">
+</form>
+
+
+<h3>基于ajax上传文件</h3>
+<form>
+    <input type="file" class="file_name">
+    {#不能用submit属性#}
+    <input type="button" class="file_btn" value="ajax提交">
+
+</form>
+
+
+</body>
+
+<script>
+    // 初体验
+    $('.a_btn').click(function () {
+        $.ajax({
+            url:"{% url 'test' %}",  // 请求的URL
+            type: "POST",  // 请求方式
+            data: {
+                csrfmiddlewaretoken: $('[name="csrfmiddlewaretoken"]').val()  // csrf
+            },
+            // 请求成功后，调用这个success函数
+            // 回调函数，对页面进行dom操作
+            success: function (data) {
+                // alert(data)
+                $('.texth3').html(data)
+            }
+        })
+    });
+
+    // 计算案例，携带参数的ajax
+    $('.to_btn').click(function () {
+        let num1 = $('.num1').val();
+        let num2 = $('.num2').val();
+        let num3 = 123456;  // 准备传递给服务器的参数
+        $.ajax({
+            // 如何在JS里面传递参数给后台服务器
+            url: "{% url 'total' 0 %}".replace(/0/, num3),  // 替换
+            type: "POST",
+            data: {
+                num1: num1,
+                num2: num2,
+                csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val(),  // csrf
+            },
+            success: function (data) {
+                // alert(data);
+                let ret = JSON.parse(data);
+                console.log(ret,typeof ret);
+                // $('.total').val(data);
+                if (ret.status){
+                    $('.total').val(ret.total)
+                }else{
+                    $('.sp').html(ret.msg);
+                    setTimeout(function () {
+                        $('.sp').html();
+                    }, 1000)
+                }
+            }
+        })
+    });
+
+    // 上传json数据
+    $('.js_btn').click(function () {
+        $.ajax({
+            url: "/ajax/json_upload/",
+            type: "post",
+            contentType: "json",  // json格式
+            headers: {"X-CSRFToken": $("[name='csrfmiddlewaretoken']").val()}, // 在请求头中添加csrf
+            data: JSON.stringify({
+                aaa: 111,
+                bbb: 222,
+                user: 'alexdsb',
+            }),
+            success: function (data) {
+                alert(data);
+            }
+        })
+    });
+
+    // 基于ajax上传文件
+    $('.file_btn').click(function () {
+        let formdata = new FormData();
+        // 把数据放入formdata对象中
+        formdata.append("csrfmiddlewaretoken", $("[name='csrfmiddlewaretoken']").val());
+        formdata.append("file_name", $(".file_name")[0].files[0]);
+        $.ajax({
+            url: "/ajax/upload_file/",
+            type: "post",
+            processData: false,  // 告诉jQuery不要去处理发送的数据
+            contentType: false,  // 告诉jQuery不要去设置Content-Type请求头
+            data: formdata,
+            success: function (data) {
+                alert(data)
+            }
+
+        })
+    })
+
+</script>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+{% csrf_token %}
+账号：<input type="text" class="user">
+密码：<input type="password" class="pwd">
+<input type="button" class="btn" value="ajax提交">
+<p><span class="err"></span></p>
+</body>
+
+<script>
+    $('.btn').click(function () {
+        let user = $('.user').val();
+        let pwd = $('.pwd').val();
+        $.ajax({
+            url: "/login/login/",
+            type: "post",
+            data: {
+                user: user,
+                pwd: pwd,
+                csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val(),  // csrf
+            },
+            success: function (data) {
+                console.log(data);
+                console.log(data.status, typeof data.status);
+                if (data.status == 1200){
+                    // 登录成功
+                    location.href='/login/index'
+                } else{
+                    $('.err').html(data.msg);
+                }
+            }
+        })
+
+    })
+</script>
+
+
+</html>
