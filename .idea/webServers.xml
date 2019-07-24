@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5e468b33-2d53-4b1a-ba14-cd8ee3227da0" name="备份平台" url="http://192.168.166.132">
+        <fileTransfer host="192.168.166.132" port="22" rootFolder="/app_shell/backup-platform" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
