@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca2671a1-4efb-4c82-90aa-850bbf8074d1" name="Default" comment="23">
+    <list default="true" id="ca2671a1-4efb-4c82-90aa-850bbf8074d1" name="Default" comment="xx">
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/1.内容回顾.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/10.抢票的例子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/11.队列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/12.生产者消费者模型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/13.数据共享.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/14.进程池.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/15.进程池和多进程的性能测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/16.进程池的其他机制.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/17.进程池的回调函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/2.今日内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/3.进程Process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/4.join方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/5.进程之间数据隔离.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/6.开启进程的第二种方式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/7.进程对象的其他方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/8.守护进程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/9.小练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/client2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载/root/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载2/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载2/root/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载2/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载3/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载3/root/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载3/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载4/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载4/db/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载4/root/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载4/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载5/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载5/db/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载5/root/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载5/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6(1)/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6(1)/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6(1)/db/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6(1)/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6/db/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6/root/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载6/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载7/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载7/db/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载7/root/alex/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载7/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载8/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载8/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载8/db/userinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载8/root/alex/movie/hahaha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载8/root/alex/sql_test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载8/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day27/ticket" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25 day25 爬虫/作业/站长简历.py" beforeDir="false" afterPath="$PROJECT_DIR$/25 day25 爬虫/作业/站长简历.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +75,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/25 day25 爬虫/作业/站长简历2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#154#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +96,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../python_quanzhan" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/student/adminx.py" root0="SKIP_INSPECTION" />
@@ -60,9 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../python_quanzhan/day12/03 装饰器.py" />
-        <option value="$PROJECT_DIR$/04 day04/03 笔记整理/03 装饰器.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day12/04 内置函数.py" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day13/03 自定义模块.py" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day13/tbjx.py" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day13/递归函数.py" />
@@ -111,12 +158,15 @@
         <option value="$PROJECT_DIR$/25 day25 爬虫/作业/resume.html" />
         <option value="$PROJECT_DIR$/25 day25 爬虫/作业/站长简历.py" />
         <option value="$PROJECT_DIR$/25 day25 爬虫/作业/站长简历2.py" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day26/2.验证客户端的合法性.py" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day26/验证客户端的合法性/client.py" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day26/多道操作系统.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="131" />
+    <option name="x" value="1709" />
+    <option name="y" value="325" />
     <option name="width" value="1456" />
     <option name="height" value="916" />
   </component>
@@ -133,18 +183,81 @@
           <expand>
             <path>
               <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3周末班2期笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3周末班2期笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="25 day25 爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python3周末班2期笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="25 day25 爬虫" type="462c0819:PsiDirectoryNode" />
-              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载6(1)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
+              <item name="day27" type="462c0819:PsiDirectoryNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="文件的上传下载8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,18 +275,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/25 day25 爬虫/作业" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_quanzhan/day27/ftp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python_quanzhan\day27\ftp" />
+      <recent name="E:\python_quanzhan" />
+      <recent name="E:\python_quanzhan\day26" />
       <recent name="E:\python3周末班2期笔记\25 day25 爬虫\作业" />
       <recent name="E:\python3周末班2期笔记\25 day25 爬虫\笔记整理" />
-      <recent name="E:\python3周末班2期笔记\25 day25 爬虫" />
-      <recent name="E:\python_quanzhan\day25" />
-      <recent name="E:\python_quanzhan" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python_quanzhan\day25\作业讲解1" />
@@ -376,28 +489,7 @@
       <workItem from="1564455984510" duration="11966000" />
       <workItem from="1564534553127" duration="7505000" />
       <workItem from="1564544582574" duration="18700000" />
-      <workItem from="1564621321711" duration="7859000" />
-    </task>
-    <task id="LOCAL-00010" summary="day17 笔记整理">
-      <created>1559815920285</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1559815920285</updated>
-    </task>
-    <task id="LOCAL-00011" summary="day15 笔记整理">
-      <created>1560410837143</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1560410837143</updated>
-    </task>
-    <task id="LOCAL-00012" summary="day16 笔记整理">
-      <created>1560410867289</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1560410867289</updated>
+      <workItem from="1564621321711" duration="18938000" />
     </task>
     <task id="LOCAL-00013" summary="day17 笔记整理">
       <created>1560410895798</created>
@@ -721,22 +813,42 @@
       <option name="project" value="LOCAL" />
       <updated>1564566931663</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="25">
+      <created>1564629467968</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1564629467969</updated>
+    </task>
+    <task id="LOCAL-00060" summary="26">
+      <created>1564650302791</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1564650302792</updated>
+    </task>
+    <task id="LOCAL-00061" summary="xx">
+      <created>1564650338604</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1564650338604</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="396129000" />
+    <option name="totallyTimeSpent" value="407208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="172" width="1456" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49737304" visible="true" weight="0.195629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49737304" visible="true" weight="0.23280802" />
       <window_info id="Structure" order="1" sideWeight="0.50262696" side_tool="true" weight="0.23638968" />
       <window_info id="Alibaba Cloud Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32703003" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32674572" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21802002" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -763,8 +875,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day18 笔记整理" />
-    <MESSAGE value="day18 作业" />
     <MESSAGE value="11" />
     <MESSAGE value="1111" />
     <MESSAGE value="6" />
@@ -786,9 +896,22 @@
     <MESSAGE value="21" />
     <MESSAGE value="111" />
     <MESSAGE value="24" />
-    <MESSAGE value="25" />
     <MESSAGE value="23" />
-    <option name="LAST_COMMIT_MESSAGE" value="23" />
+    <MESSAGE value="25" />
+    <MESSAGE value="26" />
+    <MESSAGE value="xx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xx" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../python_quanzhan/day26/elective_course/5.main.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python32$configparser.coverage" NAME="configparser模块 Coverage Results" MODIFIED="1562296556229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/模块学习笔记/configparser" />
@@ -826,20 +949,6 @@
     <SUITE FILE_PATH="coverage/python32$day03.coverage" NAME="购物车day03 Coverage Results" MODIFIED="1563498838800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03 day03/04 作业 day03/函数完成购物车功能" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/F80V58ZWZU3Q8KSY.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/HFVHVL3LB8OQDIR2.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/IV3VGON1DNQ590D3.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/J7KOX9UMITY0QING.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/KT4YRFL95BFKXXF9.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/LBJD9BY8LE88NJ65.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/MIG7F751N9H1TXEV.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/QQAIMX7IGSSK1I74.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/S2HPEJ02VU0JBAO8.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/UQ96BQJ1IU899767.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/X7CYNWWN3HU0VJ43.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/V3YI18D2V0C1K159.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/QANV4FV6XVSXBC7C.jpg" />
-    <entry file="file://$PROJECT_DIR$/25 day25 爬虫/笔记整理/qiutu/KLJKLR9S5KL0F3QA.jpg" />
     <entry file="file://$PROJECT_DIR$/25 day25 爬虫/课件/sanguo.txt" />
     <entry file="file://C:/Python36/Lib/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1021,12 +1130,108 @@
     <entry file="file://$PROJECT_DIR$/25 day25 爬虫/作业/站长简历2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="e#154#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09 day09/03作业day09/FTP/server/core/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3381">
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/3.block.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#236#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/验证客户端的合法性/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#141#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/验证客户端的合法性/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#140#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/2.验证客户端的合法性.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="31" column="67" lean-forward="true" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/1.内容回顾.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/4.数据的输入和输出.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/多道操作系统.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/elective_course/4.main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="182" column="94" lean-forward="true" selection-start-line="182" selection-start-column="94" selection-end-line="182" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/elective_course/5.main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3674">
+          <caret line="167" column="21" lean-forward="true" selection-start-line="167" selection-start-column="21" selection-end-line="167" selection-end-column="21" />
+          <folding>
+            <element signature="e#197#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/elective_course/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day26/5.进程的概念.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day27/ftp/文件的上传下载8/db/userinfo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day27/ticket">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
