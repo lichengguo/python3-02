@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca2671a1-4efb-4c82-90aa-850bbf8074d1" name="Default" comment="29">
+    <list default="true" id="ca2671a1-4efb-4c82-90aa-850bbf8074d1" name="Default" comment="32">
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/10_string对象的常用方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/11_案例：实现字符串的反转.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/12.Number对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/13_Math对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/14_生成四位数验证码.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/15_Date对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/16_Array对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/17_Array对象的常用方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/18_扩展对象功能.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/19_push和pop方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/1_九九乘法表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/20.reverse方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/21_slice方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/22_splice方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/23_sort方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/24_tofixed方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/2_九九乘法表(升级版).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/3_函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/4_全局变量和局部变量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/5_自定义对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/6_创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/7_使用Object创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/8_使用json语法创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/9_string对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/笔记/day03.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/笔记/~$day03.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day33 js/笔记/复习.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_quanzhan/day31/笔记/~$day02.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_quanzhan/day32 js/笔记/~$day03.docx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,31 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/11_框架标签.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/菜单栏.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/公司简介.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +68,7 @@
     <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/utils/exceptions.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../python_quanzhan/day23/2.课前复习.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../python_quanzhan/day11/04 列表推导式 生成器表达式.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/7_使用Object创建对象.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/11_框架标签.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/myview/views.py" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/myview/urls.py" root0="SKIP_HIGHLIGHTING" />
@@ -72,23 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../python_quanzhan/day24/3_tcp协议的socket/client.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day25/elective_course/pickle模块的补充.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/笔记整理/test.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/笔记整理/01 爬虫基础.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/作业/肯德基.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/作业/药品监督管理局.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/笔记整理/03 数据解析.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/笔记整理/03 数据解析[re].py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/笔记整理/04 数据解析[bs4].py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/笔记整理/02 requests模块基本使用.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/笔记整理/05 数据解析[xpath].py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/作业/resume.html" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/作业/站长简历.py" />
-        <option value="$PROJECT_DIR$/25 day25 爬虫/作业/站长简历2.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day26/2.验证客户端的合法性.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day26/验证客户端的合法性/client.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day26/多道操作系统.py" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day27/9.小练习.py" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day27/11.队列.py" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day27/12.生产者消费者模型.py" />
@@ -123,12 +112,29 @@
         <option value="$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/3_基本标签.html" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/11_框架标签.html" />
         <option value="$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/菜单栏.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day31/笔记/复习.txt" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day31/代码/8_选择器.html" />
+        <option value="$PROJECT_DIR$/11 day11/02 笔记整理/10 浮动float属性.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day31/代码/17_浮动定位.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/7_运算符.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/9_条件判断.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/11_循环案例.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/12_九九乘法表.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/4_全局变量和局部变量.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/5_自定义对象.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/7_使用Object创建对象.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/8_使用json语法创建对象.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/9_string对象.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/12.Number对象.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/16_Array对象.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/17_Array对象的常用方法.html" />
+        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/21_slice方法.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1776" />
-    <option name="y" value="282" />
+    <option name="x" value="1584" />
+    <option name="y" value="249" />
     <option name="width" value="1456" />
     <option name="height" value="916" />
   </component>
@@ -147,24 +153,6 @@
               <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
-              <item name="day30 前端" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
-              <item name="day30 前端" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
-              <item name="day30 前端" type="462c0819:PsiDirectoryNode" />
-              <item name="代码" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,25 +169,25 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_quanzhan/day30 前端" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_quanzhan/day33 js/笔记" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python_quanzhan\day33 js\笔记" />
+      <recent name="E:\python_quanzhan\day33" />
+      <recent name="E:\python_quanzhan\day32 js\代码" />
+      <recent name="E:\python_quanzhan\day32" />
+      <recent name="E:\python_quanzhan\day31" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python_quanzhan\day29" />
       <recent name="E:\python_quanzhan\day28" />
       <recent name="E:\python_quanzhan\day27" />
       <recent name="E:\python_quanzhan\day25\作业讲解1" />
       <recent name="E:\python_quanzhan" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\python_quanzhan\day30 前端" />
-      <recent name="E:\python_quanzhan\day30" />
-      <recent name="E:\python_quanzhan" />
-      <recent name="E:\python_quanzhan\day28" />
-      <recent name="E:\python_quanzhan\day27" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -420,28 +408,8 @@
       <workItem from="1564621321711" duration="21236000" />
       <workItem from="1564708595845" duration="26116000" />
       <workItem from="1564969128146" duration="17479000" />
-      <workItem from="1565052945685" duration="8580000" />
-    </task>
-    <task id="LOCAL-00020" summary="11">
-      <created>1562553474028</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1562553474028</updated>
-    </task>
-    <task id="LOCAL-00021" summary="111">
-      <created>1562637608725</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1562637608726</updated>
-    </task>
-    <task id="LOCAL-00022" summary="1111">
-      <created>1562658798788</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1562658798788</updated>
+      <workItem from="1565052945685" duration="20515000" />
+      <workItem from="1565139981701" duration="17754000" />
     </task>
     <task id="LOCAL-00023" summary="1">
       <created>1562750906403</created>
@@ -765,17 +733,46 @@
       <option name="project" value="LOCAL" />
       <updated>1564995949321</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="30">
+      <created>1565070542301</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1565070542302</updated>
+    </task>
+    <task id="LOCAL-00070" summary="31">
+      <created>1565083216354</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1565083216354</updated>
+    </task>
+    <task id="LOCAL-00071" summary="32">
+      <created>1565157935039</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1565157935040</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="461681000" />
+    <option name="totallyTimeSpent" value="491370000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="172" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49573863" visible="true" weight="0.24355301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49573863" visible="true" weight="0.245702" />
       <window_info id="Structure" order="1" sideWeight="0.5042614" side_tool="true" weight="0.17857143" />
       <window_info id="Alibaba Cloud Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -785,7 +782,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938075" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -807,9 +804,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7" />
-    <MESSAGE value="8" />
-    <MESSAGE value="9" />
     <MESSAGE value="10" />
     <MESSAGE value="12" />
     <MESSAGE value="day14" />
@@ -832,7 +826,10 @@
     <MESSAGE value="28" />
     <MESSAGE value="27" />
     <MESSAGE value="29" />
-    <option name="LAST_COMMIT_MESSAGE" value="29" />
+    <MESSAGE value="30" />
+    <MESSAGE value="31" />
+    <MESSAGE value="32" />
+    <option name="LAST_COMMIT_MESSAGE" value="32" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -901,269 +898,316 @@
     <SUITE FILE_PATH="coverage/python32$10_.coverage" NAME="10.抢票的例子 Coverage Results" MODIFIED="1564988226913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day29/client2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day29/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#142#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day29/9.使用并发实现一个socket server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/01ssh_paramiko.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/02 sftp_paramiko.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/03通过密钥实现ssh连接.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/04通过密钥实现sftp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/05线程_ex1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/06线程_ex2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#48#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/07线程_ex3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/08守护线程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#158#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/09线程lock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/10信号量semaphore.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day09/01笔记/11事件event_红绿灯.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-579" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/01书籍推荐.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/02多线程的使用场景.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/03多进程的基本语法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#41#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/04获取进程ID.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/05进程之间的数据交互multiprocessing.Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#41#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/06进程之间的数据交互multiprocessing.Pipe.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/07进程之间的数据共享.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/08进程锁lock.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/09进程池.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/10协程介绍.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/11手动IO切换协程greenlet.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/15socket_client.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/21.作业.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/20select IO多路复用代码客户端.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/19select IO多路复用代码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#158#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/18io多路复用之select poll epoll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/17阻塞io 非阻塞io io多路复用 异步io介绍.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1881">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/16事件驱动与异步IO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/14gevent_socket.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/13协程gevent并发爬网页.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#41#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python3_14/day10/01笔记/12自动IO切换协程gevent.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/1_HelloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/2_HTML标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/3_基本标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/4_HTML属性.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/5_格式化标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/6_列表标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/7_超链接标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/9_图像.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/网站底部.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/联系我们.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/产品介绍.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/网站头部.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/10_表格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/公司简介.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/11_框架标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/菜单栏.html">
+    <entry file="file://$PROJECT_DIR$/11 day11/02 笔记整理/13 postion属性之相对定位.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 day11/02 笔记整理/15 postion属性之相对定位和绝对定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 day11/02 笔记整理/16 postion示例之轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 day11/02 笔记整理/14 postion属性绝对定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 day11/02 笔记整理/12 postion属性之固定定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/资料/小米商城/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/小米官网首页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/作业/作业.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day31/代码/images/time1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day31/代码/17_浮动定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/images/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/3_小米商城.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="194" column="24" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/2_QQ登录框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/1_作业1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/笔记/复习.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/js/hello.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/5.引入外部js文件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/11_循环案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/6_定义变量.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/4_第一个js例子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/7_运算符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/8_条件判断.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/9_条件判断.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/12_九九乘法表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/10_循环.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/笔记/复习.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/1_九九乘法表.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/2_九九乘法表(升级版).html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/3_函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/4_全局变量和局部变量.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/5_自定义对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/6_创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/7_使用Object创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/8_使用json语法创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/9_string对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/10_string对象的常用方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/11_案例：实现字符串的反转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/13_Math对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/14_生成四位数验证码.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/15_Date对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/16_Array对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/17_Array对象的常用方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/18_扩展对象功能.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/19_push和pop方法.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/20.reverse方法.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/21_slice方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/22_splice方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/24_tofixed方法">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/24_tofixed方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/23_sort方法.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/12.Number对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
         </state>
       </provider>
     </entry>
