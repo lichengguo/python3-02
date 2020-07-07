@@ -83,7 +83,7 @@
                     $('.total').val(ret.total)
                 }else{
                     $('.sp').html(ret.msg);
-                    setTimeout(function () {
+                    setTimeout(function () { // 1s后去掉提示信息
                         $('.sp').html();
                     }, 1000)
                 }
