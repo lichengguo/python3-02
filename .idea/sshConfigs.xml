@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.166.132" id="135e8880-15bd-4762-bc9b-ef23e0c40c24" port="22" customName="备份平台" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.166.132" id="80d9116c-a754-45bb-bf9c-10fc2146db17" port="22" customName="备份平台" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.166.132" id="3f1cd4cc-eeda-414a-83d4-8f8db2c4cc96" port="22" customName="备份平台" nameFormat="CUSTOM" />
+    </configs>
+  </component>
+</project>

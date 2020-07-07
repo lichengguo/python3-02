@@ -2,54 +2,261 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca2671a1-4efb-4c82-90aa-850bbf8074d1" name="Default" comment="33">
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/10_history对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/11_screen对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/12_navigator对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/1_正则表达式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/2_匹配qq号码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/3_正则表达式查找方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/4_正则表达式替换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/5_arguments变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/6_js事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/7_onsubmit事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/8_window对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/9_location对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/pages/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/pages/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/代码/pages/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/1.表单验证/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/1.表单验证/要求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/2.商品购物车/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/2.商品购物车/要求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/3.添加附件/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/3.添加附件/要求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/4.城市联动/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/4.城市联动/要求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/5.验证码/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/5.验证码/要求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/6.修改用户状态/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/6.修改用户状态/要求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/7.职位选择器/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/作业/7.职位选择器/要求.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/笔记/BOM对象.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/笔记/~$笔记.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/笔记/复习.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/笔记/笔记.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/笔记/计算屏幕中心位置.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python_quanzhan/day34/资料/DHTML.chm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python3周末班2期笔记.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python3-02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/01 demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/01 demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/02 常用标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/02 常用标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/03 常用标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/03 常用标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/04 超链接的锚功能.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/04 超链接的锚功能.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/05 常用标签2.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/05 常用标签2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/06 form标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/06 form标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/jd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/01 html/jd.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/01 html/jd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/02 css/01 基本选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/02 css/01 基本选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/02 css/02 组合选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/02 css/02 组合选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/02 css/03 css选择器的优先级.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/02 css/03 css选择器的优先级.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/02 css/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/02 css/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/01 老师笔记/day10" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/01 老师笔记/day10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/css/13 基本选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/css/13 基本选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/css/14 组合选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/css/14 组合选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/css/15 属性选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/css/15 属性选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/css/16 CSS选择器优先级1.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/css/16 CSS选择器优先级1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/css/17 CSS选择器优先级2.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/css/17 CSS选择器优先级2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/css/18 CSS选择器优先级3.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/css/18 CSS选择器优先级3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/css/19 CSS选择器优先级4.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/css/19 CSS选择器优先级4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/00 概要" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/00 概要" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/01 响应头.png" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/01 响应头.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/01 补充 http协议.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/01 补充 http协议.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/01 请求头.png" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/01 请求头.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/02 模拟服务器响应.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/02 模拟服务器响应.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/03 jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/03 jd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/04 查看服务器返回给浏览器的数据.png" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/04 查看服务器返回给浏览器的数据.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/05 html常见概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/05 html常见概念.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/06 head常用标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/06 head常用标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/07 body常用标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/07 body常用标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/08 常用标签之表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/08 常用标签之表格标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/09 表格标签练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/09 表格标签练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/11 form标签与web服务器交互.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/11 form标签与web服务器交互.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/12 form标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/12 form标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/20 html常见布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/20 html常见布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 day10/02 笔记整理/html/21 带有边框的form表单.html" beforeDir="false" afterPath="$PROJECT_DIR$/10 day10 html css/02 笔记整理/html/21 带有边框的form表单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/01 css的引入方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/01 css的引入方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/02 class补充.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/02 class补充.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/03 css的文本样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/03 css的文本样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/04 背景属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/04 背景属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/05 边框属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/05 边框属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/06 列表属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/06 列表属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/07 dispaly属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/07 dispaly属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/08 内外边距.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/08 内外边距.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/09 float属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/09 float属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/10 清除浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/10 清除浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/11 固定定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/11 固定定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/12 绝对和相对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/12 绝对和相对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/13 轮播图案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/13 轮播图案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/14 演示案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/14 演示案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/15 父级塌陷.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/15 父级塌陷.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/day11" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/day11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/imgs/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/imgs/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/imgs/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/imgs/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/imgs/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/imgs/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/imgs/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/meilele.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/meilele.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/meinv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/meinv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/01 老师笔记/yangcai.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/01 老师笔记/yangcai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/01 CSS的引入方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/01 CSS的引入方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/01 yangshi.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/01 yangshi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/02.1 静态文件请求.doc" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/02.1 静态文件请求.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/02.2 jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/02.2 jd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/02.3 静态文件请求模拟服务器响应.py" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/02.3 静态文件请求模拟服务器响应.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/03 文本样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/03 文本样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/04.1 背景属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/04.1 背景属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/04.2 背景图片.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/04.2 背景图片.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/05.1 背景图片的应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/05.1 背景图片的应用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/05.2 .png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/05.2 .png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/06 边框属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/06 边框属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/07 列表属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/07 列表属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/08 display属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/08 display属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/09.1 内外边距 盒子模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/09.1 内外边距 盒子模型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/09.2 内边距.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/09.2 内边距.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/10 浮动float属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/10 浮动float属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/11 清除浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/11 清除浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/12 postion属性之固定定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/12 postion属性之固定定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/13 postion属性之相对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/13 postion属性之相对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/14 postion属性绝对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/14 postion属性绝对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/15 postion属性之相对定位和绝对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/15 postion属性之相对定位和绝对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/16 postion示例之轮播图.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/16 postion示例之轮播图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/imgs/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/imgs/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/imgs/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/imgs/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/imgs/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/imgs/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/imgs/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/imgs/anniu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/imgs/anniu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/02 笔记整理/imgs/anniu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/02 笔记整理/imgs/anniu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/imgs/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/imgs/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/imgs/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/imgs/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/imgs/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/imgs/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/imgs/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/imgs/anniu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/imgs/anniu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/imgs/anniu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/imgs/anniu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/1 轮播图/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/1 轮播图/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/imgs/fayangcai.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/imgs/fayangcai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/imgs/meilele.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/imgs/meilele.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/imgs/mima.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/imgs/mima.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/imgs/yanzhengma.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/imgs/yanzhengma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/imgs/yonghuming.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/imgs/yonghuming.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/2 登录页面/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/2 登录页面/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/css/regedit.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/css/regedit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/imgs/hongbao.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/imgs/hongbao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/imgs/meilele.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/imgs/meilele.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/imgs/mima.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/imgs/mima.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/imgs/shouji.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/imgs/shouji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/imgs/yanzhengma.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/imgs/yanzhengma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/imgs/yonghuming.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/imgs/yonghuming.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/3 注册页面/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/3 注册页面/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/css/head.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/css/head.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/css/top.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/cebiananniu.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/cebiananniu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/fangdajing.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/fangdajing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/fanhuidingbu.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/fanhuidingbu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/gouwuche.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/gouwuche.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/heisha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/heisha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/hongmi6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/hongmi6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/lunbotu1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/lunbotu1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/lunbotu2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/lunbotu2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/lunbotu3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/lunbotu3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/lunbotu4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/lunbotu4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/lunbotu5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/lunbotu5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/shouhuan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/shouhuan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/xiaomi8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/xiaomi8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/xiayizhang-you.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/xiayizhang-you.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/img/xiayizhang-zuo.png" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/img/xiayizhang-zuo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/4 小米商城首页/小米官网首页.html" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/4 小米商城首页/小米官网首页.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 day11/03 作业day11/作业" beforeDir="false" afterPath="$PROJECT_DIR$/11 day11 css/03 作业day11/作业" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/01 JS的基本语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/01 JS的基本语法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/02 JS的数据类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/02 JS的数据类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/03  运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/03  运算符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/04 JS的流程控制语句.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/04 JS的流程控制语句.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/05 异常.py" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/05 异常.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/06 string对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/06 string对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/07 数组对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/07 数组对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/08 date对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/08 date对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/09 math对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/09 math对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/10 函数对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/10 函数对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/11 BOM操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/11 BOM操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/12 定时器案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/12 定时器案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/13 JS操作标签文本.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/13 JS操作标签文本.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/14 事件绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/14 事件绑定.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/15 JS的value操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/15 JS的value操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/16 JS的属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/16 JS的属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/17 JS的class属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/17 JS的class属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/18  菜单栏案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/18  菜单栏案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/day12" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/day12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/01 老师笔记/pop.js" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/01 老师笔记/pop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/01 js的变量.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/01 js的变量.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/02 js的数据类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/02 js的数据类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/03 js的运算符.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/03 js的运算符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/04 js的流程控制语句.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/04 js的流程控制语句.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/05 js的异常处理.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/05 js的异常处理.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/06 js的字符串对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/06 js的字符串对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/07 js的数组对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/07 js的数组对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/08 js的date对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/08 js的date对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/09 js的math对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/09 js的math对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/10 js的函数对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/10 js的函数对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/11 bom操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/11 bom操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/12 定时器案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/12 定时器案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/13 dom对象简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/13 dom对象简介.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/14 js操作标签文本.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/14 js操作标签文本.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/15 js的事件绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/15 js的事件绑定.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/16 js操作value值.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/16 js操作value值.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/17 js的属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/17 js的属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/18 js的class属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/18 js的class属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/02 笔记整理/19 菜单栏案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/02 笔记整理/19 菜单栏案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 day12/03 作业day12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12 day12 js/03 作业day12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/01 JS的补充类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/01 JS的补充类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/02 JS的css样式操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/02 JS的css样式操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/03 节点操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/03 节点操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/04 二级联动.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/04 二级联动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/05 jq基本概念.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/05 jq基本概念.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/06 jquery的选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/06 jquery的选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/07 jq的文本操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/07 jq的文本操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/08 jq的value操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/08 jq的value操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/09 jquery的属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/09 jquery的属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/10 jquery的class属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/10 jquery的class属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/11 jquey的事件绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/11 jquey的事件绑定.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/12 jquery下的菜单栏.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/12 jquery下的菜单栏.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/13 jquery下的节点操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/13 jquery下的节点操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/14 each循环.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/14 each循环.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/15 事件委派.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/15 事件委派.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/16 动态效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/16 动态效果.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/17 动态效果2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/17 动态效果2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/18 bootstrap01.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/18 bootstrap01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/day13" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/day13" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/01 老师笔记/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/01 老师笔记/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/01 JS的补充1.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/01 JS的补充1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/02 JS的补充2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/02 JS的补充2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/03 JS的节点操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/03 JS的节点操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/04 JS的节点操作案例二级联动.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/04 JS的节点操作案例二级联动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/05 jquery的简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/05 jquery的简介.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/06 jquery的小例子.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/06 jquery的小例子.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/07 jquery的选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/07 jquery的选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/08 jquery的文本操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/08 jquery的文本操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/09 jquery的value操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/09 jquery的value操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/10 jquery的属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/10 jquery的属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/11 jquery的class属性操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/11 jquery的class属性操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/12 jquery的事件绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/12 jquery的事件绑定.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/13 jquery的菜单栏案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/13 jquery的菜单栏案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/14 jquery的css样式操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/14 jquery的css样式操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/15 jquery的节点操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/15 jquery的节点操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/16 jquery的each循环.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/16 jquery的each循环.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/17 jquery的事件委派.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/17 jquery的事件委派.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/19 jquery的页面加载.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/19 jquery的页面加载.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/20 jquery的动态效果1.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/20 jquery的动态效果1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/21 jquery的动态效果2.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/21 jquery的动态效果2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/22 bootstrap简介之栅格系统.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/22 bootstrap简介之栅格系统.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/23 jquery插件库.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/23 jquery插件库.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/02 笔记整理/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/02 笔记整理/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/imgs/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/imgs/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/imgs/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/imgs/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/imgs/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/imgs/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/imgs/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/imgs/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/imgs/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/imgs/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/lunbotu.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/lunbotu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13 day13/03 作业day13/轮播图案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/13 day13 jquery/03 作业day13/轮播图案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/ajax_demo/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/ajax_demo/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/ajax_demo/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/ajax_demo/templates/test.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,118 +266,28 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>reduce</find>
-      <find>贪婪</find>
-      <find>os.</find>
-      <find>$</find>
-      <find>True</find>
-      <find>立即下载</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../python_quanzhan" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/student/adminx.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/utils/exceptions.py" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../python_quanzhan/day23/2.课前复习.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../python_quanzhan/day11/04 列表推导式 生成器表达式.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/7_使用Object创建对象.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/11_框架标签.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/myview/views.py" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/myview/urls.py" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../python_quanzhan/day29/2.协程.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/four/views.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/myview/views.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/utils/exceptions.py" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/student/adminx.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/20 day20/01 老师笔记/代码/demo/demo/apps/myview/urls.py" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/12.生产者消费者模型.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day28/1.内容回顾.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day28/3.线程理论.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day28/4.threading模块.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day28/5.线程锁.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day28/6.线程队列.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day28/7.线程池.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/5.greenlet模块.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day26/5.进程的概念.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/3.进程Process.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/4.join方法.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/5.进程之间数据隔离.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/6.开启进程的第二种方式.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/7.进程对象的其他方法.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/8.守护进程.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/ticket" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/10.抢票的例子.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/13.数据共享.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/14.进程池.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/16.进程池的其他机制.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day27/17.进程池的回调函数.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/1.内容回顾.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/3.用yield完成的协程函数.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/6.gevent模块.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/7.协程的名字.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/8.爬虫的应用.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/client.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day29/9.使用并发实现一个socket server.py" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/1_HelloWorld.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/3_基本标签.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/11_框架标签.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day30 前端/代码/pages/菜单栏.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day31/笔记/复习.txt" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day31/代码/8_选择器.html" />
-        <option value="$PROJECT_DIR$/11 day11/02 笔记整理/10 浮动float属性.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day31/代码/17_浮动定位.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/7_运算符.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/9_条件判断.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/11_循环案例.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day32 js/代码/12_九九乘法表.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/4_全局变量和局部变量.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/5_自定义对象.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/7_使用Object创建对象.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/8_使用json语法创建对象.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/9_string对象.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/12.Number对象.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/16_Array对象.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/17_Array对象的常用方法.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day33 js/代码/21_slice方法.html" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day34/笔记/复习.txt" />
-        <option value="$PROJECT_DIR$/../python_quanzhan/day34/代码/8_window对象.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1584" />
-    <option name="y" value="249" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
-  </component>
+  <component name="ProjectId" id="1e9wslUEiNcq2UU3BQapzxzrwXD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python3周末班2期笔记" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_quanzhan" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -179,6 +296,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_quanzhan/day34" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -199,77 +322,21 @@
       <recent name="E:\python_quanzhan\day25\作业讲解1" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.client">
-    <configuration name="肯德基" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python3周末班2期笔记" />
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="02 模拟服务器响应" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python3-02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/25 day25 爬虫/作业" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10 day10/02 笔记整理/html" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25 day25 爬虫/作业/肯德基.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6.gevent模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_quanzhan" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_quanzhan/day29" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_quanzhan/day29/6.gevent模块.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7.协程的名字" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_quanzhan" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_quanzhan/day29" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_quanzhan/day29/7.协程的名字.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10 day10/02 笔记整理/html/02 模拟服务器响应.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -344,13 +411,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python3-02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ajax/ajax_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ajax/ajax_demo/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.02 模拟服务器响应" />
         <item itemvalue="Python.client" />
         <item itemvalue="Python.9.使用并发实现一个socket server" />
         <item itemvalue="Python.8.爬虫的应用" />
-        <item itemvalue="Python.7.协程的名字" />
-        <item itemvalue="Python.6.gevent模块" />
       </list>
     </recent_temporary>
   </component>
@@ -420,20 +509,9 @@
       <workItem from="1565052945685" duration="20515000" />
       <workItem from="1565139981701" duration="19022000" />
       <workItem from="1565227523032" duration="8516000" />
-    </task>
-    <task id="LOCAL-00024" summary="day14">
-      <created>1562751008655</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1562751008655</updated>
-    </task>
-    <task id="LOCAL-00025" summary="day14">
-      <created>1562912375084</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1562912375084</updated>
+      <workItem from="1593747326998" duration="14570000" />
+      <workItem from="1594005826110" duration="8172000" />
+      <workItem from="1594085168763" duration="5746000" />
     </task>
     <task id="LOCAL-00026" summary="day14">
       <created>1562925568817</created>
@@ -764,11 +842,22 @@
       <option name="project" value="LOCAL" />
       <updated>1565166691089</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="复习20200703">
+      <created>1593760265559</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1593760265559</updated>
+    </task>
+    <task id="LOCAL-00074" summary="复习20200703">
+      <created>1593764768722</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1593764768722</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="501154000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -779,42 +868,10 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="172" width="1456" height="916" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49573863" visible="true" weight="0.24928367" />
-      <window_info id="Structure" order="1" sideWeight="0.5042614" side_tool="true" weight="0.17857143" />
-      <window_info id="Alibaba Cloud Explorer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32674572" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2102336" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938075" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32938075" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30367073" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32806325" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32938075" />
-      <window_info anchor="bottom" id="Jupyter" order="15" weight="0.42714128" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Remote Host" order="5" weight="0.28151864" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12" />
     <MESSAGE value="day14" />
     <MESSAGE value="13" />
     <MESSAGE value="14" />
@@ -839,7 +896,46 @@
     <MESSAGE value="31" />
     <MESSAGE value="32" />
     <MESSAGE value="33" />
-    <option name="LAST_COMMIT_MESSAGE" value="33" />
+    <MESSAGE value="复习20200703" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习20200703" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1998" y="80" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594007098422">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="1998" y="80" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1594007098422" />
+    <state x="1852" y="-156" key="CommitChangelistDialog2" timestamp="1593764768320">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="1852" y="-156" key="CommitChangelistDialog2/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1593764768320" />
+    <state x="2028" y="33" key="FileChooserDialogImpl" timestamp="1594086632363">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="2028" y="33" key="FileChooserDialogImpl/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1594086632363" />
+    <state width="1878" height="416" key="GridCell.Tab.0.bottom" timestamp="1594086749441">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1594086749441" />
+    <state width="1878" height="416" key="GridCell.Tab.0.center" timestamp="1594086749441">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="416" key="GridCell.Tab.0.center/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1594086749441" />
+    <state width="1878" height="416" key="GridCell.Tab.0.left" timestamp="1594086749440">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="416" key="GridCell.Tab.0.left/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1594086749440" />
+    <state width="1878" height="416" key="GridCell.Tab.0.right" timestamp="1594086749441">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="416" key="GridCell.Tab.0.right/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1594086749441" />
+    <state x="1749" y="-90" key="SettingsEditor" timestamp="1594086709814">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="1749" y="-90" key="SettingsEditor/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1594086709814" />
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2" timestamp="1593764769956">
+      <screen x="1280" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="1840" y="11" key="Vcs.Push.Dialog.v2/0.23.1280.739/1280.-257.1920.1057@1280.-257.1920.1057" timestamp="1593764769956" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -853,360 +949,60 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python32$9_socket_server.coverage" NAME="9.使用并发实现一个socket server Coverage Results" MODIFIED="1564995813798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
-    <SUITE FILE_PATH="coverage/python32$configparser.coverage" NAME="configparser模块 Coverage Results" MODIFIED="1562296556229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/模块学习笔记/configparser" />
-    <SUITE FILE_PATH="coverage/python32$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1563243065163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day08" />
-    <SUITE FILE_PATH="coverage/python32$04__.coverage" NAME="04 列表推导式 生成器表达式 Coverage Results" MODIFIED="1563353223187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day11" />
+    <SUITE FILE_PATH="coverage/python32$8_.coverage" NAME="8.爬虫的应用 Coverage Results" MODIFIED="1564995601512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
+    <SUITE FILE_PATH="coverage/python32$paramiko.coverage" NAME="paramiko模块 Coverage Results" MODIFIED="1562295794798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/模块学习笔记" />
+    <SUITE FILE_PATH="coverage/python32$paramiko__1_.coverage" NAME="paramiko模块 (1) Coverage Results" MODIFIED="1562319516302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/模块学习笔记/paramiko" />
+    <SUITE FILE_PATH="coverage/python32$day10.coverage" NAME="day10作业及默写 Coverage Results" MODIFIED="1563349477183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day11" />
+    <SUITE FILE_PATH="coverage/python32$3_yield.coverage" NAME="3.用yield完成的协程函数 Coverage Results" MODIFIED="1564994240643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
+    <SUITE FILE_PATH="coverage/python32$day03_.coverage" NAME="day03 作业及默写 Coverage Results" MODIFIED="1562915491743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day04" />
+    <SUITE FILE_PATH="coverage/python32$05__xpath_.coverage" NAME="05 数据解析[xpath] Coverage Results" MODIFIED="1564566652043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
+    <SUITE FILE_PATH="coverage/python32$03___1_.coverage" NAME="03 装饰器 (1) Coverage Results" MODIFIED="1563434703012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04 day04/03 笔记整理" />
+    <SUITE FILE_PATH="coverage/python32$222.coverage" NAME="222 Coverage Results" MODIFIED="1558600028957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15 day15/03 小项目" />
     <SUITE FILE_PATH="coverage/python32$shopping_car.coverage" NAME="shopping_car Coverage Results" MODIFIED="1563332601111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day09/作业购物车" />
     <SUITE FILE_PATH="coverage/python32$12_.coverage" NAME="12.生产者消费者模型 Coverage Results" MODIFIED="1564988636079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$02_requests.coverage" NAME="02 requests模块基本使用 Coverage Results" MODIFIED="1564566849083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
-    <SUITE FILE_PATH="coverage/python32$day03_.coverage" NAME="day03 作业及默写 Coverage Results" MODIFIED="1562915491743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day04" />
-    <SUITE FILE_PATH="coverage/python32$6_.coverage" NAME="6.开启进程的第二种方式 Coverage Results" MODIFIED="1564986941871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$6_gevent.coverage" NAME="6.gevent模块 Coverage Results" MODIFIED="1564995080839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
-    <SUITE FILE_PATH="coverage/python32$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1563159909772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day06" />
-    <SUITE FILE_PATH="coverage/python32$paramiko__1_.coverage" NAME="paramiko模块 (1) Coverage Results" MODIFIED="1562319516302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/模块学习笔记/paramiko" />
-    <SUITE FILE_PATH="coverage/python32$08_.coverage" NAME="08 集合 Coverage Results" MODIFIED="1563174623454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day06" />
-    <SUITE FILE_PATH="coverage/python32$5_greenlet.coverage" NAME="5.greenlet模块 Coverage Results" MODIFIED="1564739561361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
-    <SUITE FILE_PATH="coverage/python32$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1564987981753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$16_.coverage" NAME="16.进程池的其他机制 Coverage Results" MODIFIED="1564990185905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$11_.coverage" NAME="11.队列 Coverage Results" MODIFIED="1564988355163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$day10.coverage" NAME="day10作业及默写 Coverage Results" MODIFIED="1563349477183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day11" />
-    <SUITE FILE_PATH="coverage/python32$05_.coverage" NAME="05 匿名函数 Coverage Results" MODIFIED="1563354049858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day11" />
-    <SUITE FILE_PATH="coverage/python32$5_.coverage" NAME="5.进程之间数据隔离 Coverage Results" MODIFIED="1564986793935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$configparser.coverage" NAME="configparser模块 Coverage Results" MODIFIED="1562296556229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/模块学习笔记/configparser" />
+    <SUITE FILE_PATH="coverage/python32$02____new____init___.coverage" NAME="02 类的魔法方法 __new__和__init__  Coverage Results" MODIFIED="1561002043400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08 day08/02 笔记整理" />
+    <SUITE FILE_PATH="coverage/python32$04_.coverage" NAME="04 内置函数 Coverage Results" MODIFIED="1563440051261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day12" />
     <SUITE FILE_PATH="coverage/python32$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1563180930360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day07" />
-    <SUITE FILE_PATH="coverage/python32$05__xpath_.coverage" NAME="05 数据解析[xpath] Coverage Results" MODIFIED="1564566652043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
-    <SUITE FILE_PATH="coverage/python32$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1563864539372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day16/nb" />
-    <SUITE FILE_PATH="coverage/python32$02_.coverage" NAME="02 作业讲解 Coverage Results" MODIFIED="1564037338047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day21" />
-    <SUITE FILE_PATH="coverage/python32$9_.coverage" NAME="9.小练习 Coverage Results" MODIFIED="1564987966484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$09_.coverage" NAME="09 昨日作业讲解 Coverage Results" MODIFIED="1563172990955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day06" />
+    <SUITE FILE_PATH="coverage/python32$test.coverage" NAME="test Coverage Results" MODIFIED="1564544259282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
+    <SUITE FILE_PATH="coverage/python32$04__.coverage" NAME="04 列表推导式 生成器表达式 Coverage Results" MODIFIED="1563353223187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day11" />
+    <SUITE FILE_PATH="coverage/python32$9_socket_server.coverage" NAME="9.使用并发实现一个socket server Coverage Results" MODIFIED="1564995813798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
     <SUITE FILE_PATH="coverage/python32$02___1_.coverage" NAME="02 作业讲解 (1) Coverage Results" MODIFIED="1563257362885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day09" />
     <SUITE FILE_PATH="coverage/python32$day03.coverage" NAME="购物车day03 Coverage Results" MODIFIED="1563498838800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03 day03/04 作业 day03/函数完成购物车功能" />
-    <SUITE FILE_PATH="coverage/python32$client.coverage" NAME="client Coverage Results" MODIFIED="1564995815346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
-    <SUITE FILE_PATH="coverage/python32$4_join.coverage" NAME="4.join方法 Coverage Results" MODIFIED="1564986676915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$2.coverage" NAME="站长简历2 Coverage Results" MODIFIED="1564628677550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/作业" />
-    <SUITE FILE_PATH="coverage/python32$paramiko.coverage" NAME="paramiko模块 Coverage Results" MODIFIED="1562295794798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/模块学习笔记" />
-    <SUITE FILE_PATH="coverage/python32$14_.coverage" NAME="14.进程池 Coverage Results" MODIFIED="1564989712269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$03___1_.coverage" NAME="03 装饰器 (1) Coverage Results" MODIFIED="1563434703012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04 day04/03 笔记整理" />
-    <SUITE FILE_PATH="coverage/python32$starts.coverage" NAME="starts Coverage Results" MODIFIED="1563787936723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day14/ATM/bin" />
     <SUITE FILE_PATH="coverage/python32$05_os_sys.coverage" NAME="05 os sys模块 Coverage Results" MODIFIED="1563851768791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day15" />
-    <SUITE FILE_PATH="coverage/python32$test.coverage" NAME="test Coverage Results" MODIFIED="1564544259282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
+    <SUITE FILE_PATH="coverage/python3_02$manage.coverage" NAME="manage Coverage Results" MODIFIED="1594086719754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ajax/ajax_demo" />
     <SUITE FILE_PATH="coverage/python32$find2.coverage" NAME="find2 Coverage Results" MODIFIED="1558602637365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15 day15/03 小项目" />
-    <SUITE FILE_PATH="coverage/python32$03_.coverage" NAME="03 数据解析 Coverage Results" MODIFIED="1564557369406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
-    <SUITE FILE_PATH="coverage/python32$8_.coverage" NAME="8.爬虫的应用 Coverage Results" MODIFIED="1564995601512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
-    <SUITE FILE_PATH="coverage/python32$222.coverage" NAME="222 Coverage Results" MODIFIED="1558600028957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15 day15/03 小项目" />
-    <SUITE FILE_PATH="coverage/python32$06_collections.coverage" NAME="06 collections模块 Coverage Results" MODIFIED="1563852704328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day15" />
-    <SUITE FILE_PATH="coverage/python32$13_.coverage" NAME="13.数据共享 Coverage Results" MODIFIED="1564988871255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$.coverage" NAME="站长简历 Coverage Results" MODIFIED="1564628091352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/作业" />
+    <SUITE FILE_PATH="coverage/python32$client.coverage" NAME="client Coverage Results" MODIFIED="1564995815346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
+    <SUITE FILE_PATH="coverage/python32$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1564987981753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
     <SUITE FILE_PATH="coverage/python32$04__bs4_.coverage" NAME="04 数据解析[bs4] Coverage Results" MODIFIED="1564561321671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
-    <SUITE FILE_PATH="coverage/python32$02____new____init___.coverage" NAME="02 类的魔法方法 __new__和__init__  Coverage Results" MODIFIED="1561002043400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08 day08/02 笔记整理" />
-    <SUITE FILE_PATH="coverage/python32$3_Process.coverage" NAME="3.进程Process Coverage Results" MODIFIED="1564986437312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-    <SUITE FILE_PATH="coverage/python32$start.coverage" NAME="start Coverage Results" MODIFIED="1564127989114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day22 ATM作业讲解/bin" />
-    <SUITE FILE_PATH="coverage/python32$7_.coverage" NAME="7.协程的名字 Coverage Results" MODIFIED="1564995260212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
-    <SUITE FILE_PATH="coverage/python32$04_.coverage" NAME="04 内置函数 Coverage Results" MODIFIED="1563440051261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day12" />
-    <SUITE FILE_PATH="coverage/python32$3_yield.coverage" NAME="3.用yield完成的协程函数 Coverage Results" MODIFIED="1564994240643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
+    <SUITE FILE_PATH="coverage/python32$5_.coverage" NAME="5.进程之间数据隔离 Coverage Results" MODIFIED="1564986793935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$03_.coverage" NAME="03 数据解析 Coverage Results" MODIFIED="1564557369406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
+    <SUITE FILE_PATH="coverage/python32$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1563159909772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day06" />
+    <SUITE FILE_PATH="coverage/python32$16_.coverage" NAME="16.进程池的其他机制 Coverage Results" MODIFIED="1564990185905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$02_.coverage" NAME="02 作业讲解 Coverage Results" MODIFIED="1564037338047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day21" />
     <SUITE FILE_PATH="coverage/python32$17_.coverage" NAME="17.进程池的回调函数 Coverage Results" MODIFIED="1564990489292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1563243065163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day08" />
+    <SUITE FILE_PATH="coverage/python32$.coverage" NAME="站长简历 Coverage Results" MODIFIED="1564628091352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/作业" />
+    <SUITE FILE_PATH="coverage/python32$2.coverage" NAME="站长简历2 Coverage Results" MODIFIED="1564628677550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/作业" />
+    <SUITE FILE_PATH="coverage/python32$6_.coverage" NAME="6.开启进程的第二种方式 Coverage Results" MODIFIED="1564986941871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$13_.coverage" NAME="13.数据共享 Coverage Results" MODIFIED="1564988871255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$4_join.coverage" NAME="4.join方法 Coverage Results" MODIFIED="1564986676915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$5_greenlet.coverage" NAME="5.greenlet模块 Coverage Results" MODIFIED="1564739561361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
+    <SUITE FILE_PATH="coverage/python32$02_requests.coverage" NAME="02 requests模块基本使用 Coverage Results" MODIFIED="1564566849083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/25 day25 爬虫/笔记整理" />
     <SUITE FILE_PATH="coverage/python32$10_.coverage" NAME="10.抢票的例子 Coverage Results" MODIFIED="1564988226913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/6_定义变量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/4_第一个js例子.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/7_运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/8_条件判断.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/9_条件判断.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/12_九九乘法表.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day32 js/代码/10_循环.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/笔记/复习.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/1_九九乘法表.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/2_九九乘法表(升级版).html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/3_函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/4_全局变量和局部变量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/5_自定义对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/6_创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/7_使用Object创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/8_使用json语法创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/9_string对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/10_string对象的常用方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/11_案例：实现字符串的反转.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/13_Math对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/14_生成四位数验证码.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/15_Date对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/16_Array对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/17_Array对象的常用方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/18_扩展对象功能.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/19_push和pop方法.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/20.reverse方法.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/21_slice方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/22_splice方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/24_tofixed方法" />
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/24_tofixed方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/23_sort方法.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day33 js/代码/12.Number对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/作业/5.验证码/要求.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/笔记/复习.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/1_正则表达式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/2_匹配qq号码.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/3_正则表达式查找方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/4_正则表达式替换.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/5_arguments变量.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/6_js事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/笔记/计算屏幕中心位置.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/笔记/BOM对象.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/8_window对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/9_location对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/10_history对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/pages/2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/pages/3.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/pages/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/12_navigator对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_quanzhan/day34/代码/11_screen对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/python32$09_.coverage" NAME="09 昨日作业讲解 Coverage Results" MODIFIED="1563172990955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day06" />
+    <SUITE FILE_PATH="coverage/python32$9_.coverage" NAME="9.小练习 Coverage Results" MODIFIED="1564987966484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$starts.coverage" NAME="starts Coverage Results" MODIFIED="1563787936723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day14/ATM/bin" />
+    <SUITE FILE_PATH="coverage/python32$7_.coverage" NAME="7.协程的名字 Coverage Results" MODIFIED="1564995260212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
+    <SUITE FILE_PATH="coverage/python32$start.coverage" NAME="start Coverage Results" MODIFIED="1564127989114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day22 ATM作业讲解/bin" />
+    <SUITE FILE_PATH="coverage/python32$14_.coverage" NAME="14.进程池 Coverage Results" MODIFIED="1564989712269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$06_collections.coverage" NAME="06 collections模块 Coverage Results" MODIFIED="1563852704328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day15" />
+    <SUITE FILE_PATH="coverage/python32$11_.coverage" NAME="11.队列 Coverage Results" MODIFIED="1564988355163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$3_Process.coverage" NAME="3.进程Process Coverage Results" MODIFIED="1564986437312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day27" />
+    <SUITE FILE_PATH="coverage/python32$05_.coverage" NAME="05 匿名函数 Coverage Results" MODIFIED="1563354049858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day11" />
+    <SUITE FILE_PATH="coverage/python3_02$02_.coverage" NAME="02 模拟服务器响应 Coverage Results" MODIFIED="1593757485257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10 day10/02 笔记整理/html" />
+    <SUITE FILE_PATH="coverage/python32$08_.coverage" NAME="08 集合 Coverage Results" MODIFIED="1563174623454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day06" />
+    <SUITE FILE_PATH="coverage/python32$6_gevent.coverage" NAME="6.gevent模块 Coverage Results" MODIFIED="1564995080839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day29" />
+    <SUITE FILE_PATH="coverage/python32$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1563864539372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python_quanzhan/day16/nb" />
   </component>
 </project>

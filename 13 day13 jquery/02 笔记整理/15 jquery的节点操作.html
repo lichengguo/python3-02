@@ -47,6 +47,10 @@
     $('.replace').click(function () {
         $('.c4').replaceWith("<h1>hello</h1>")
     });
+
+    $('.padd').click(function () {
+        $("p").append("<br/><b>Hello</b>")
+    });
     // 知识点扩展
     /*
         //创建一个标签对象
@@ -56,9 +60,7 @@
         $("").append(content|fn)      ----->$("p").append("<b>Hello</b>");
 
             //
-        $('.padd').click(function () {
-            $("p").append("<b>Hello</b>")
-        })
+
 
         $("").appendTo(content)       ----->$("p").appendTo("div");
         $("").prepend(content|fn)     ----->$("p").prepend("<b>Hello</b>");

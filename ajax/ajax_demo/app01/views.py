@@ -17,7 +17,7 @@ def total(request, num):
     try:
         num1 = request.POST.get('num1')
         num2 = request.POST.get('num2')
-        total1 = int(num1) + int(num2)
+        total1 = float(num1) + float(num2)
         ret['total'] = total1
     except Exception as e:
         ret['status'] = False
@@ -28,9 +28,9 @@ def total(request, num):
 
 
 def json_upload(request):
-    print(request.method, type(request.method))
-    print(request.POST)
-    print(request.body)
+    print('11111111', request.method, type(request.method))
+    print('22222222', request.POST)
+    print('33333333', request.body)
 
     data = json.loads(request.body.decode('utf-8'))
     print(data, type(data))
@@ -39,10 +39,10 @@ def json_upload(request):
 
 
 def upload_file(request):
-    print(request.POST)
-    print(request.FILES)
+    print('xxxxxx', request.POST)
+    print('ggggggg', request.FILES)
     file_obj = request.FILES.get('file_name')
-    print(file_obj, type(file_obj))
+    print('aaaaaaaa', file_obj, type(file_obj))
     with open(os.path.join('medio', file_obj.name), 'wb') as f:
         for line in file_obj:
             f.write(line)

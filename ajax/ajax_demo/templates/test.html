@@ -15,7 +15,9 @@
 
 <h3>计算示例</h3>
 {% csrf_token %}
-<input type="text" class="num1"> + <input type="text" class="num2"> = <input type="text" class="total"><button class="to_btn">计算</button><span class="sp"></span>
+<input type="text" class="num1"> + <input type="text" class="num2"> = <input type="text" class="total">
+<button class="to_btn">计算</button>
+<span class="sp"></span>
 <hr>
 
 <h3>上传json数据</h3>
@@ -51,9 +53,9 @@
             },
             // 请求成功后，调用这个success函数
             // 回调函数，对页面进行dom操作
-            success: function (data) {
+            success: function (values) {
                 // alert(data)
-                $('.texth3').html(data)
+                $('.texth3').html(values)
             }
         })
     });

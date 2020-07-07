@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/python3-02.iml" filepath="$PROJECT_DIR$/.idea/python3-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python3_14/.idea/python3_14.iml" filepath="$PROJECT_DIR$/../python3_14/.idea/python3_14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/python3周末班2期笔记.iml" filepath="$PROJECT_DIR$/.idea/python3周末班2期笔记.iml" />
       <module fileurl="file://$PROJECT_DIR$/../python_quanzhan/.idea/python_quanzhan.iml" filepath="$PROJECT_DIR$/../python_quanzhan/.idea/python_quanzhan.iml" />
     </modules>
   </component>
